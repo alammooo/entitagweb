@@ -5,11 +5,11 @@ export default function Offers() {
   return (
     <section className="bg-zinc-50 bg-opacity-80 py-20" id="Pricing">
       <SectionHead type="offer" />
-      <div className="mx-auto grid max-w-6xl grid-cols-3 gap-10 px-5">
+      <div className="mx-auto grid max-w-6xl md:grid-cols-3 md:gap-10 px-5">
         {offerType.map((el, i) => (
           <div
-            className={`mt-28 flex flex-col gap-10 rounded border-slate-50 bg-white p-12 text-center shadow-lg ${
-              i === 1 ? "scale-110" : ""
+            className={`mt-5 md:mt-28 flex flex-col gap-10 rounded border-slate-50 bg-white p-12 text-center shadow-lg ${
+              i === 1 ? "md:scale-110" : ""
             }`}>
             <h1 className="text-sm uppercase text-slate-600">{el.type}</h1>
             <h1 className="mx-auto w-fit rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-2 text-3xl font-bold text-white">

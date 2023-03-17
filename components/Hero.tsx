@@ -4,9 +4,9 @@ import HeroCards from "./HeroCards"
 
 export default function Hero() {
   return (
-    <section className="rounded-hero bg-slate-400 bg-hero-pattern bg-cover text-white bg-blend-multiply">
+    <section className="md:rounded-hero bg-slate-400 bg-hero-pattern bg-cover text-white bg-blend-multiply">
       <div className="relative pb-52">
-        <nav className={`top-0 mx-auto flex w-full py-7`}>
+        <nav className={`top-0 mx-auto hidden w-full py-7 md:flex`}>
           <div className="container mx-auto flex max-w-6xl justify-between">
             <a href="#" className="text-xl font-black uppercase tracking-wider">
               Entitag
@@ -26,7 +26,7 @@ export default function Hero() {
             </ul>
           </div>
         </nav>
-        <div className="mx-auto mt-20 flex max-w-xl flex-col items-center gap-6 text-center">
+        <div className="mx-auto pt-20 flex max-w-xl flex-col items-center gap-6 text-center">
           <h4 className="font-bold uppercase tracking-wider">
             Entitag Creator
           </h4>
