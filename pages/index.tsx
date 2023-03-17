@@ -9,7 +9,7 @@ import Offers from "@/components/Offers"
 const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
-  const [show, setShow] = React.useState<boolean>(true)
+  const [show, setShow] = React.useState<boolean>(false)
   React.useEffect(() => {
     function handleScroll() {
       const scrollPosition = window.scrollY
