@@ -1,0 +1,91 @@
+[debug] [2023-03-17T19:43:13.676Z] ----------------------------------------------------------------------
+[debug] [2023-03-17T19:43:13.678Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-17T19:43:13.678Z] CLI Version:   11.19.0
+[debug] [2023-03-17T19:43:13.678Z] Platform:      win32
+[debug] [2023-03-17T19:43:13.679Z] Node Version:  v18.12.1
+[debug] [2023-03-17T19:43:13.679Z] Time:          Sat Mar 18 2023 02:43:13 GMT+0700 (Indochina-Zeit)
+[debug] [2023-03-17T19:43:13.679Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-17T19:43:13.689Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-03-17T19:43:13.728Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-17T19:43:13.729Z] > authorizing via signed-in user (abdullah.alamm@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\alammoo\entitag\client
+
+[debug] [2023-03-17T19:43:14.316Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-03-17T19:43:14.316Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-03-17T19:43:32.887Z] > refreshing access token with scopes: []
+[debug] [2023-03-17T19:43:32.888Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-03-17T19:43:32.888Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-17T19:43:33.009Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-03-17T19:43:33.010Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-17T19:43:33.029Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-03-17T19:43:33.029Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"entitagweb","name":"entitagweb"}
+[debug] [2023-03-17T19:43:34.672Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2023-03-17T19:43:34.672Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.7526019313093797074"}
+[debug] [2023-03-17T19:43:34.673Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7526019313093797074 [none]
+[debug] [2023-03-17T19:43:36.013Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7526019313093797074 200
+[debug] [2023-03-17T19:43:36.013Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7526019313093797074 {"name":"operations/cp.7526019313093797074"}
+[debug] [2023-03-17T19:43:36.527Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-03-17T19:43:36.528Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7526019313093797074 [none]
+[debug] [2023-03-17T19:43:37.839Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7526019313093797074 200
+[debug] [2023-03-17T19:43:37.839Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7526019313093797074 {"name":"operations/cp.7526019313093797074","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2023-03-17T19:43:38.851Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-03-17T19:43:38.852Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7526019313093797074 [none]
+[debug] [2023-03-17T19:43:40.258Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7526019313093797074 200
+[debug] [2023-03-17T19:43:40.258Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7526019313093797074 {"name":"operations/cp.7526019313093797074","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"335392698401","projectId":"entitagweb","lifecycleState":"ACTIVE","name":"entitagweb","createTime":"2023-03-17T19:43:37.322Z"}}
+[debug] [2023-03-17T19:43:40.264Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/entitagweb:addFirebase [none]
+[debug] [2023-03-17T19:43:43.774Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/entitagweb:addFirebase 200
+[debug] [2023-03-17T19:43:43.774Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/entitagweb:addFirebase {"name":"operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3"}
+[debug] [2023-03-17T19:43:43.775Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 [none]
+[debug] [2023-03-17T19:43:44.916Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 200
+[debug] [2023-03-17T19:43:44.916Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 {"name":"operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3"}
+[debug] [2023-03-17T19:43:45.423Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-03-17T19:43:45.424Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 [none]
+[debug] [2023-03-17T19:43:46.718Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 200
+[debug] [2023-03-17T19:43:46.718Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 {"name":"operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3"}
+[debug] [2023-03-17T19:43:47.728Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-03-17T19:43:47.728Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 [none]
+[debug] [2023-03-17T19:43:48.830Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 200
+[debug] [2023-03-17T19:43:48.830Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 {"name":"operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3"}
+[debug] [2023-03-17T19:43:50.831Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-03-17T19:43:50.832Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 [none]
+[debug] [2023-03-17T19:43:51.694Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 200
+[debug] [2023-03-17T19:43:51.694Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 {"name":"operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3"}
+[debug] [2023-03-17T19:43:55.701Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-03-17T19:43:55.701Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 [none]
+[debug] [2023-03-17T19:43:56.923Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 200
+[debug] [2023-03-17T19:43:56.923Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3 {"name":"operations/workflows/NjAwOGIyNTMtYWYxZS00YTFiLWIxMDItNTAzMjZjMDVlYjc3","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"entitagweb","projectNumber":"335392698401","displayName":"entitagweb","name":"projects/entitagweb","resources":{"hostingSite":"entitagweb"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: entitagweb
+[info]    - Project Name: entitagweb
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/entitagweb/overview
+[info] i  Using project entitagweb (entitagweb) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
