@@ -3,16 +3,18 @@ import SectionHead from "./SectionHead"
 
 export default function Offers() {
   return (
-    <section className="bg-zinc-50 bg-opacity-80 py-20">
+    <section className="bg-zinc-50 bg-opacity-80 py-20" id="Pricing">
       <SectionHead type="offer" />
       <div className="mx-auto grid max-w-6xl grid-cols-3 gap-10 px-5">
         {offerType.map((el, i) => (
           <div
-            className={`mt-28 flex flex-col gap-10 border-slate-50 bg-white p-12 text-center shadow-lg rounded ${
+            className={`mt-28 flex flex-col gap-10 rounded border-slate-50 bg-white p-12 text-center shadow-lg ${
               i === 1 ? "scale-110" : ""
             }`}>
-            <h1 className="uppercase text-slate-600 text-sm">{el.type}</h1>
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg w-fit mx-auto px-6 py-2 text-white">IDR {el.price},-</h1>
+            <h1 className="text-sm uppercase text-slate-600">{el.type}</h1>
+            <h1 className="mx-auto w-fit rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-2 text-3xl font-bold text-white">
+              IDR {el.price},-
+            </h1>
 
             <ul className="flex flex-col gap-1 text-sm">
               {el.benefit.map((el, i) => (

@@ -1,21 +1,27 @@
-import { links } from "@/data/navLinks";
-import HeroCards from "./HeroCards";
+import { links } from "@/data/navLinks"
+import Link from "next/link"
+import HeroCards from "./HeroCards"
 
 export default function Hero() {
   return (
-    <section className="bg-slate-400 bg-hero-pattern bg-cover text-white bg-blend-multiply rounded-hero">
+    <section className="rounded-hero bg-slate-400 bg-hero-pattern bg-cover text-white bg-blend-multiply">
       <div className="relative pb-52">
         <nav className={`top-0 mx-auto flex w-full py-7`}>
           <div className="container mx-auto flex max-w-6xl justify-between">
-            <h1 className="text-xl font-black uppercase tracking-wider">
+            <a href="#" className="text-xl font-black uppercase tracking-wider">
               Entitag
-            </h1>
+            </a>
             <ul className="flex gap-6 text-sm font-semibold">
-              <li className="cursor-pointer text-blue-200">Home</li>
-              {links.map((link, i ) => (
-                <li className="cursor-pointer hover:text-blue-200" key={i}>
+              <a href="#" className="cursor-pointer text-blue-200">
+                Home
+              </a>
+              {links.map((link, i) => (
+                <a
+                  href={`#${link}`}
+                  className="cursor-pointer hover:text-blue-200"
+                  key={i}>
                   {link}
-                </li>
+                </a>
               ))}
             </ul>
           </div>
@@ -33,13 +39,12 @@ export default function Hero() {
           </p>
           <button
             type="button"
-            className="rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 px-7 py-3.5 text-center text-sm font-medium text-white shadow-lg shadow-blue-500/50 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-blue-300"
-          >
+            className="rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 px-7 py-3.5 text-center text-sm font-medium text-white shadow-lg shadow-blue-500/50 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-blue-300">
             Get Started Now
           </button>
         </div>
         <HeroCards />
       </div>
     </section>
-  );
+  )
 }
