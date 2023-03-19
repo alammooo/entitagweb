@@ -10,8 +10,8 @@ export default function Works() {
       {workTexts.map((el, i) => (
         <div
           key={i}
-          className={`mx-auto flex max-w-6xl flex-col items-center gap-5 md:flex-row  ${
-            i === 1 ? "flex-row-reverse" : ""
+          className={`mx-auto flex max-w-6xl flex-col items-center gap-5 ${
+            el.type === 2 ? "md:flex-row-reverse" : "md:flex-row "
           }`}>
           <div key={el.type}>
             <h1 className="mb-5 text-4xl font-extrabold text-blue-800">
