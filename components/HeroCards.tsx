@@ -5,8 +5,8 @@ export default function HeroCards() {
     <section className="absolute -bottom-1/3 md:-bottom-10 w-full px-5 md:px-0">
       <div className="mx-auto grid max-w-6xl md:grid-cols-3 gap-6 text-zinc-400">
         {cards.map((e) => (
-          <div className="flex gap-2 rounded bg-white p-5 shadow-md" key={e.id}>
-            <div className="aspect-square h-10 w-10 bg-blue-200 p-2">
+          <div className="flex gap-3 rounded bg-white p-5 shadow-md items-center" key={e.id}>
+            <div className="flex flex-col justify-center items-center h-12 w-12 bg-blue-100 aspect-square p-2 text-blue-600">
               {e.icons}
             </div>
             <div className="flex flex-col gap-2">

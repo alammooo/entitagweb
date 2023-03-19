@@ -5,6 +5,12 @@ import Hero from "@/components/Hero"
 import React from "react"
 import Services from "@/components/Services"
 import Offers from "@/components/Offers"
+import Process from "@/components/Process"
+import Works from "@/components/Works"
+import Tech from "@/components/Tech"
+import Contact from "@/components/Contact"
+import Footer from "@/components/Footer"
+import BecomePart from "@/components/BecomePart"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -40,6 +46,12 @@ export default function Home() {
         <Hero />
         <Services />
         <Offers />
+        <Process />
+        <Tech />
+        <Works />
+        <BecomePart />
+        <Contact />
+        <Footer />
       </main>
     </>
   )

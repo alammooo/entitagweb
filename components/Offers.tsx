@@ -5,14 +5,15 @@ export default function Offers() {
   return (
     <section className="bg-zinc-50 bg-opacity-80 py-20" id="Pricing">
       <SectionHead type="offer" />
-      <div className="mx-auto grid max-w-6xl md:grid-cols-3 md:gap-10 px-5">
+      <div className="mx-auto grid max-w-6xl px-5 md:grid-cols-3 md:gap-10">
         {offerType.map((el, i) => (
           <div
-            className={`mt-5 md:mt-28 flex flex-col gap-10 rounded border-slate-50 bg-white p-12 text-center shadow-lg ${
+            key={i}
+            className={`mt-5 flex flex-col gap-10 rounded border-slate-50 bg-white p-12 text-center shadow-lg md:mt-28 ${
               i === 1 ? "md:scale-110" : ""
             }`}>
-            <h1 className="text-sm uppercase text-slate-600">{el.type}</h1>
-            <h1 className="mx-auto w-fit rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-2 text-3xl font-bold text-white">
+            <h1 className="text-sm uppercase text-slate-600 font-semibold">{el.type}</h1>
+            <h1 className="mx-auto w-fit rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-2 text-4xl font-semibold text-white">
               IDR {el.price},-
             </h1>
 
@@ -25,7 +26,7 @@ export default function Offers() {
                 </li>
               ))}
             </ul>
-            <button className="rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 py-3.5 text-center text-sm font-semibold text-white shadow-lg shadow-blue-500/20 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-blue-300">
+            <button className="rounded-lg bg-gradient-to-r from-blue-700 to-blue-800 py-3.5 text-center text-sm font-semibold text-white shadow-lg shadow-blue-500/20 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-blue-300">
               Purchase Now
             </button>
           </div>

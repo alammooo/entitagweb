@@ -4,7 +4,7 @@ import HeroCards from "./HeroCards"
 
 export default function Hero() {
   return (
-    <section className="md:rounded-hero bg-slate-400 bg-hero-pattern bg-cover text-white bg-blend-multiply">
+    <section className="md:rounded-hero bg-hero-pattern bg-cover text-white bg-blue-900 to bg-blend-multiply">
       <div className="relative pb-52">
         <nav className={`top-0 mx-auto hidden w-full py-7 md:flex`}>
           <div className="container mx-auto flex max-w-6xl justify-between">
@@ -39,7 +39,7 @@ export default function Hero() {
           </p>
           <button
             type="button"
-            className="rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 px-7 py-3.5 text-center text-sm font-medium text-white shadow-lg shadow-blue-500/50 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-blue-300">
+            className="rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 px-7 py-3.5 text-center text-sm font-medium text-white shadow-lg shadow-blue-500/50 hover:bg-gradient-to-br hover:scale-105 duration-100 will">
             Get Started Now
           </button>
         </div>
