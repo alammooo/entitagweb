@@ -1,8 +1,8 @@
 export const links: string[] = [
   "Services",
   "Process",
-  "Testimonial",
-  "Porfolio",
+  // "Testimonial",
+  "Portofolio",
   "Pricing",
   "Contact",
 ]

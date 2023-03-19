@@ -6,7 +6,7 @@ export default function Navbar({ show }: any) {
     <nav
       className={`${
         show ? "h-fit py-4" : "h-0 -translate-y-20"
-      } fixed top-0 z-50 mx-auto hidden w-full bg-white shadow-lg duration-300 md:flex`}>
+      } fixed top-0 z-50 mx-auto hidden w-full shadow-md bg-white bg-opacity-90 duration-300 md:flex backdrop-blur-md`}>
       <div className="container mx-auto flex max-w-6xl items-center justify-between">
         <a href="#" className="text-xl font-black uppercase tracking-wider">
           Entitag

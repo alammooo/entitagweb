@@ -26,7 +26,7 @@ export default function Offers() {
                 </li>
               ))}
             </ul>
-            <button className="rounded-lg bg-gradient-to-r from-blue-700 to-blue-800 py-3.5 text-center text-sm font-semibold text-white shadow-lg shadow-blue-500/20 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-blue-300">
+            <button className="rounded bg-gradient-to-r from-blue-600 to-blue-700 px-7 py-3.5 text-center text-sm font-medium text-white shadow-lg duration-300 hover:scale-105">
               Purchase Now
             </button>
           </div>

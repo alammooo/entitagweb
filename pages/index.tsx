@@ -41,7 +41,7 @@ export default function Home() {
         />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
-      <main className="scroll-smooth">
+      <main className="scroll-smooth overflow-hidden">
         <Navbar show={show} />
         <Hero />
         <Services />

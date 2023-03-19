@@ -35,4 +35,10 @@ export const sectionTitle: sectionInterface[] = [
     title: "Available Tech Stacks",
     text: "Providing best and newest technology possible, for the user comfort",
   },
+  {
+    type: "contact",
+    subTitle:"CONTACT",
+    title: "Reach Us",
+    text: "Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.",
+  },
 ]
