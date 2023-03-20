@@ -7,12 +7,12 @@ export const services = [
   {
     icon: <div></div>,
     title: "User Friendly",
-    text: "Pengalaman menggunakan website mudah dan nyaman diliat membuat pelanggan senang untuk terus berkunjung serta berbelanja di website anda dan kami mengerti akan hal itu.",
+    text: "Pengalaman menggunakan website mudah dan nyaman digunakan membuat pelanggan senang untuk terus berkunjung, dan kami mengerti akan hal itu.",
   },
   {
     icon: <div></div>,
     title: "Affordable Price",
-    text: "Tidak perlu lagi berfikir dua kali untuk mendigitalisasi usaha anda karna khawatir dengan biaya pembuatan website yang mahal, kami hadir dengan harga terjangkau untuk membantu anda mewujudkan website impian.",
+    text: "Tidak perlu lagi berfikir dua kali untuk mendigitalisasi usaha anda, kami hadir dengan harga terjangkau untuk membantu anda mewujudkan website impian.",
   },
   {
     icon: <div></div>,
