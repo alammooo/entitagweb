@@ -35,6 +35,7 @@ export default function Home() {
         <title>Entitag</title>
         <meta name="description" content="Enterprise website creator" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="3LH65QcU8WCkUJcJDBXZs-s0kjmJhXlrj8dqQWzcauE" />
         <link
           rel="icon"
           href="https://cdn-icons-png.flaticon.com/512/328/328198.png"
