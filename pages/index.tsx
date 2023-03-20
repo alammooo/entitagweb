@@ -48,9 +48,9 @@ export default function Home() {
         <Services />
         <Offers />
         <Process />
-        <Tech />
         <Works />
         <BecomePart />
+        <Tech />
         {/* <Contact /> */}
         <Footer />
       </main>
