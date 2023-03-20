@@ -17,7 +17,7 @@ export const services = [
   {
     icon: <div></div>,
     title: "Newest Technology",
-    text: "Teknologi pembuatan website terus berkembang, Rasakan pengalaman dengan teknologi terbaru yang selalu kami gunakan untuk memberikan layanan terbaik untuk Anda. Dengan teknologi terbaru yang kami miliki, kami dapat memberikan solusi yang lebih inovatif, efektif, dan efisien untuk memenuhi kebutuhan Anda .",
+    text: "Teknologi pembuatan website terus berkembang, rasakan pengalaman dengan teknologi terbaru yang selalu kami gunakan untuk memberikan layanan terbaik untuk Anda. Dengan teknologi terbaru yang kami miliki, kami dapat memberikan solusi yang lebih inovatif, efektif, dan efisien untuk memenuhi kebutuhan Anda .",
   },
   {
     icon: <div></div>,
