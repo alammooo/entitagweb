@@ -22,11 +22,11 @@ export const services = [
   {
     icon: <div></div>,
     title: "Ads Expert",
-    text: "Pengalaman kami membantu pelanggan untuk mengatur website mereka dan menjadikan website mereka terlihat dan banyak dikunjungi meningkatkan konversi penjualan.",
+    text: "Pengalaman kami membantu pelanggan untuk mengatur websitenya dan menjadikan website anda terlihat dan banyak dikunjungi sehingga meningkatkan konversi penjualan usaha.",
   },
   {
     icon: <div></div>,
     title: "Professional Team",
-    text: "Staff kami yang berpengalaman dalam bidangnya akan memberikan hasil terbaik pada website yang diingkan oleh setiap pelanggan kami. ",
+    text: "Staff kami yang berpengalaman dalam bidangnya akan memberikan hasil terbaik sesuai diinginkan oleh setiap pelanggan kami. ",
   },
 ]
