@@ -12,7 +12,7 @@ export const services = [
   {
     icon: <div></div>,
     title: "Affordable Price",
-    text: "Tidak perlu lagi berfikir dua kali untuk mendigitalisasi usaha anda karna khawatir dengan biaya pembuatan website yang mahal, kami hadir dengan harga terjangkau untuk membantu anda mewujudkan website usaha.",
+    text: "Tidak perlu lagi berfikir dua kali untuk mendigitalisasi usaha anda karna khawatir dengan biaya pembuatan website yang mahal, kami hadir dengan harga terjangkau untuk membantu anda mewujudkan website impian.",
   },
   {
     icon: <div></div>,
