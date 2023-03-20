@@ -2,7 +2,7 @@ export const services = [
   {
     icon: <div></div>,
     title: "Web design",
-    text: "Those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.",
+    text: "Those who do not know how to pursue.",
   },
   {
     icon: <div></div>,
