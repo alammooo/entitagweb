@@ -2,17 +2,17 @@ export const services = [
   {
     icon: <div></div>,
     title: " Custom Web design",
-    text: "Kami memahami bahwa setiap orang memiliki kebutuhan yang berbeda-beda sehingga kami memastikan sesuai dengan keinginan setiap customer kami.",
+    text: "Kami memahami bahwa setiap orang memiliki kebutuhan yang berbeda-beda sehingga kami memastikan apa yang kami kerjakan sesuai dengan keinginan setiap pelanggan kami.",
   },
   {
     icon: <div></div>,
     title: "User Friendly",
-    text: "Pengalaman menggunakan website yang mudah dan enak diliat membuat pelanggan akan senang untuk terus berkunjung dan berbelanja di website anda dan kami akan hal tersebut.",
+    text: "Pengalaman menggunakan website mudah dan nyaman diliat membuat pelanggan senang untuk terus berkunjung serta berbelanja di website anda dan kami mengerti akan hal itu.",
   },
   {
     icon: <div></div>,
     title: "Affordable Price",
-    text: "Tidak perlu lagi berfikir dua kali lagi untuk mendigitalisasi usaha kalian karna khawatir dengan biaya pembuatan website yang mahal, kami hadir dengan harga terjangkau untuk membantu kalian.",
+    text: "Tidak perlu lagi berfikir dua kali untuk mendigitalisasi usaha anda karna khawatir dengan biaya pembuatan website yang mahal, kami hadir dengan harga terjangkau untuk membantu anda mewujudkan website usaha.",
   },
   {
     icon: <div></div>,
