@@ -51,7 +51,7 @@ export default function Home() {
         <Tech />
         <Works />
         <BecomePart />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </main>
     </>

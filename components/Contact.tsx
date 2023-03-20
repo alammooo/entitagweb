@@ -10,7 +10,7 @@ export default function Contact() {
   const formRef = React.useRef<HTMLFormElement>(null)
 
   if (state.succeeded) {
-    toast.success("Success send message!", {
+    toast("Success send message!", {
       position: "bottom-right",
       autoClose: 3000,
       hideProgressBar: true,
