@@ -2,7 +2,7 @@ export const services = [
   {
     icon: <div></div>,
     title: " Custom Web design",
-    text: "Kami memahami bahwa setiap orang memiliki kebutuhan yang berbeda-beda sehingga kami memastikan apa yang kami kerjakan sesuai dengan keinginan setiap pelanggan kami.",
+    text: "Kami memahami bahwa setiap orang memiliki kebutuhan yang berbeda-beda sehingga kami memastikan website sesuai dengan keinginan pelanggan kami.",
   },
   {
     icon: <div></div>,
