@@ -1,6 +1,6 @@
 import { categories } from "@/data/portofolio"
 import { workTexts } from "@/data/workText"
-import WebsiteMock from "@/svg/WebsiteMock"
+import Image from "next/image"
 import SectionHead from "./SectionHead"
 
 export default function Works() {
@@ -19,7 +19,7 @@ export default function Works() {
             </h1>
             <p className="max-w-xl leading-7 text-zinc-500">{el.text}</p>
           </div>
-          <WebsiteMock />
+          {el.svgEle}
         </div>
       ))}
     </section>

@@ -4,7 +4,7 @@ import SectionHead from "./SectionHead"
 
 export default function Services() {
   return (
-    <section className="mx-auto max-w-6xl py-36 text-center mt-52 md:mt-0" id="Services">
+    <section className="mx-auto max-w-6xl py-24 text-center mt-52 md:mt-0" id="Services">
       <SectionHead type="services" />
       <div className="mt-10 grid md:grid-cols-3 gap-3">
         {services.map((e, i) => (

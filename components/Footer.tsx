@@ -146,7 +146,6 @@ export default function Footer() {
                 />
               </svg>
               <span className="sr-only">Dribbble account</span>
-              <a href="https://storyset.com/online">Online illustrations by Storyset</a>
             </a>
           </div>
         </div>
