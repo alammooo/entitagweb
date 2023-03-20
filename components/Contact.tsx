@@ -1,18 +1,36 @@
 import { useForm } from "@formspree/react"
 import ContactDetails from "./ContactDetails"
 import SectionHead from "./SectionHead"
+import React from "react"
+import { ToastContainer, toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("xeqwlolv")
+  const formRef = React.useRef<HTMLFormElement>(null)
+
   if (state.succeeded) {
-    return <p className="mt-10 text-center">We have received your messages!</p>
+    toast.success("Success send message!", {
+      position: "bottom-right",
+      autoClose: 3000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    })
+    formRef.current?.reset()
   }
+
   return (
     <section className="bg-white py-8 px-4 lg:py-20" id="Contact">
       <SectionHead type="contact" />
+      <ToastContainer />
       <ContactDetails />
       <form
         onSubmit={handleSubmit}
+        ref={formRef}
         className="mx-auto mt-20 flex max-w-2xl flex-col gap-7">
         <div>
           <label htmlFor="name" className="mb-2 block text-sm text-gray-900">
@@ -21,6 +39,7 @@ export default function Contact() {
           <input
             type="text"
             id="name"
+            name="name"
             className="block w-full rounded border border-gray-400 p-3 text-sm text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
             placeholder="Enter your name"
             required
@@ -34,6 +53,7 @@ export default function Contact() {
             <input
               type="email"
               id="email"
+              name="email"
               className="block w-full rounded border border-gray-400 p-3 text-sm text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
               placeholder="Enter your email"
               required
@@ -48,6 +68,7 @@ export default function Contact() {
             <input
               type="number"
               id="telephone"
+              name="telephone"
               className="block w-full rounded border border-gray-400 p-3 text-sm text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
               placeholder="Enter your number"
               required
@@ -61,6 +82,7 @@ export default function Contact() {
           <input
             type="text"
             id="subject"
+            name="subject"
             className="block w-full rounded border border-gray-400 p-3 text-sm text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
             placeholder="Let us know how we can help you"
             required
@@ -73,6 +95,7 @@ export default function Contact() {
           <textarea
             id="message"
             rows={7}
+            name="message"
             className="block w-full rounded border border-gray-400 p-3 text-sm text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
             placeholder="Leave a message..."></textarea>
         </div>
