@@ -1,6 +1,4 @@
-import { categories } from "@/data/portofolio"
 import { workTexts } from "@/data/workText"
-import Image from "next/image"
 import SectionHead from "./SectionHead"
 
 export default function Works() {
