@@ -1,6 +1,4 @@
 import { links } from "@/data/navLinks"
-import Link from "next/link"
-import HeroCards from "./HeroCards"
 
 export default function Hero() {
   return (

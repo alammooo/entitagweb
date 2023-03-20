@@ -11,7 +11,7 @@ export default function Tech() {
             <img
               src={el}
               alt=""
-              className="h-full w-full object-cover contrast-125 grayscale hover:grayscale-0 duration-200"
+              className="h-full w-full object-cover contrast-125 duration-200"
             />
           </div>
         ))}
