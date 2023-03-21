@@ -2,12 +2,12 @@ export const services = [
   {
     icon: <div></div>,
     title: " Custom Web design",
-    text: "Kami memahami bahwa setiap orang memiliki kebutuhan yang berbeda-beda sehingga kami memastikan website sesuai dengan keinginan pelanggan kami.",
+    text: "Kami memahami bahwa setiap orang memiliki kebutuhan yang berbeda-beda, sehingga kami memastikan apa yang kami kerjakan sesuai dengan keinginan pelanggan.",
   },
   {
     icon: <div></div>,
     title: "User Friendly",
-    text: "Pengalaman menggunakan website mudah dan nyaman digunakan membuat pelanggan senang untuk terus berkunjung, dan kami mengerti akan hal itu.",
+    text: "Pengalaman menggunakan website dengan mudah dan nyaman digunakan membuat pelanggan senang untuk terus berkunjung, dan kami mengerti akan hal itu.",
   },
   {
     icon: <div></div>,
@@ -27,6 +27,6 @@ export const services = [
   {
     icon: <div></div>,
     title: "Professional Team",
-    text: "Staff kami yang berpengalaman dalam bidangnya akan memberikan hasil terbaik sesuai diinginkan oleh setiap pelanggan kami. ",
+    text: "Staff kami yang berpengalaman dalam bidangnya akan memberikan hasil terbaik sesuai yang diinginkan oleh setiap pelanggan kami. ",
   },
 ]
