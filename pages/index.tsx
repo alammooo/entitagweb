@@ -8,9 +8,8 @@ import Offers from "@/components/Offers"
 import Process from "@/components/Process"
 import Works from "@/components/Works"
 import Tech from "@/components/Tech"
-import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
-import BecomePart from "@/components/BecomePart"
+import Projects from "@/components/Projects"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -40,7 +39,6 @@ export default function Home() {
           rel="icon"
           href="https://cdn-icons-png.flaticon.com/512/328/328198.png"
         />
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
       <main className="scroll-smooth overflow-hidden">
         <Navbar show={show} />
@@ -49,9 +47,8 @@ export default function Home() {
         <Offers />
         <Process />
         <Works />
-        <BecomePart />
-        <Tech />
-        {/* <Contact /> */}
+        <Projects />
+        <Tech />  
         <Footer />
       </main>
     </>

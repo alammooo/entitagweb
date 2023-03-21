@@ -3,7 +3,7 @@ import SectionHead from "./SectionHead"
 
 export default function Works() {
   return (
-    <section className="flex flex-col gap-10 py-20" id="Portofolio">
+    <section className="flex flex-col gap-10 pb-20" id="Portofolio">
       <SectionHead type="porto" />
       {workTexts.map((el, i) => (
         <div

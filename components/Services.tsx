@@ -13,7 +13,7 @@ export default function Services() {
             className={`${
               i % 2 !== 0 ? "border border-slate-50 shadow-lg" : ""
             } flex flex-col gap-5 rounded py-10 px-7 hover:bg-sky-50`}>
-            <h1 className="text-lg font-medium">{e.title}</h1>
+            <h1 className="text-xl font-medium">{e.title}</h1>
             <BlueBorder />
             <p className="px-3 text-sm leading-6 text-slate-400">{e.text}</p>
           </div>
