@@ -5,6 +5,20 @@ export interface OfferInterface {
 }
 export const offerType = [
   {
+    type: "WEB APPLICATION",
+    price: 10000000,
+    discountPrice: 8000000,
+    benefit: [
+      "Single Page Application",
+      "Newest Technology Stack",
+      "Custom Design",
+      "Rich Features",
+      "MVP Development",
+      "Secure Website",
+      "Rapid Performance",
+    ],
+  },
+  {
     type: "COMPANY PROFILE",
     price: 2500000,
     discountPrice: 2000000,
@@ -22,22 +36,8 @@ export const offerType = [
     ],
   },
   {
-    type: "WEB APPLICATION",
-    price: 10000000,
-    discountPrice: 8000000,
-    benefit: [
-      "Single Page Application",
-      "Newest Technology Stack",
-      "Custom Design",
-      "Rich Features",
-      "MVP Development",
-      "Secure Website",
-      "Rapid Performance",
-    ],
-  },
-  {
     type: "MOBILE APPLICATION",
-    price: 10000000,
+    price: "Contact Us",
     discountPrice: "Contact Us",
     benefit: ["Rich Mobile Experience", "Custom Features", "Deploy on S"],
   },

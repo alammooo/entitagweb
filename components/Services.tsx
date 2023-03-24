@@ -15,7 +15,7 @@ export default function Services() {
             key={i}
             className={`${
               i % 2 !== 0 ? "border border-zinc-100 shadow-lg" : ""
-            } flex flex-col gap-6 rounded py-8 px-7 hover:bg-sky-50`}>
+            } flex flex-col gap-4 rounded py-8 px-7 hover:bg-sky-50`}>
             <Image
               src={e.icon}
               width={60}
