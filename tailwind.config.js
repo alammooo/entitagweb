@@ -22,6 +22,22 @@ module.exports = {
       borderRadius: {
         hero: "0px 0px 100% 100% / 0px 0px 20% 20%",
       },
+      animation: {
+        float: "float 2s ease-in-out infinite",
+      },
+      keyframes: {
+        float: {
+          "0%": {
+            transform: "translateY(0)",
+          },
+          "50%": {
+            transform: "translateY(-10px)",
+          },
+          "100%": {
+            transform: "translateY(0)",
+          },
+        },
+      },
     },
   },
   plugins: [require("flowbite/plugin")],

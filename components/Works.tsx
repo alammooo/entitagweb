@@ -17,7 +17,7 @@ export default function Works() {
             </h1>
             <p className="max-w-xl leading-7 text-zinc-500">{el.text}</p>
           </div>
-          {el.svgEle}
+          <span className="animate-float">{el.svgEle}</span>
         </div>
       ))}
     </section>
