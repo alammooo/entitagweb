@@ -21,7 +21,7 @@ export const sectionTitle: sectionInterface[] = [
   {
     type: "process",
     title: "Our Process",
-    text: "Anda dapat melihat alur kerja yang selalu kami gunakan dalam pembuatan website.",
+    text: "Anda dapat melihat alur kerja yang kami gunakan dalam pembuatan website.",
   },
   {
     type: "porto",
