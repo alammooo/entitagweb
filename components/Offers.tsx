@@ -13,28 +13,27 @@ export default function Offers() {
   }
   return (
     <section
-      className="bg-zinc-50 bg-opacity-80 py-20"
+      className="bg-zinc-50 bg-opacity-80 py-14"
       id="Pricing">
       <SectionHead type="offer" />
       <div className="mx-auto grid max-w-6xl justify-center md:grid-cols-3 md:gap-10">
         {offerType.map((el, i) => (
           <div
             key={i}
-            className={`mt-2 flex h-fit flex-col gap-5 rounded border-slate-50 bg-white text-center shadow-lg md:mt-7`}>
+            className={`mt-2 flex h-fit flex-col gap-5 rounded-lg overflow-hidden border-slate-50 bg-white text-center shadow-lg md:mt-7`}>
             <div
               className={`${
                 i === 1 ? "bg-blue-800" : "bg-blue-500"
               } py-7 text-zinc-50`}>
               <h5 className="text-base font-medium">Mulai dari</h5>
               <h1 className="text-center text-4xl font-semibold">
-                {i === 2 ? el.price : formatCurrency(el.price)}
+                {formatCurrency(el.price)}
               </h1>
             </div>
-            <div className="px-16">
-              <h1 className="text-center text-lg font-semibold uppercase text-black">
+            <div className="px-10">
+              <h1 className="text-center text-2xl font-bold uppercase text-black my-2">
                 {el.type}
               </h1>
-
               <ul className="flex flex-col text-center">
                 {el.benefit.map((el, i) => (
                   <li

@@ -31,21 +31,14 @@ export default function Home() {
           name="google-site-verification"
           content="3LH65QcU8WCkUJcJDBXZs-s0kjmJhXlrj8dqQWzcauE"
         />
-        <link
-          rel="icon"
-          href="https://cdn-icons-png.flaticon.com/512/328/328198.png"
-        />
       </Head>
         <main className="overflow-hidden scroll-smooth">
           <Hero />
           <Services />
           <Offers />
           <Process />
-          <Works />
           <Projects />
           <Tech />
-          <Footer />
-          <MyModal />
         </main>
     </>
   )

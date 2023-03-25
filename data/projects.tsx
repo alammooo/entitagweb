@@ -1,5 +1,6 @@
 import TravelPackDesk from "../assets/projects/TravelPack-HR.jpg"
 import EasteriaDesk from "../assets/projects/easteria.jpeg"
+import KlinikKu from "../assets/projects/klinikKu.jpeg"
 
 export const projects = [
   {
@@ -25,10 +26,10 @@ allows you to browse through a wide variety of menus and sort it with categories
 recommendation feature allows you to choose your food and
 preferences. You can create a wishlist of your delicious menu and save it into your personal profile. Lets get comfy for your next restaurant.`,
     image: EasteriaDesk,
-    imageUrl: "",
+    imageUrl: "https://the-easteria.vercel.app/",
   },
   {
-    title: "Travel Pack",
+    title: "Klinik Ku",
     desc: `Travel Pack is the ultimate travel planning and community platform
 for finding the best destinations in Indonesia. Our platform
 allows you to browse through a wide variety of cities and
@@ -39,6 +40,7 @@ destinations and share it with the community. Travel Pack also
 offers a vibrant community of travelers where you can connect with
 like-minded individuals, share your own travel experiences and
 tips, and get inspired for your next adventure.`,
-    image: TravelPackDesk,
+    image: KlinikKu,
+    imageUrl: "https://klinik-ku.com",
   },
 ]

@@ -6,7 +6,7 @@ import React from "react"
 export default function Projects() {
   return (
     <section className="bg-blue-500 bg-divider bg-cover text-white bg-blend-color-burn">
-      <div className="h-full w-full py-5 backdrop-brightness-75 md:py-16 ">
+      <div className="h-full w-full py-5 backdrop-brightness-75 md:py-14 ">
         <Carousel
           slideInterval={5000}
           className="h-[750px] md:h-[600px]">

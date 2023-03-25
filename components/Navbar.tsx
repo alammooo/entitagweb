@@ -1,10 +1,12 @@
 import AppContext from "@/context/AppContext"
 import { links } from "@/data/navLinks"
 import Link from "next/link"
+import { useRouter } from "next/router"
 import React from "react"
 
 export default function Navbar({ show }: any) {
   const { openModal, toggleModal } = React.useContext(AppContext)
+  const router = useRouter()
 
   return (
     <nav
@@ -18,24 +20,21 @@ export default function Navbar({ show }: any) {
           Entitag
         </Link>
         <div className="flex gap-6 text-sm font-semibold text-zinc-600">
-          <a
-            href="#"
-            className="cursor-pointer text-blue-500">
-            Home
-          </a>
           {links.map((link) => (
             <Link
               href={link.hrefTo}
-              className="cursor-pointer hover:text-blue-500"
+              className={`cursor-pointer hover:text-blue-500 ${
+                router.pathname === link.hrefTo ? "text-blue-500" : ""
+              }`}
               key={link.name}>
               {link.name}
             </Link>
           ))}
-          <a
-            className="cursor-pointer hover:text-blue-500"
+          <span
+            className="cursor-pointer text-blue-700 hover:text-blue-800"
             onClick={toggleModal}>
             Contact
-          </a>
+          </span>
         </div>
       </div>
     </nav>

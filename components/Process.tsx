@@ -3,7 +3,7 @@ import SectionHead from "./SectionHead"
 
 export default function Process() {
   return (
-    <section className="py-20">
+    <section className="py-10">
       <SectionHead type="process" />
       <div className="mx-auto mt-12 grid max-w-6xl gap-7 md:grid-cols-3">
         {process.map((el, i) => (

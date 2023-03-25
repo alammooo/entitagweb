@@ -11,17 +11,12 @@ export default function Hero() {
         <div className="relative pb-36">
           <nav className={`top-0 mx-auto hidden w-full py-7 md:flex`}>
             <div className="container mx-auto flex max-w-6xl justify-between">
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="text-3xl font-black uppercase tracking-wider">
                 Entitag
-              </a>
+              </Link>
               <div className="flex gap-6 text-sm font-semibold">
-                <a
-                  href="#"
-                  className="cursor-pointer text-blue-200">
-                  Home
-                </a>
                 {links.map((link, i) => (
                   <Link
                     href={link.hrefTo}
@@ -31,7 +26,7 @@ export default function Hero() {
                   </Link>
                 ))}
                 <span
-                  className="cursor-pointer underline-offset-4 underline hover:text-blue-500"
+                  className="cursor-pointer underline underline-offset-4 hover:text-blue-500"
                   onClick={toggleModal}>
                   Contact
                 </span>
@@ -40,7 +35,7 @@ export default function Hero() {
           </nav>
           <div className="mx-auto flex flex-col items-center gap-6 pt-20 text-center">
             <h4 className="text-2xl font-bold uppercase tracking-wide text-zinc-100">
-              Entitag
+              ENTITAG TECHNOLOGY
             </h4>
             <h1 className="my-6 font-black tracking-wide 2xl:text-8xl">
               Web.
@@ -53,18 +48,12 @@ export default function Hero() {
               Launch your campaign and benefit from our expertise on designing
               and managing your company with newest web technology
             </p>
-            <div className="grid grid-cols-2 gap-7">
-              <button
-                type="button"
-                className="rounded bg-white px-7 py-3.5 text-center text-sm font-medium text-blue-600 shadow-lg duration-300 hover:scale-105">
-                Get Started Now
-              </button>
-              <button
-                onClick={toggleModal}
-                className="rounded bg-blue-500 px-7 py-3.5 text-center text-sm font-medium text-white shadow-lg duration-300 hover:scale-105">
-                Contact Us
-              </button>
-            </div>
+
+            <button
+              onClick={toggleModal}
+              className="rounded bg-blue-500 px-14 py-3.5 text-center text-sm font-medium text-white shadow-lg duration-300 hover:bg-blue-600">
+              Contact Us
+            </button>
           </div>
         </div>
       </div>

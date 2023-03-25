@@ -9,7 +9,7 @@ export const links = [
   },
   {
     name: "Toko Online",
-    hrefTo: "/onlinestore",
+    hrefTo: "/onlineshop",
   },
   // {
   //   name: "Contact",

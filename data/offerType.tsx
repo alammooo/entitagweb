@@ -1,9 +1,11 @@
 export interface OfferInterface {
   type: string
   price: number
+  discountPrice?: number
+  text?: string
   benefit: string[]
 }
-export const offerType = [
+export const offerType: OfferInterface[] = [
   {
     type: "WEB APPLICATION",
     price: 10000000,
@@ -20,25 +22,35 @@ export const offerType = [
   },
   {
     type: "COMPANY PROFILE",
-    price: 2500000,
+    price: 1500000,
     discountPrice: 2000000,
     text: "Landing page cocok untuk bisnis yang ingin memasarkan produknya secara online dengan kartu kartu interaktif yang berisi tentang produk unggulan dengan biaya yang terjangkau",
     benefit: [
       "Responsive Website",
       "Lightspeed Performance",
       "Statistik Pengunjung",
+      // "Gallery",
+      "SEO Friendly",
+      "Custom Design",
+      "Free Maintenance",
+      "Native Script Website",
+      // "Navigasi antar page",
+    ],
+  },
+  {
+    type: "TOKO ONLINE",
+    price: 2000000,
+    discountPrice: 1500000,
+    benefit: [
+      "Responsive Website",
+      "Lightspeed Performance",
+      // "Statistik Pengunjung",
       "Gallery",
       "SEO Friendly",
       "Custom Design",
       "Free Maintenance",
       "Native Script Website",
-      "Navigasi antar page",
+      // "Navigasi antar page",
     ],
-  },
-  {
-    type: "MOBILE APPLICATION",
-    price: "Contact Us",
-    discountPrice: "Contact Us",
-    benefit: ["Rich Mobile Experience", "Custom Features", "Deploy on S"],
   },
 ]
