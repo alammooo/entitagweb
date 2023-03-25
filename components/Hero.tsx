@@ -1,6 +1,10 @@
+import AppContext from "@/context/AppContext"
 import { links } from "@/data/navLinks"
+import Link from "next/link"
+import React from "react"
 
 export default function Hero() {
+  const { openModal, toggleModal } = React.useContext(AppContext)
   return (
     <section className="bg-hero-pattern bg-cover text-white md:rounded-hero">
       <div className="h-full w-full rounded-hero bg-blue-900 bg-opacity-95">
@@ -12,19 +16,26 @@ export default function Hero() {
                 className="text-3xl font-black uppercase tracking-wider">
                 Entitag
               </a>
-              <ul className="flex gap-6 text-sm font-semibold">
-                <a href="#" className="cursor-pointer text-blue-200">
+              <div className="flex gap-6 text-sm font-semibold">
+                <a
+                  href="#"
+                  className="cursor-pointer text-blue-200">
                   Home
                 </a>
                 {links.map((link, i) => (
-                  <a
-                    href={`#${link}`}
+                  <Link
+                    href={link.hrefTo}
                     className="cursor-pointer hover:text-blue-200"
                     key={i}>
-                    {link}
-                  </a>
+                    {link.name}
+                  </Link>
                 ))}
-              </ul>
+                <span
+                  className="cursor-pointer underline-offset-4 underline hover:text-blue-500"
+                  onClick={toggleModal}>
+                  Contact
+                </span>
+              </div>
             </div>
           </nav>
           <div className="mx-auto flex flex-col items-center gap-6 pt-20 text-center">
@@ -49,7 +60,7 @@ export default function Hero() {
                 Get Started Now
               </button>
               <button
-                type="button"
+                onClick={toggleModal}
                 className="rounded bg-blue-500 px-7 py-3.5 text-center text-sm font-medium text-white shadow-lg duration-300 hover:scale-105">
                 Contact Us
               </button>

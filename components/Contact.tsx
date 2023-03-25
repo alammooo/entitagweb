@@ -1,8 +1,7 @@
 import { useForm } from "@formspree/react"
 import ContactDetails from "./ContactDetails"
-import SectionHead from "./SectionHead"
 import React from "react"
-import { ToastContainer, toast } from "react-toastify"
+import { toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
 export default function Contact() {
@@ -10,7 +9,7 @@ export default function Contact() {
   const formRef = React.useRef<HTMLFormElement>(null)
 
   if (state.succeeded) {
-    toast("Success send message!", {
+    toast("📧 Success send message!", {
       position: "bottom-right",
       autoClose: 3000,
       hideProgressBar: true,
@@ -24,16 +23,19 @@ export default function Contact() {
   }
 
   return (
-    <section className="bg-white py-8 px-4 lg:py-20" id="Contact">
-      <SectionHead type="contact" />
-      <ToastContainer />
+    <section
+      className="bg-white py-5"
+      id="Contact">
+      <h2 className="text-3xl font-medium text-black text-center">Contact Us</h2>
       <ContactDetails />
       <form
         onSubmit={handleSubmit}
         ref={formRef}
-        className="mx-auto mt-20 flex max-w-2xl flex-col gap-7">
+        className="mx-auto mt-7 flex max-w-2xl flex-col gap-2">
         <div>
-          <label htmlFor="name" className="mb-2 block text-sm text-gray-900">
+          <label
+            htmlFor="name"
+            className="mb-2 block text-sm text-gray-900">
             Name:
           </label>
           <input
@@ -47,7 +49,9 @@ export default function Contact() {
         </div>
         <div className="flex gap-7">
           <div className="w-full">
-            <label htmlFor="email" className="mb-2 block text-sm text-gray-900">
+            <label
+              htmlFor="email"
+              className="mb-2 block text-sm text-gray-900">
               Your email
             </label>
             <input
@@ -76,7 +80,9 @@ export default function Contact() {
           </div>
         </div>
         <div>
-          <label htmlFor="subject" className="mb-2 block text-sm text-gray-900">
+          <label
+            htmlFor="subject"
+            className="mb-2 block text-sm text-gray-900">
             Subject
           </label>
           <input
@@ -89,7 +95,9 @@ export default function Contact() {
           />
         </div>
         <div className="sm:col-span-2">
-          <label htmlFor="message" className="mb-2 block text-sm text-gray-900">
+          <label
+            htmlFor="message"
+            className="mb-2 block text-sm text-gray-900">
             Your message
           </label>
           <textarea

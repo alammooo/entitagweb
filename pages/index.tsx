@@ -10,47 +10,43 @@ import Works from "@/components/Works"
 import Tech from "@/components/Tech"
 import Footer from "@/components/Footer"
 import Projects from "@/components/Projects"
+import MyModal from "@/components/ContactModal"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
-  const [show, setShow] = React.useState<boolean>(false)
-  React.useEffect(() => {
-    function handleScroll() {
-      const scrollPosition = window.scrollY
-      if (scrollPosition > 100) {
-        setShow(true)
-      } else {
-        setShow(false)
-      }
-    }
-
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [show])
   return (
     <>
       <Head>
-        <title>Entitag</title>
-        <meta name="description" content="Enterprise website creator" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="google-site-verification" content="3LH65QcU8WCkUJcJDBXZs-s0kjmJhXlrj8dqQWzcauE" />
+        <title>Entitag Technology</title>
+        <meta
+          name="description"
+          content="Enterprise website creator"
+        />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        />
+        <meta
+          name="google-site-verification"
+          content="3LH65QcU8WCkUJcJDBXZs-s0kjmJhXlrj8dqQWzcauE"
+        />
         <link
           rel="icon"
           href="https://cdn-icons-png.flaticon.com/512/328/328198.png"
         />
       </Head>
-      <main className="scroll-smooth overflow-hidden">
-        <Navbar show={show} />
-        <Hero />
-        <Services />
-        <Offers />
-        <Process />
-        <Works />
-        <Projects />
-        <Tech />  
-        <Footer />
-      </main>
+        <main className="overflow-hidden scroll-smooth">
+          <Hero />
+          <Services />
+          <Offers />
+          <Process />
+          <Works />
+          <Projects />
+          <Tech />
+          <Footer />
+          <MyModal />
+        </main>
     </>
   )
 }

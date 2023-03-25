@@ -11,7 +11,7 @@ export const process = [
   },
   {
     id: "03",
-    name: "Data Colletion and Design",
+    name: "Data Collection and Design",
     text: "Pada tahap ini, anda dapat menyiapkan segala data yang akan dicantumkan untuk mengisi website, diskusi menggunakan online meeting untuk memudahkan pelanggan.",
   },
   {
