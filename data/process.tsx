@@ -7,22 +7,22 @@ export const process = [
   {
     id: "02",
     name: "Down Payment",
-    text: " Pembayaran sebesar 50% untuk dapat mulai melakukan pengerjaan project anda yang telah didiskusikan bersama sebelumnya dalam rencana dan tujuan bisnis anda.",
+    text: " Pembayaran sebesar 50% untuk dapat mulai melakukan pengerjaan project yang telah disepakati.",
   },
   {
     id: "03",
     name: "Data Colletion and Design",
-    text: "Pada tahap ini, anda dapat menyiapkan segala data yang akan dicantumkan untuk mengisi website sesuai keinginan pelanggan melalui online meeting untuk memudahkan pelanggan.",
+    text: "Pada tahap ini, anda dapat menyiapkan segala data yang akan dicantumkan untuk mengisi website, diskusi menggunakan online meeting untuk memudahkan pelanggan.",
   },
   {
     id: "04",
     name: "Development",
-    text: "Tim kami akan mengerjakan website sesuai yang telah direncakan dengan estimasi waktu 7-10 hari, setelah pengumpulan data lengkap.",
+    text: "Tim kami akan mengerjakan website sesuai yang direncakan dengan estimasi waktu 7-10 hari, setelah pengumpulan data lengkap.",
   },
   {
     id: "05",
     name: "Review",
-    text: "Website yang telah selesai dikerjakan dapat direview serta memberikan feedback untuk perubahan yang ingin dilakukan oleh anda.",
+    text: "Website yang telah selesai dikerjakan, Client dipersilahkan untuk mengevaluasi dan  memberikan feedback untuk perubahan yang ingin dilakukan.",
   },
   {
     id: "06",
