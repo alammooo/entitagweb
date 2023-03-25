@@ -1,8 +1,8 @@
 export const process = [
   {
     id: "01",
-    name: "Conceptualization",
-    text: "We start by generating innovative ideas that align with your brand's identity and goals.",
+    name: "Free Consultation",
+    text: "Mengetahui rencana dan tujuan bisnis yang anda inginkan,kami dapat merekomendasikan paket layanan dan teknologi yang paling sesuai dengan kebutuhan anda.",
   },
   {
     id: "02",
