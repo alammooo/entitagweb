@@ -9,19 +9,19 @@ export const sectionTitle: sectionInterface[] = [
   {
     type: "offer",
     subTitle: "OFFERS",
-    title: "Choose Your Best Plan",
-    text: "We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.",
+    title: "Layanan Kami",
+    text: "Layanan yang kami sediakan telah berdasarkan kebutuhan untuk bisnis mulai dari bisnis yang telah berjalan dan sedang memulai bisnis.",
   },
   {
     type: "services",
-    subTitle: "SERVICES WE'RE PROVIDED",
-    title: "We do all Creative Services",
-    text: "We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.",
+    subTitle: "Our Value",
+    title: "We do all Creative",
+    text: "Value yang selalu kami berikan dalam setiap website yang kami kerjakan.",
   },
   {
     type: "process",
-    title: "Our Process",
-    text: "Our process involves the intersection of digital, graphic, and dimensional thinking to create exceptional brand experiences that are both meaningful and valuable.",
+    title: "Alur Pengerjaan",
+    text: "Anda dapat melihat alur kerja yang selalu kami gunakan dalam pembuatan website.",
   },
   {
     type: "porto",
@@ -33,7 +33,7 @@ export const sectionTitle: sectionInterface[] = [
     type: "tech",
     subTitle: "TECH STACKS",
     title: "Available Tech Stacks",
-    text: "Providing best and newest technology possible, for the user comfort",
+    text: "Selalu memberikan Teknologi Pemprograman terbaru, untuk meningkatkan kualitas dan layanan",
   },
   {
     type: "contact",
