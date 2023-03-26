@@ -1,5 +1,5 @@
 import { projects } from "@/data/projects"
-import { Carousel } from "flowbite-react"
+import { Carousel, Spinner } from "flowbite-react"
 import Image from "next/image"
 import React from "react"
 
@@ -11,7 +11,9 @@ export default function Projects() {
           slideInterval={5000}
           className="h-[750px] md:h-[600px]">
           {projects.map((el, i) => (
-            <div className="container mx-auto flex max-w-6xl flex-col items-center justify-between md:flex-row" key={i}>
+            <div
+              className="container mx-auto flex max-w-6xl flex-col items-center justify-between md:flex-row"
+              key={i}>
               <div>
                 <a
                   href={el.imgUrl}

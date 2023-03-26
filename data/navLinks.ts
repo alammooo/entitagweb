@@ -1,5 +1,9 @@
 export const links = [
   {
+    name: "Home",
+    hrefTo: "/",
+  },
+  {
     name: "Company Profile",
     hrefTo: "/company",
   },
@@ -11,8 +15,4 @@ export const links = [
     name: "Toko Online",
     hrefTo: "/onlineshop",
   },
-  // {
-  //   name: "Contact",
-  //   hrefTo: "",
-  // },
 ]
