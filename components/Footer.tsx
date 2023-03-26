@@ -4,7 +4,9 @@ export default function Footer() {
       <div className="container mx-auto w-full p-4 sm:p-6">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="#" className="flex items-center">
+            <a
+              href="#"
+              className="flex items-center">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/328/328198.png"
                 className="mr-3 h-8"
@@ -22,7 +24,9 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-300">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a
+                    href="#"
+                    className="hover:underline">
                     NextJs
                   </a>
                 </li>
@@ -60,12 +64,16 @@ export default function Footer() {
               <h2 className="mb-6 text-sm font-semibold uppercase">Legal</h2>
               <ul className="text-gray-300">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a
+                    href="#"
+                    className="hover:underline">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a
+                    href="#"
+                    className="hover:underline">
                     Terms &amp; Conditions
                   </a>
                 </li>
@@ -76,17 +84,12 @@ export default function Footer() {
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-white sm:text-center">
-            © 2023{" "}
-            <a
-              target="_blank"
-              href="https://github.com/alammooo"
-              className="hover:underline">
-              Abdullah Alam
-            </a>
-            . All Rights Reserved.
+            © 2023 . All Rights Reserved.
           </span>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <a href="#" className="text-white">
+            <a
+              href="#"
+              className="text-white">
               <svg
                 className="h-5 w-5 fill-white"
                 viewBox="0 0 24 24"
@@ -99,7 +102,9 @@ export default function Footer() {
               </svg>
               <span className="sr-only">Facebook page</span>
             </a>
-            <a href="#" className="text-white">
+            <a
+              href="#"
+              className="text-white">
               <svg
                 className="h-5 w-5 fill-white"
                 viewBox="0 0 24 24"
@@ -112,7 +117,9 @@ export default function Footer() {
               </svg>
               <span className="sr-only">Instagram page</span>
             </a>
-            <a href="#" className="text-white">
+            <a
+              href="#"
+              className="text-white">
               <svg
                 className="h-5 w-5 fill-white"
                 viewBox="0 0 24 24"
@@ -121,7 +128,9 @@ export default function Footer() {
               </svg>
               <span className="sr-only">Twitter page</span>
             </a>
-            <a href="#" className="text-white">
+            <a
+              href="#"
+              className="text-white">
               <svg
                 className="h-5 w-5 fill-white"
                 viewBox="0 0 24 24"
@@ -134,7 +143,9 @@ export default function Footer() {
               </svg>
               <span className="sr-only">GitHub account</span>
             </a>
-            <a href="#" className="text-white">
+            <a
+              href="#"
+              className="text-white">
               <svg
                 className="h-5 w-5 fill-white"
                 viewBox="0 0 24 24"
