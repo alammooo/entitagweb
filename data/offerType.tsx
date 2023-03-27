@@ -7,9 +7,8 @@ export interface OfferInterface {
 }
 export const offerType: OfferInterface[] = [
   {
-    type: "WEB APPLICATION",
-    price: 10000000,
-    discountPrice: 8000000,
+    type: "COMPANY PROFILE",
+    price: 1500000,
     benefit: [
       "Single Page Application",
       "Newest Technology Stack",
@@ -21,9 +20,8 @@ export const offerType: OfferInterface[] = [
     ],
   },
   {
-    type: "COMPANY PROFILE",
-    price: 1500000,
-    discountPrice: 2000000,
+    type: "TOKO ONLINE",
+    price: 2000000,
     text: "Landing page cocok untuk bisnis yang ingin memasarkan produknya secara online dengan kartu kartu interaktif yang berisi tentang produk unggulan dengan biaya yang terjangkau",
     benefit: [
       "Responsive Website",
@@ -38,9 +36,8 @@ export const offerType: OfferInterface[] = [
     ],
   },
   {
-    type: "TOKO ONLINE",
-    price: 2000000,
-    discountPrice: 1500000,
+    type: "APPLICATION DEVELOPMENT",
+    price: 1000000,
     benefit: [
       "Responsive Website",
       "Lightspeed Performance",
