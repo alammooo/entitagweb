@@ -1,7 +1,6 @@
 export interface OfferInterface {
   type: string
   price: number
-  discountPrice?: number
   text?: string
   benefit: string[]
 }
