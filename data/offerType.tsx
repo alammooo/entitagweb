@@ -36,7 +36,7 @@ export const offerType: OfferInterface[] = [
   },
   {
     type: "APPLICATION DEVELOPMENT",
-    price: 1000000,
+    price: 10000000,
     benefit: [
       "Responsive Website",
       "Lightspeed Performance",
