@@ -20,13 +20,9 @@ export const workTexts = [
   {
     type: 3,
     title: "Online Shop",
-    text: `We made create-t3-app to do one thing: Streamline the setup of
-    typesafe Next.js apps WITHOUT compromising modularity. After
-    countless projects and many years on this tech, we have lots of
-    opinions and insights. We've done our best to encode them into this
-    CLI. This is NOT an all-inclusive template. We expect you to bring
-    your own libraries. Check out our other recommendations for things
-    like state management and deployment.`,
+    text: `Shopping with us is easy and convenient. Simply browse our website, add items to your cart, and check out securely using our trusted payment processing system. Plus, with fast and reliable shipping, you'll receive your order in no time. And with regular sales and promotions, as well as our rewards program, you can save even more on your favorite products. Plus, sign up for our newsletter to stay up-to-date on the latest deals and trends.
+
+    `,
     svgEle: <MobileAppSvg />,
   },
 ]
