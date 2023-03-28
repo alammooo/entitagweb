@@ -37,7 +37,7 @@ export default function FeaturesPricing({ type }: any) {
       {listData?.map((el: any, i: number) => (
         <div
           key={i}
-          className={`mt-2 flex h-fit flex-col gap-5 overflow-hidden rounded-lg border-slate-50 bg-white text-center shadow-lg md:mt-7`}>
+          className={`mt-2 flex h-fit flex-col gap-5 overflow-hidden rounded-lg border-slate-50 bg-white text-center shadow-lg md:mt-7 ${el.length < 2 ? "col-end-3" : ""}`}>
           <div
             className={`${
               i === 1 ? "bg-blue-800" : "bg-blue-500"

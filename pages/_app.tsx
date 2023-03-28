@@ -7,6 +7,7 @@ import AppContext from "@/context/AppContext"
 import { useRouter } from "next/router"
 import MyModal from "@/components/ContactModal"
 import Footer from "@/components/Footer"
+import Whatsapp from "@/components/Whatsapp"
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -41,6 +42,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <AppContext.Provider value={{ openModal, toggleModal }}>
         <Navbar show={show} />
+        <Whatsapp />
         <Component {...pageProps} />
         <Footer />
         <MyModal />
