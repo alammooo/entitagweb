@@ -37,7 +37,6 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, [router.pathname])
 
-  console.log(show)
   return (
     <>
       <AppContext.Provider value={{ openModal, toggleModal }}>

@@ -1,15 +1,16 @@
-import { offerType } from "@/data/offerType";
-import { workTexts } from "@/data/workText";
-import formatCurrency from "@/helpers/formatCurrency";
-import Head from "next/head";
+import Process from "@/components/Process"
+import { offerType } from "@/data/offerType"
+import { workTexts } from "@/data/workText"
+import formatCurrency from "@/helpers/formatCurrency"
+import Head from "next/head"
 
-export default function onlineshop(){
-  return(
+export default function onlineshop() {
+  return (
     <>
-    <Head>
-      <title>Online Shop</title>
-    </Head>
-    <section className="my-24">
+      <Head>
+        <title>Online Shop</title>
+      </Head>
+      <section className="my-24">
         <div
           className={`mx-auto flex max-w-6xl flex-col items-center gap-5 md:flex-row`}>
           <div>
@@ -62,6 +63,7 @@ export default function onlineshop(){
             </div>
           ))}
         </div>
+        <Process />
       </section>
     </>
   )

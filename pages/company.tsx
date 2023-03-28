@@ -4,6 +4,7 @@ import Head from "next/head"
 import React from "react"
 import formatCurrency from "@/helpers/formatCurrency"
 import { offerType } from "@/data/offerType"
+import Process from "@/components/Process"
 
 export default function company() {
   return (
@@ -64,6 +65,7 @@ export default function company() {
             </div>
           ))}
         </div>
+        <Process />
       </section>
     </>
   )

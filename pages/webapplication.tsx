@@ -1,3 +1,4 @@
+import Process from "@/components/Process"
 import { offerType } from "@/data/offerType"
 import { workTexts } from "@/data/workText"
 import formatCurrency from "@/helpers/formatCurrency"
@@ -62,6 +63,7 @@ export default function webapplication() {
             </div>
           ))}
         </div>
+        <Process />
       </section>
     </>
   )
