@@ -20,7 +20,7 @@ export const sectionTitle: sectionInterface[] = [
   },
   {
     type: "process",
-    title: "The Process",
+    title: "Workflow Process",
     text: "Anda dapat melihat alur kerja yang kami gunakan dalam pembuatan website.",
   },
   {
