@@ -46,7 +46,7 @@ export const companyProfilePrice = [
 
 export const onlineshopPrice = [
   {
-    price: 1500000,
+    price: 2000000,
     benefit: [
       "New tech stack",
       "high performance",
@@ -62,7 +62,7 @@ export const onlineshopPrice = [
     type: "Platinum",
   },
   {
-    price: 25000000,
+    price: 4000000,
     benefit: [
       "Platinum Features",
       "Integrasi dengan Jasa Pengiriman",
@@ -73,7 +73,7 @@ export const onlineshopPrice = [
     type: "Signature Package",
   },
   {
-    price: 4000000,
+    price: 8000000,
     benefit: [
       "All Features",
       "Phone Order Notification",
