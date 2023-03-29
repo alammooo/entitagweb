@@ -12,6 +12,10 @@ export default function Document() {
           rel="icon"
           href="https://cdn-icons-png.flaticon.com/512/328/328198.png"
         />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/aos@next/dist/aos.css"
+        />
       </Head>
       <body>
         <Main />

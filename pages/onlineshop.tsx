@@ -24,6 +24,17 @@ export default function onlineshop() {
           <span className="animate-float">{workTexts[2].svgEle}</span>
         </div>
         <FeaturesPricing type={ONLINESHOP} />
+        <div className="mx-auto mt-24 flex items-center justify-center gap-10 w-fit border shadow-md p-5 rounded">
+          <h1 className="text-center text-2xl font-semibold">Fitur Andalan</h1>
+          <ul className="text-lg">
+            <li>Sales Report</li>
+            <li>Live Chat</li>
+            <li>Integrasi Jasa Pengiriman</li>
+            <li>Konfirmasi Pembayaran Otomatis</li>
+            <li>Automatic Stock Update</li>
+            <li>Integrasi Payment Gateway</li>
+          </ul>
+        </div>
         <Process />
       </section>
     </>

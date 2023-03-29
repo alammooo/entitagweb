@@ -16,7 +16,9 @@ export default function Offers() {
       className="bg-zinc-50 bg-opacity-80 py-14"
       id="Pricing">
       <SectionHead type="offer" />
-      <div className="mx-auto grid max-w-6xl justify-center md:grid-cols-3 md:gap-10">
+      <div
+        className="mx-auto grid max-w-6xl justify-center md:grid-cols-3 md:gap-10"
+        data-aos="fade-in">
         {offerType.map((el, i) => (
           <div
             key={i}

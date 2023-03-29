@@ -25,6 +25,17 @@ export default function company() {
           <span className="animate-float">{workTexts[0].svgEle}</span>
         </div>
         <FeaturesPricing type={COMPANYPROFILE} />
+        <div className="mx-auto mt-24 flex items-center justify-center gap-10 w-fit border shadow-md p-5 rounded">
+          <h1 className="text-center text-2xl font-semibold">Fitur Andalan</h1>
+          <ul className="text-lg">
+            <li>Email Bisnis</li>
+            <li>Live Chat</li>
+            <li>Statistik Visitor</li>
+            <li>Single Page Application</li>
+            <li>Integtate API</li>
+            <li>Social Media Log In</li>
+          </ul>
+        </div>
         <Process />
       </section>
     </>

@@ -9,7 +9,7 @@ export default function Services() {
       className="mx-auto mt-52 max-w-6xl py-24 text-center md:mt-0"
       id="Services">
       <SectionHead type="services" />
-      <div className="mt-10 grid gap-3 md:grid-cols-3">
+      <div className="mt-10 grid gap-3 md:grid-cols-3" data-aos="fade-up">
         {services.map((e, i) => (
           <div
             key={i}

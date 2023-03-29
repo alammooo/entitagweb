@@ -5,7 +5,7 @@ export default function Process() {
   return (
     <section className="py-10">
       <SectionHead type="process" />
-      <div className="mx-auto mt-12 grid max-w-6xl gap-7 md:grid-cols-3">
+      <div className="mx-auto mt-12 grid max-w-6xl gap-7 md:grid-cols-3" data-aos="fade-in">
         {process.map((el, i) => (
           <div
             className={`flex flex-col items-center gap-7`}
