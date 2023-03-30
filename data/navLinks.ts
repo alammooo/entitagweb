@@ -12,7 +12,7 @@ export const links = [
     hrefTo: "/onlineshop",
   },
   {
-    name: "Web Application",
+    name: "Application Development",
     hrefTo: "/webapplication",
   },
 ]
