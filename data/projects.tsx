@@ -1,6 +1,7 @@
 import TravelPackDesk from "../assets/projects/TravelPack-HR.jpg"
 import EasteriaDesk from "../assets/projects/easteria.jpeg"
 import KlinikKu from "../assets/projects/klinikKu.jpeg"
+import AlzoraShop from "../assets/projects/alzora.jpeg"
 
 export const projects = [
   {
@@ -42,5 +43,12 @@ like-minded individuals, share your own travel experiences and
 tips, and get inspired for your next adventure.`,
     image: KlinikKu,
     imageUrl: "https://klinik-ku.com",
+  },
+  {
+    title: "Alzora",
+    desc: `At Clothes Haven, we are your one-stop-shop for all your fashion needs. Our platform offers a wide range of clothing options from casual wear to formal attire, suitable for any occasion. Our easy-to-use interface allows you to browse through our extensive collection of clothing items and accessories, read reviews from other shoppers, and make your purchases with ease.
+    Our recommendation feature helps you find the perfect outfit based on your preferences and style, ensuring that you always look your best. You can also create a wishlist of your favorite items and share it with your friends and family`,
+    image: AlzoraShop,
+    imageUrl: "",
   },
 ]
