@@ -11,6 +11,7 @@ import Whatsapp from "@/components/Whatsapp"
 import SmallNav from "@/components/fragments/SmallNav"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import Head from "next/head"
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -54,6 +55,26 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
+      <Head>
+        <meta
+          content="width=device-width, initial-scale=1.0"
+          name="viewport"
+        />
+        <meta
+          name="description"
+          content="Entitag Technology, creating best web application for your business"
+        />
+        <meta charSet="UTF-8" />
+        <meta
+          name="keywords"
+          content="website, jasa website, web application, landing page, company profile, mobile app"
+        />
+        <meta
+          name="author"
+          content="Abdullah Alam"
+        />
+        <title>Entitag Web, ultimate web creator</title>
+      </Head>
       <AppContext.Provider value={{ openModal, toggleModal }}>
         <Navbar show={show} />
         <SmallNav />
