@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function Services() {
   return (
     <section
-      className="mx-auto mt-52 max-w-6xl py-24 text-center md:mt-0"
+      className="mx-auto max-w-6xl py-24 text-center md:mt-0"
       id="Services">
       <SectionHead type="services" />
       <div className="mt-10 grid gap-3 md:grid-cols-3" data-aos="fade-up">

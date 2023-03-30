@@ -13,7 +13,6 @@ import React from "react"
 
 export default function FeaturesPricing({ type }: any) {
   const [listData, setListData] = React.useState<any>()
-  const [featureName, setFeatureName] = React.useState("")
   React.useEffect(() => {
     switch (type) {
       case COMPANYPROFILE:
@@ -24,7 +23,6 @@ export default function FeaturesPricing({ type }: any) {
         break
       case WEBAPPLICATION:
         setListData(webAppPrice)
-        setFeatureName(WEBAPPLICATION)
         break
       default:
         break
@@ -37,14 +35,18 @@ export default function FeaturesPricing({ type }: any) {
       {listData?.map((el: any, i: number) => (
         <div
           key={i}
-          className={`mt-2 flex h-fit flex-col gap-5 overflow-hidden rounded-lg border-slate-50 bg-white text-center shadow-lg md:mt-7 ${el.length < 2 ? "col-end-3" : ""}`}>
+          className={`mt-2 flex h-fit flex-col gap-5 overflow-hidden rounded-lg border-slate-50 bg-white text-center shadow-lg md:mt-7 ${
+            el.length < 2 ? "col-end-3" : ""
+          }`}>
           <div
             className={`${
               i === 1 ? "bg-blue-800" : "bg-blue-500"
             } py-7 text-zinc-50`}>
             <h5 className="text-base font-medium">Mulai dari</h5>
             <h1 className="text-center text-4xl font-semibold">
-              {featureName ? "Contact Us" : formatCurrency(el.price)}
+              {typeof el.price === "number"
+                ? formatCurrency(el.price)
+                : "Contact Us"}
             </h1>
           </div>
           <div className="">

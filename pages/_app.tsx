@@ -9,6 +9,7 @@ import MyModal from "@/components/ContactModal"
 import Footer from "@/components/Footer"
 import Whatsapp from "@/components/Whatsapp"
 import AOS from "aos"
+import SmallNav from "@/fragments/SmallNav"
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -42,11 +43,10 @@ export default function App({ Component, pageProps }: AppProps) {
   React.useEffect(() => {
     AOS.init({
       offset: 120, // offset (in px) from the original trigger point
-      delay: 500, // values from 0 to 3000, with step 50ms
+      delay: 100, // values from 0 to 3000, with step 50ms
       duration: 700, // values from 0 to 3000, with step 50ms
       easing: "ease", // default easing for AOS animations
       once: false, // whether animation should happen only once - while scrolling down
-      mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: "top-bottom",
     })
   }, [])
@@ -55,6 +55,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <AppContext.Provider value={{ openModal, toggleModal }}>
         <Navbar show={show} />
+        <SmallNav />
         <Whatsapp />
         <Component {...pageProps} />
         <Footer />

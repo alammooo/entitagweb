@@ -1,5 +1,13 @@
 import { offerType } from "@/data/offerType"
 import SectionHead from "./SectionHead"
+import { CheckIcon } from "@heroicons/react/20/solid"
+
+const includedFeatures = [
+  "Private forum access",
+  "Member resources",
+  "Entry to annual conference",
+  "Official member t-shirt",
+]
 
 export default function Offers() {
   function formatCurrency(amount: any, currency: string = "IDR"): string {
@@ -16,46 +24,69 @@ export default function Offers() {
       className="bg-zinc-50 bg-opacity-80 py-14"
       id="Pricing">
       <SectionHead type="offer" />
-      <div
-        className="mx-auto grid max-w-6xl justify-center md:grid-cols-3 md:gap-10"
-        data-aos="fade-in">
-        {offerType.map((el, i) => (
-          <div
-            key={i}
-            className={`mt-2 flex h-fit flex-col gap-5 overflow-hidden rounded-lg border-slate-50 bg-white text-center shadow-lg md:mt-7`}>
+      <div className="py-5">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          {offerType.map((el, i) => (
             <div
-              className={`${
-                i === 1 ? "bg-blue-800" : "bg-blue-500"
-              } py-7 text-zinc-50`}>
-              <h5 className="text-base font-medium">Mulai dari</h5>
-              <h1 className="text-center text-4xl font-semibold">
-                {formatCurrency(el.price)}
-              </h1>
+              data-aos={i % 2 === 0 ? "fade-right" : "fade-left"}
+              className={`mx-auto mt-4 max-w-2xl rounded-3xl bg-white ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none ${
+                i === 1 ? "lg:flex-row-reverse" : "lg:flex-row"
+              }`}>
+              <div className="p-8 lg:flex-auto">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  {el.type}
+                </h3>
+                <p className="mt-2 text-sm leading-7 text-gray-600">
+                  {el.text}
+                </p>
+                <div className="mt-2 flex items-center gap-x-4">
+                  <h4 className="flex-none text-sm font-semibold leading-6 text-blue-600">
+                    What’s included
+                  </h4>
+                  <div className="h-px flex-auto bg-gray-100" />
+                </div>
+                <ul
+                  role="list"
+                  className="mt-4 grid grid-cols-1 gap-3 text-sm text-gray-600 sm:grid-cols-3">
+                  {el.benefit.map((feature) => (
+                    <li
+                      key={feature}
+                      className="flex items-center gap-x-3">
+                      <CheckIcon
+                        className="h-6 w-5 flex-none text-blue-600"
+                        aria-hidden="true"
+                      />
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+                <div
+                  className={`rounded-2xl bg-blue-900 py-10  text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10`}>
+                  <div className="mx-auto max-w-xs px-8">
+                    <p className="text-sm font-semibold">
+                      Grab your website now!
+                    </p>
+                    <p className="mt-6 flex items-baseline justify-center gap-x-2">
+                      <span className="text-4xl font-bold tracking-tight">
+                        {formatCurrency(el.price)}
+                      </span>
+                    </p>
+                    <a
+                      href="#"
+                      className={`mt-10 block w-full rounded-md bg-blue-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600`}>
+                      Purchase Now
+                    </a>
+                    <p className="mt-6 cursor-pointer rounded bg-white px-3 py-2 text-sm leading-5 text-gray-800 hover:bg-gray-50">
+                      See more features
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="">
-              <h1 className="my-2 text-center text-xl font-bold uppercase text-black">
-                {el.type}
-              </h1>
-              <ul className="flex flex-col text-center">
-                {el.benefit.map((el, i) => (
-                  <li
-                    className="border-b border-zinc-200 py-3 text-slate-500"
-                    key={i}>
-                    {el}
-                  </li>
-                ))}
-              </ul>
-              <button
-                className={`mx-auto mb-10 mt-7 block w-full max-w-xs rounded py-2.5 text-center text-sm font-medium text-white shadow-lg duration-300 hover:scale-105 ${
-                  i === 1
-                    ? "bg-blue-800"
-                    : "bg-gradient-to-r from-blue-400 to-blue-500"
-                }`}>
-                Purchase Now
-              </button>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   )

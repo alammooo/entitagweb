@@ -124,7 +124,7 @@ export const webAppPrice = [
     type: "Regular",
   },
   {
-    price: 50000000,
+    price: "Contact Us",
     benefit: [
       "Medium & Regular Features",
       "Garansi Pemeliharaan",
@@ -137,6 +137,21 @@ export const webAppPrice = [
       "Editable Form/ News",
     ],
     type: "Premium",
+  },
+  {
+    price: 50000000,
+    benefit: [
+      "Medium & Regular Features",
+      "Garansi Pemeliharaan",
+      "Script Optimization",
+      "Site Optimization",
+      "2 Bahasa",
+      "API Integration",
+      "Realtime Chat",
+      "Social Media Log In",
+      "Editable Form/ News",
+    ],
+    type: "Mobile Application",
   },
 ]
 

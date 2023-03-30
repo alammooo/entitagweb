@@ -7,8 +7,8 @@ export default function Hero() {
   const { openModal, toggleModal } = React.useContext(AppContext)
   return (
     <section className="bg-hero-pattern bg-cover text-white md:rounded-hero">
-      <div className="h-full w-full rounded-hero bg-blue-900 bg-opacity-95">
-        <div className="relative pb-36">
+      <div className="h-full w-full md:rounded-hero bg-blue-900 bg-opacity-95">
+        <div className="relative pb-10 md:pb-52">
           <nav className={`top-0 mx-auto hidden w-full py-7 md:flex`}>
             <div className="container mx-auto flex max-w-6xl justify-between">
               <Link
@@ -33,11 +33,11 @@ export default function Hero() {
               </div>
             </div>
           </nav>
-          <div className="mx-auto flex flex-col items-center gap-6 pt-20 text-center">
+          <div className="mx-auto flex flex-col items-center gap-2 md:gap-6 pt-20 text-center">
             <h4 className="text-2xl font-bold uppercase tracking-wide text-zinc-100">
               ENTITAG TECHNOLOGY
             </h4>
-            <h1 className="my-6 font-black tracking-wide 2xl:text-8xl">
+            <h1 className="my-6 font-black tracking-wide text-2xl 2xl:text-8xl">
               Web.
               <span className="bg-gradient-to-b from-blue-200 to-blue-50 bg-clip-text text-transparent">
                 Appplication

@@ -2,14 +2,19 @@ import { projects } from "@/data/projects"
 import { Carousel, Spinner } from "flowbite-react"
 import Image from "next/image"
 import React from "react"
+import BlueBorder from "./BlueBorder"
 
 export default function Projects() {
   return (
     <section className="bg-blue-500 bg-divider bg-cover text-white bg-blend-color-burn">
       <div className="h-full w-full py-5 backdrop-brightness-75 md:py-14 ">
+        <h1 className="text-center text-3xl font-medium">
+          Our Projects
+        </h1>
+        <div className="mx-auto h-px w-20 bg-gradient-to-r from-transparent via-white to-transparent mt-2"></div>
         <Carousel
           slideInterval={5000}
-          className="h-[750px] md:h-[600px]">
+          className="h-[900px] md:h-[600px] px-5 md:px-0">
           {projects.map((el, i) => (
             <div
               className="container mx-auto flex max-w-6xl flex-col items-center justify-between md:flex-row"
@@ -23,7 +28,7 @@ export default function Projects() {
                 </a>
                 <p className="max-w-lg leading-7">{el.desc}</p>
               </div>
-              <div className="w-2/5">
+              <div className="md:w-2/5">
                 <Image
                   src={el.image}
                   alt="TravelPack"
