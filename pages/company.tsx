@@ -3,7 +3,7 @@ import Head from "next/head"
 import React from "react"
 import Process from "@/components/Process"
 import { COMPANYPROFILE } from "@/interfaces/interfaces"
-import FeaturesPricing from "@/fragments/FeaturesPricing"
+import FeaturesPricing from "@/components/fragments/FeaturesPricing"
 
 export default function company() {
   return (
@@ -15,7 +15,7 @@ export default function company() {
         <div
           className={`mx-auto flex max-w-6xl flex-col items-center gap-5 md:flex-row`}>
           <div>
-            <h1 className="mb-5 text-4xl font-extrabold text-blue-800">
+            <h1 className="mb-5 text-4xl font-extrabold text-blue-900">
               {workTexts[0].title}
             </h1>
             <p className="max-w-xl leading-7 text-zinc-500">

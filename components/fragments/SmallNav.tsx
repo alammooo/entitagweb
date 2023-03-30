@@ -6,7 +6,7 @@ import { links } from "@/data/navLinks"
 
 export default function SmallNav() {
   return (
-    <div className="fixed right-5 -top-2 z-50 w-fit text-right">
+    <div className="fixed right-5 -top-2 z-50 w-fit text-right md:hidden">
       <Menu
         as="div"
         className="relative inline-block text-left">

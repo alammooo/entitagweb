@@ -31,7 +31,7 @@ export default function Navbar({ show }: any) {
             </Link>
           ))}
           <span
-            className="cursor-pointer text-blue-700 hover:text-blue-800"
+            className="cursor-pointer text-blue-700 hover:text-blue-900"
             onClick={toggleModal}>
             Contact
           </span>

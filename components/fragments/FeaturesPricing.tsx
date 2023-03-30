@@ -40,7 +40,7 @@ export default function FeaturesPricing({ type }: any) {
           }`}>
           <div
             className={`${
-              i === 1 ? "bg-blue-800" : "bg-blue-500"
+              i === 1 ? "bg-blue-900" : "bg-blue-500"
             } py-7 text-zinc-50`}>
             <h5 className="text-base font-medium">Mulai dari</h5>
             <h1 className="text-center text-4xl font-semibold">
@@ -65,7 +65,7 @@ export default function FeaturesPricing({ type }: any) {
             <button
               className={`mx-auto mb-10 mt-7 block w-full max-w-xs rounded py-2.5 text-center text-sm font-medium text-white shadow-lg duration-300 hover:scale-105 ${
                 i === 1
-                  ? "bg-blue-800"
+                  ? "bg-blue-900"
                   : "bg-gradient-to-r from-blue-400 to-blue-500"
               }`}>
               Purchase Now

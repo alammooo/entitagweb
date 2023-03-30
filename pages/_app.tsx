@@ -8,8 +8,9 @@ import { useRouter } from "next/router"
 import MyModal from "@/components/ContactModal"
 import Footer from "@/components/Footer"
 import Whatsapp from "@/components/Whatsapp"
+import SmallNav from "@/components/fragments/SmallNav"
 import AOS from "aos"
-import SmallNav from "@/fragments/SmallNav"
+import "aos/dist/aos.css"
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
