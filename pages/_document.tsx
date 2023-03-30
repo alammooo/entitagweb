@@ -10,12 +10,30 @@ export default function Document() {
         />
         <link
           rel="icon"
-          href="https://cdn-icons-png.flaticon.com/512/328/328198.png"
+          href="/favicon.ico"
         />
         <link
           rel="stylesheet"
           href="https://unpkg.com/aos@next/dist/aos.css"
         />
+        <meta
+          content="width=device-width, initial-scale=1.0"
+          name="viewport"
+        />
+        <meta
+          name="description"
+          content="Entitag Technology, creating best web application for your business"
+        />
+        <meta charSet="UTF-8" />
+        <meta
+          name="keywords"
+          content="website, jasa website, web application, landing page, company profile, mobile app"
+        />
+        <meta
+          name="author"
+          content="Abdullah Alam"
+        />
+        <title>Entitag Web, ultimate web creator</title>
       </Head>
       <body>
         <Main />

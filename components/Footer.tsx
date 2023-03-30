@@ -1,3 +1,6 @@
+import entitagLogo from "@/public/favicon.ico"
+import Image from "next/image"
+
 export default function Footer() {
   return (
     <footer className="bg-zinc-800 pt-10 text-white">
@@ -7,10 +10,11 @@ export default function Footer() {
             <a
               href="#"
               className="flex items-center">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/328/328198.png"
-                className="mr-3 h-8"
+              <Image
+                src={entitagLogo}
                 alt="entitagLogo"
+                width={50}
+                height={50}
               />
               <span className="self-center whitespace-nowrap text-2xl font-bold">
                 Entitag
