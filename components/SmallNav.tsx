@@ -7,12 +7,10 @@ export default function SmallNav() {
     <Navbar
       fluid={true}
       rounded={true}
-      className="md:hidden fixed w-screen h-screen z-50">
+      className="md:hidden fixed z-50 w-screen">
       <Navbar.Toggle />
-      <Navbar.Collapse>
-        <h1 className="text-center text-2xl font-bold mb-5">
-          Entitag
-        </h1>
+      <h1 className="text-center text-2xl font-bold">Entitag</h1>
+      <Navbar.Collapse className="w-screen h-screen">
         <div className="flex w-full flex-col gap-2 text-center text-xl text-blue-900">
           {links.map((el, i) => (
             <Link
