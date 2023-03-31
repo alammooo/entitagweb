@@ -1,6 +1,9 @@
-export const companyProfilePrice = [
+import { companyProfileInterface } from "@/interfaces/interfaces"
+
+export const companyProfilePrice: companyProfileInterface[] = [
   {
     price: 1500000,
+    description: "",
     benefit: [
       "New tech stack",
       "high performance",
@@ -17,6 +20,7 @@ export const companyProfilePrice = [
   },
   {
     price: 2500000,
+    description: "",
     benefit: [
       "Regular Features",
       "Single Page Application (SPA)",
@@ -29,6 +33,7 @@ export const companyProfilePrice = [
   },
   {
     price: 4000000,
+    description: "",
     benefit: [
       "Medium & Regular Features",
       "Garansi Pemeliharaan",
@@ -47,6 +52,7 @@ export const companyProfilePrice = [
 export const onlineshopPrice = [
   {
     price: 2000000,
+    description: "meningkatkan kinerja dan keuntungan bisnis.",
     benefit: [
       "New tech stack",
       "high performance",
@@ -63,6 +69,7 @@ export const onlineshopPrice = [
   },
   {
     price: 4000000,
+    description: "fokus untuk memenuhi kebutuhan sesuai keinginan client.",
     benefit: [
       "Platinum Features",
       "Integrasi dengan Jasa Pengiriman",
@@ -74,6 +81,7 @@ export const onlineshopPrice = [
   },
   {
     price: 8000000,
+    description: "solusi lengkap dan paling efektif untuk tujuan bisnis.",
     benefit: [
       "All Features",
       "Phone Order Notification",
@@ -97,7 +105,6 @@ export const onlineshopPrice = [
 // Ultimate Package (premium)
 // Paket bertingkat yang menawarkan solusi lengkap dan paling efektif untuk mencapai tujuan bisnis franchise toko, dengan pelayanan terbaik dan teknologi terbaru yang tersedia.
 
-
 // fitur andalan
 // -Sales Report
 // -Live Chat
@@ -109,6 +116,7 @@ export const onlineshopPrice = [
 export const webAppPrice = [
   {
     price: 10000000,
+    description: "",
     benefit: [
       "New tech stack",
       "high performance",
@@ -125,6 +133,7 @@ export const webAppPrice = [
   },
   {
     price: "Contact Us",
+    description: "",
     benefit: [
       "Medium & Regular Features",
       "Garansi Pemeliharaan",
@@ -140,6 +149,7 @@ export const webAppPrice = [
   },
   {
     price: 50000000,
+    description: "",
     benefit: [
       "Medium & Regular Features",
       "Garansi Pemeliharaan",

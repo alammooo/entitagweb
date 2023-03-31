@@ -6,9 +6,9 @@ import React from "react"
 export default function Hero() {
   const { openModal, toggleModal } = React.useContext(AppContext)
   return (
-    <section className="flex h-screen flex-col justify-between bg-hero-pattern bg-cover text-zinc-800">
+    <section className="flex flex-col justify-between bg-hero-pattern bg-cover text-zinc-800 md:h-screen">
       <div className="h-full w-full bg-white bg-opacity-90">
-        <div className="relative">
+        <div className="relative pb-40 pt-16 md:pb-0 md:pt-0">
           <nav className={`top-0 mx-auto hidden w-full py-7 md:flex`}>
             <div className="container mx-auto flex max-w-6xl justify-between">
               <Link
@@ -33,12 +33,13 @@ export default function Hero() {
               </div>
             </div>
           </nav>
-          <div className="mx-auto flex flex-col items-center gap-2 2xl:pt-20 text-center md:gap-6">
+          <div className="mx-auto flex flex-col items-center gap-5 text-center md:gap-6 2xl:pt-20">
             <h4 className="text-2xl font-bold uppercase tracking-wide">
               ENTITAG TECHNOLOGY
             </h4>
-            <h1 className="my-6 text-2xl font-bold tracking-wide md:text-7xl 2xl:text-8xl">
+            <h1 className="my-6 text-6xl font-bold tracking-wide md:text-7xl 2xl:text-8xl">
               Web.
+              <br className="block md:hidden" />
               <span className="bg-gradient-to-b from-blue-500 to-blue-700 bg-clip-text text-transparent">
                 Appplication. <br />
               </span>
@@ -59,7 +60,6 @@ export default function Hero() {
               className="rounded border border-blue-400 px-14 py-3.5 text-center font-medium text-blue-800 shadow duration-300 hover:bg-blue-400">
               Lihat Penawaran
             </a>
-            
           </div>
         </div>
       </div>

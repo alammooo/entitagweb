@@ -1,5 +1,5 @@
 import { Menu, Transition } from "@headlessui/react"
-import { Fragment, useEffect, useRef, useState } from "react"
+import { Fragment } from "react"
 import { ChevronDownIcon } from "@heroicons/react/20/solid"
 import Link from "next/link"
 import { links } from "@/data/navLinks"
@@ -8,7 +8,7 @@ export default function SmallNav() {
   return (
     <Menu
       as="div"
-      className="fixed -top-2 right-5 z-50 inline-block w-fit text-right md:hidden">
+      className="fixed right-16 z-50 inline-block w-fit text-right md:hidden">
       <div>
         <Menu.Button className="inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
           Menu

@@ -10,10 +10,10 @@ export default function webapplication() {
       <Head>
         <title>Web Application</title>
       </Head>
-      <section className="my-24">
+      <section className="md:my-24">
         <div
           className={`mx-auto flex max-w-6xl flex-col items-center gap-5 md:flex-row`}>
-          <div>
+          <div className="p-5 md:p-0">
             <h1 className="mb-5 text-4xl font-extrabold text-blue-900">
               {workTexts[1].title}
             </h1>

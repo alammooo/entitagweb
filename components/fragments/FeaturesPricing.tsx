@@ -35,29 +35,27 @@ export default function FeaturesPricing({ type }: any) {
       {listData?.map((el: any, i: number) => (
         <div
           key={i}
-          className={`order-first flex flex-col rounded-3xl px-6 py-8 text-white sm:px-8 lg:order-none ${
+          className={`order-first flex flex-col rounded-3xl px-6 py-8 text-slate-200 sm:px-8 lg:order-none ${
             i === 1 ? "bg-blue-600" : "bg-blue-950"
           }`}>
-          <h5 className="order-first text-4xl font-bold tracking-tight text-white">
+          <h5 className="order-first text-4xl font-semibold tracking-tight text-white">
             {typeof el.price === "number"
               ? formatCurrency(el.price)
               : "Contact Us"}
           </h5>
-          <h2 className="font-display mt-5 text-lg font-medium capitalize text-white">
+          <h2 className="font-display mt-5 text-lg font-medium capitalize">
             {el.type}
           </h2>
-          <h2 className="mt-2 text-base text-white">
-            Perfect for small / medium sized businesses.
-          </h2>
+          <h2 className="mt-2 text-base capitalize">{el.description}</h2>
           <a className="group mt-8 inline-flex items-center justify-center rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-blue-50 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-blue-200 active:text-slate-600">
             Pesan Sekarang
           </a>
-          <ul className="order-last mt-10 flex flex-col gap-y-3 text-white">
+          <ul className="order-last mt-10 flex flex-col gap-y-3">
             {el.benefit.map((e: any, i: number) => (
               <li
                 className="flex"
                 key={i}>
-                <svg className="h-6 w-6 flex-none fill-current stroke-current text-white">
+                <svg className="h-6 w-6 flex-none fill-current stroke-current">
                   <path
                     d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                     strokeWidth="0"></path>
