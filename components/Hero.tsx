@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section className="flex flex-col justify-between bg-hero-pattern bg-cover text-zinc-800 md:h-screen">
       <div className="h-full w-full bg-white bg-opacity-50">
-        <div className="relative pb-40 md:pb-0 md:pt-0">
+        <div className="relative pb-20 md:pb-0 md:pt-0">
           <nav
             className={`top-0 mx-auto hidden w-full py-7 duration-500 md:flex ${
               show ? "opacity-0" : "opacity-100"

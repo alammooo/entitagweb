@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <section
       id="Services"
-      className="md:mt-5">
+      className="mt-5">
       <SectionHead type="services" />
       <div className="mx-auto max-w-6xl pt-5 pb-24 text-center">
         <div
