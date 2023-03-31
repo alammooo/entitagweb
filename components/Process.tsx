@@ -15,7 +15,7 @@ export default function Process() {
             </div>
             <div className="bg-slate-100 bg-opacity-50 p-5 text-center">
               <h2 className="text-lg font-semibold">{el.name}</h2>
-              <h3 className="mt-2 text-sm leading-6 text-zinc-500">
+              <h3 className="mt-2 text-base leading-6 text-zinc-500">
                 {el.text}
               </h3>
             </div>

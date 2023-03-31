@@ -35,14 +35,14 @@ export default function Contact() {
         <div>
           <label
             htmlFor="name"
-            className="mb-2 block text-sm text-gray-900">
+            className="mb-2 block text-base text-gray-900">
             Name:
           </label>
           <input
             type="text"
             id="name"
             name="name"
-            className="block w-full rounded border border-gray-400 p-3 text-sm text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
+            className="block w-full rounded border border-gray-400 p-3 text-base text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
             placeholder="Enter your name"
             required
           />
@@ -51,14 +51,14 @@ export default function Contact() {
           <div className="w-full">
             <label
               htmlFor="email"
-              className="mb-2 block text-sm text-gray-900">
+              className="mb-2 block text-base text-gray-900">
               Your email
             </label>
             <input
               type="email"
               id="email"
               name="email"
-              className="block w-full rounded border border-gray-400 p-3 text-sm text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
+              className="block w-full rounded border border-gray-400 p-3 text-base text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
               placeholder="Enter your email"
               required
             />
@@ -66,14 +66,14 @@ export default function Contact() {
           <div className="w-full">
             <label
               htmlFor="telephone"
-              className="mb-2 block text-sm text-gray-900">
+              className="mb-2 block text-base text-gray-900">
               Your number
             </label>
             <input
               type="number"
               id="telephone"
               name="telephone"
-              className="block w-full rounded border border-gray-400 p-3 text-sm text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
+              className="block w-full rounded border border-gray-400 p-3 text-base text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
               placeholder="Enter your number"
               required
             />
@@ -82,14 +82,14 @@ export default function Contact() {
         <div>
           <label
             htmlFor="subject"
-            className="mb-2 block text-sm text-gray-900">
+            className="mb-2 block text-base text-gray-900">
             Subject
           </label>
           <input
             type="text"
             id="subject"
             name="subject"
-            className="block w-full rounded border border-gray-400 p-3 text-sm text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
+            className="block w-full rounded border border-gray-400 p-3 text-base text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
             placeholder="Let us know how we can help you"
             required
           />
@@ -97,20 +97,20 @@ export default function Contact() {
         <div className="sm:col-span-2">
           <label
             htmlFor="message"
-            className="mb-2 block text-sm text-gray-900">
+            className="mb-2 block text-base text-gray-900">
             Your message
           </label>
           <textarea
             id="message"
             rows={7}
             name="message"
-            className="block w-full rounded border border-gray-400 p-3 text-sm text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
+            className="block w-full rounded border border-gray-400 p-3 text-base text-gray-900 placeholder:font-light focus:border-blue-300 focus:ring-0"
             placeholder="Leave a message..."></textarea>
         </div>
         <button
           type="submit"
           disabled={state.submitting}
-          className="self-end rounded bg-blue-700 py-3 px-5 text-center text-sm font-medium text-white duration-200 hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-fit">
+          className="self-end rounded bg-blue-700 py-3 px-5 text-center text-base font-medium text-white duration-200 hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-fit">
           {state.submitting ? "Sending..." : "Send message"}
         </button>
       </form>

@@ -39,14 +39,14 @@ export default function Offers() {
                 </h3>
                 <p className="mt-2 leading-7 text-gray-600">{el.text}</p>
                 <div className="mt-2 flex items-center gap-x-4">
-                  <h4 className="flex-none text-sm font-semibold leading-6 text-blue-600">
+                  <h4 className="flex-none text-base font-semibold leading-6 text-blue-600">
                     What’s included
                   </h4>
                   <div className="h-px flex-auto bg-gray-100" />
                 </div>
                 <ul
                   role="list"
-                  className="mt-4 grid grid-cols-1 gap-3 text-sm text-gray-600 sm:grid-cols-3">
+                  className="mt-4 grid grid-cols-1 gap-3 text-base text-gray-600 sm:grid-cols-3">
                   {el.benefit.map((feature) => (
                     <li
                       key={feature}
@@ -64,7 +64,7 @@ export default function Offers() {
                 <div
                   className={`rounded-2xl bg-blue-900 py-10 text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10`}>
                   <div className="mx-auto max-w-xs px-8">
-                    <p className="text-sm font-semibold">Starting from</p>
+                    <p className="text-base font-semibold">Starting from</p>
                     <p className="flex items-baseline justify-center gap-x-2">
                       <span className="text-4xl font-bold tracking-tight">
                         {formatCurrency(el.price)}
@@ -72,10 +72,10 @@ export default function Offers() {
                     </p>
                     <a
                       href="#"
-                      className={`mt-10 block w-full rounded-md bg-blue-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600`}>
+                      className={`mt-10 block w-full rounded-md bg-blue-600 px-3 py-2 text-center text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600`}>
                       Purchase Now
                     </a>
-                    <p className="mt-6 cursor-pointer rounded bg-white px-3 py-2 text-sm leading-5 text-gray-800 hover:bg-gray-50">
+                    <p className="mt-6 cursor-pointer rounded bg-white px-3 py-2 text-base leading-5 text-gray-800 hover:bg-gray-50">
                       See more features
                     </p>
                   </div>

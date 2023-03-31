@@ -27,7 +27,7 @@ export default function Services() {
               />
               <h1 className="text-lg font-medium">{e.title}</h1>
               <BlueBorder />
-              <p className="px-3 text-sm leading-6 text-zinc-400">{e.text}</p>
+              <p className="px-3 text-base leading-6 text-zinc-400">{e.text}</p>
             </div>
           ))}
         </div>

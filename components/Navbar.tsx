@@ -19,7 +19,7 @@ export default function Navbar({ show }: any) {
           className="text-2xl font-black uppercase tracking-wider">
           Entitag
         </Link>
-        <div className="flex gap-6 text-sm font-semibold text-zinc-600">
+        <div className="flex gap-6 text-base font-semibold text-zinc-600">
           {links.map((link) => (
             <Link
               href={link.hrefTo}

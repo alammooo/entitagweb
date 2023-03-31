@@ -16,7 +16,7 @@ export default function Hero() {
                 className="text-3xl font-black uppercase tracking-wider">
                 Entitag
               </Link>
-              <div className="flex gap-6 text-sm font-semibold">
+              <div className="flex gap-6 text-base font-semibold">
                 {links.map((link, i) => (
                   <Link
                     href={link.hrefTo}
