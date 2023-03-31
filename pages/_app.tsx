@@ -57,24 +57,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <meta
-          content="width=device-width, initial-scale=1.0"
-          name="viewport"
-        />
-        <meta
-          name="description"
-          content="Entitag Technology, creating best web application for your business"
-        />
-        <meta charSet="UTF-8" />
-        <meta
-          name="keywords"
-          content="website, jasa website, web application, landing page, company profile, mobile app"
-        />
-        <meta
-          name="author"
-          content="Abdullah Alam"
-        />
-        <title>Entitag Web, ultimate web creator</title>
+        <title>Entitag Tech, Jasa Pembuatan Website dan Aplikasi Web</title>
       </Head>
       <AppContext.Provider value={{ openModal, toggleModal, show }}>
         <Navbar show={show} />
