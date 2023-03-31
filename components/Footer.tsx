@@ -1,5 +1,9 @@
+import { links } from "@/data/navLinks"
 import entitagLogo from "@/public/favicon.ico"
 import Image from "next/image"
+import Link from "next/link"
+import { BsWhatsapp } from "react-icons/bs"
+import { HiOutlineMailOpen } from "react-icons/hi"
 
 export default function Footer() {
   return (
@@ -21,67 +25,27 @@ export default function Footer() {
               </span>
             </a>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
-            <div>
-              <h2 className="mb-6 text-base font-semibold uppercase">
-                Resources
-              </h2>
-              <ul className="text-gray-300">
-                <li className="mb-4">
-                  <a
-                    href="#"
-                    className="hover:underline">
-                    NextJs
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline">
-                    Tailwind CSS
-                  </a>
-                </li>
-              </ul>
+          <div className="grid md:gap-16 sm:grid-cols-3 sm:gap-6">
+            <div className="flex flex-col gap-2">
+              <h2 className="mb-4 text-lg font-semibold uppercase">Contact</h2>
+              <p className="flex items-center gap-2">
+                <BsWhatsapp />
+                +62 851-5657-9033
+              </p>
+              <p className="flex items-center gap-2">
+                <HiOutlineMailOpen />
+                info@entitagtech.com
+              </p>
             </div>
-            <div>
-              <h2 className="mb-6 text-base font-semibold uppercase">
-                Follow us
-              </h2>
-              <ul className="text-gray-300">
-                <li className="mb-4">
-                  <a
-                    href="https://github.com/alammooo"
-                    className="hover:underline ">
-                    Github
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline">
-                    Discord
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-base font-semibold uppercase">Legal</h2>
-              <ul className="text-gray-300">
-                <li className="mb-4">
-                  <a
-                    href="#"
-                    className="hover:underline">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="hover:underline">
-                    Terms &amp; Conditions
-                  </a>
-                </li>
-              </ul>
+            <div className="flex flex-col gap-2">
+              <h2 className="mb-4 text-lg font-semibold uppercase">Links</h2>
+              {links.map((el, i) => (
+                <Link
+                  href={el.hrefTo}
+                  className="flex items-center gap-2">
+                  {el.name}
+                </Link>
+              ))}
             </div>
           </div>
         </div>

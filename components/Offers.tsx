@@ -60,7 +60,7 @@ export default function Offers() {
                   <div className="mx-auto max-w-xs px-8">
                     <p className="text-base font-semibold">Starting from</p>
                     <p className="flex items-baseline justify-center gap-x-2">
-                      <span className="text-4xl font-bold tracking-tight">
+                      <span className="text-4xl font-bold tracking-wide">
                         {formatCurrency(el.price)}
                       </span>
                     </p>
