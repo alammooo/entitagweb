@@ -7,7 +7,7 @@ import Link from "next/link"
 
 export default function SmallNav() {
   return (
-    <div className="fixed z-50 w-screen text-right">
+    <div className="fixed z-50 w-screen text-right md:hidden">
       <Menu
         as="div"
         className="relative">
