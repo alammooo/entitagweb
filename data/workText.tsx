@@ -12,7 +12,7 @@ export const workTexts = [
   },
   {
     type: 2,
-    title: "Web Application",
+    title: "Application Development",
     text: `Kami memahami bahwa keberadaan online sangat penting saat ini. Kami bekerja sama dengan Client untuk memahami tujuan bisnis Client dan membuat aplikasi web yang memenuhi semua persyaratan Client. Sistem manajemen konten yang sederhana atau platform e-commerce yang kompleks, kami memiliki keterampilan dan pengalaman untuk mewujudkan visi Client.
     Tim kami menggunakan teknologi terbaru dan praktik terbaik industri untuk memastikan bahwa aplikasi web Client aman, dapat ditingkatkan, dan berkinerja tinggi. Kami juga menyediakan dukungan dan pemeliharaan berkelanjutan untuk memastikan bahwa aplikasi Client terus memenuhi kebutuhan Client seiring dengan pertumbuhan bisnis Client.`,
     svgEle: <WebAppSvg />,

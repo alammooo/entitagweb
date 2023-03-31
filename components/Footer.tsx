@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-base text-white sm:text-center">
+          <span className="md:text-base text-sm text-white sm:text-center">
             © 2023 . All Rights Reserved.
           </span>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">

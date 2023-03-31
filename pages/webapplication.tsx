@@ -8,7 +8,7 @@ export default function webapplication() {
   return (
     <>
       <Head>
-        <title>Entitag | Web Application</title>
+        <title>Entitag | Application Development</title>
       </Head>
       <section className="md:my-24">
         <div

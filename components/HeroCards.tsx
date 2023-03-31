@@ -11,7 +11,7 @@ export default function HeroCards() {
             </div>
             <div className="flex flex-col gap-2">
               <h1 className="font-semibold text-black">{e.title}</h1>
-              <p className="text-base tracking-wide">{e.text}</p>
+              <p className="md:text-base text-sm tracking-wide">{e.text}</p>
             </div>
           </div>
         ))}

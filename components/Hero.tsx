@@ -26,7 +26,7 @@ export default function Hero() {
                 className="text-2xl font-bold uppercase tracking-wider flex items-center gap-2">
                 <Image src={EntitagLogo} alt="entitagLogo" className="w-7 h-7"/> Entitag
               </Link>
-              <div className="flex gap-6 text-base font-semibold">
+              <div className="flex gap-6 md:text-base text-sm font-semibold">
                 {links.map((link, i) => (
                   <Link
                     href={link.hrefTo}
@@ -44,7 +44,7 @@ export default function Hero() {
             </div>
           </nav>
           <div className="mx-auto flex flex-col items-center gap-5 text-center md:gap-6 2xl:pt-20">
-            <h1 className="my-6 text-6xl font-black tracking-wide md:text-7xl 2xl:text-8xl">
+            <h1 className="my-6 text-5xl font-black tracking-wide md:text-6xl 2xl:text-8xl">
               Web.
               <br className="block md:hidden" />
               <span className="bg-gradient-to-b from-blue-500 to-blue-700 bg-clip-text text-transparent">

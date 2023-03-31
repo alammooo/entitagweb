@@ -9,7 +9,7 @@ export default function ContactDetails() {
             {el.icon}
           </div>
           <h1 className="text-lg font-semibold">{el.name}</h1>
-          <div className="text-base font-light text-slate-400">
+          <div className="md:text-base text-sm font-light text-slate-400">
             <h5>{el.firstText}</h5>
             <h5>{el.secondText}</h5>
           </div>

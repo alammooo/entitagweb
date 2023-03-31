@@ -46,8 +46,8 @@ export default function FeaturesPricing({ type }: any) {
           <h2 className="font-display mt-5 text-lg font-medium capitalize">
             {el.type}
           </h2>
-          <h2 className="mt-2 text-base capitalize">{el.description}</h2>
-          <a className="group mt-8 inline-flex items-center justify-center rounded-full bg-white px-4 py-2 text-base font-semibold text-slate-900 hover:bg-blue-50 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-blue-200 active:text-slate-600">
+          <h2 className="mt-2 md:text-base text-sm capitalize">{el.description}</h2>
+          <a className="group mt-8 inline-flex items-center justify-center rounded-full bg-white px-4 py-2 md:text-base text-sm font-semibold text-slate-900 hover:bg-blue-50 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-blue-200 active:text-slate-600">
             Pesan Sekarang
           </a>
           <ul className="order-last mt-10 flex flex-col gap-y-3">

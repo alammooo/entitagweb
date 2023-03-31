@@ -7,13 +7,16 @@ export default function SmallNav() {
     <Navbar
       fluid={true}
       rounded={true}
-      className="md:hidden">
+      className="md:hidden fixed w-screen h-screen z-50">
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <div className="flex w-full flex-col gap-2">
+        <h1 className="text-center text-2xl font-bold mb-5">
+          Entitag
+        </h1>
+        <div className="flex w-full flex-col gap-2 text-center text-xl text-blue-900">
           {links.map((el, i) => (
             <Link
-            className=""
+            className="border-b py-4"
               href={el.hrefTo}
               key={i}>
               {el.name}

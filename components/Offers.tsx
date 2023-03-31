@@ -33,14 +33,14 @@ export default function Offers() {
                 </h3>
                 <p className="mt-2 leading-7 text-gray-600">{el.text}</p>
                 <div className="mt-2 flex items-center gap-x-4">
-                  <h4 className="flex-none text-base font-semibold leading-6 text-blue-600">
+                  <h4 className="flex-none md:text-base text-sm font-semibold leading-6 text-blue-600">
                     What’s included
                   </h4>
                   <div className="h-px flex-auto bg-gray-100" />
                 </div>
                 <ul
                   role="list"
-                  className="mt-4 grid grid-cols-1 gap-3 text-base text-gray-600 sm:grid-cols-3">
+                  className="mt-4 grid grid-cols-1 gap-3 md:text-base text-sm text-gray-600 sm:grid-cols-3">
                   {el.benefit.map((feature) => (
                     <li
                       key={feature}
@@ -58,7 +58,7 @@ export default function Offers() {
                 <div
                   className={`rounded-2xl bg-blue-900 py-10 text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10`}>
                   <div className="mx-auto max-w-xs px-8">
-                    <p className="text-base font-semibold">Starting from</p>
+                    <p className="md:text-base text-sm font-semibold">Starting from</p>
                     <p className="flex items-baseline justify-center gap-x-2">
                       <span className="text-4xl font-bold tracking-wide">
                         {formatCurrency(el.price)}
