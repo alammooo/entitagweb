@@ -7,7 +7,7 @@ export default function Hero() {
   const { openModal, toggleModal } = React.useContext(AppContext)
   return (
     <section className="flex h-screen flex-col justify-between bg-hero-pattern bg-cover text-zinc-800">
-      <div className="h-full w-full">
+      <div className="h-full w-full bg-white bg-opacity-90">
         <div className="relative">
           <nav className={`top-0 mx-auto hidden w-full py-7 md:flex`}>
             <div className="container mx-auto flex max-w-6xl justify-between">
