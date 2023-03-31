@@ -1,16 +1,12 @@
 import Head from "next/head"
 import { Inter } from "next/font/google"
-import Navbar from "@/components/Navbar"
 import Hero from "@/components/Hero"
 import React from "react"
 import Services from "@/components/Services"
 import Offers from "@/components/Offers"
 import Process from "@/components/Process"
-import Works from "@/components/Works"
 import Tech from "@/components/Tech"
-import Footer from "@/components/Footer"
 import Projects from "@/components/Projects"
-import MyModal from "@/components/ContactModal"
 
 const inter = Inter({ subsets: ["latin"] })
 

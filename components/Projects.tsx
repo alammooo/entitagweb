@@ -2,7 +2,6 @@ import { projects } from "@/data/projects"
 import { Carousel, Spinner } from "flowbite-react"
 import Image from "next/image"
 import React from "react"
-import BlueBorder from "./BlueBorder"
 
 export default function Projects() {
   return (

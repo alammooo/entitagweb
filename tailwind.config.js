@@ -16,7 +16,7 @@ module.exports = {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
-        "hero-pattern": "url('../assets/hero-bg-2.jpg')",
+        "hero-pattern": "url('https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg?w=1380&t=st=1680233409~exp=1680234009~hmac=2f02b0a429a1e6c6525012b81f11311908878b53c1bd068ec1574b01417a4637')",
         divider: "url('../assets/divider.jpg')",
       },
       borderRadius: {

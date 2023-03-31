@@ -33,10 +33,10 @@ export default function Offers() {
                 i === 1 ? "lg:flex-row-reverse" : "lg:flex-row"
               }`}>
               <div className="p-8 lg:flex-auto">
-                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                <h3 className="text-2xl font-bold tracking-tight text-gray-900">
                   {el.type}
                 </h3>
-                <p className="mt-2 text-sm leading-7 text-gray-600">
+                <p className="mt-2 leading-7 text-gray-600">
                   {el.text}
                 </p>
                 <div className="mt-2 flex items-center gap-x-4">
@@ -63,12 +63,10 @@ export default function Offers() {
               </div>
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                 <div
-                  className={`rounded-2xl bg-blue-900 py-10  text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10`}>
+                  className={`rounded-2xl bg-blue-900 py-10 text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10`}>
                   <div className="mx-auto max-w-xs px-8">
-                    <p className="text-sm font-semibold">
-                      Grab your website now!
-                    </p>
-                    <p className="mt-6 flex items-baseline justify-center gap-x-2">
+                    <p className="text-sm font-semibold">Starting from</p>
+                    <p className="flex items-baseline justify-center gap-x-2">
                       <span className="text-4xl font-bold tracking-tight">
                         {formatCurrency(el.price)}
                       </span>

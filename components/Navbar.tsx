@@ -16,7 +16,7 @@ export default function Navbar({ show }: any) {
       <div className="container mx-auto flex max-w-6xl items-center justify-between">
         <Link
           href="/"
-          className="text-xl font-black uppercase tracking-wider">
+          className="text-2xl font-black uppercase tracking-wider">
           Entitag
         </Link>
         <div className="flex gap-6 text-sm font-semibold text-zinc-600">

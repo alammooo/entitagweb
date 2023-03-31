@@ -1,6 +1,6 @@
 import { sectionInterface, sectionTitle } from "@/data/sectionTItle"
-import BlueBorder from "./BlueBorder"
 import React from "react"
+import BlueBorder from "./fragments/BlueBorder"
 
 export default function SectionHead({ type }: any) {
   const [data, setData] = React.useState<sectionInterface>()
