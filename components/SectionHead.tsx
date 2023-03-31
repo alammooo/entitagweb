@@ -9,9 +9,9 @@ export default function SectionHead({ type }: any) {
     setData(sectionTitle.find((el) => el.type === type))
   }, [sectionTitle, type])
   return (
-    <div className="mx-auto flex max-w-xl flex-col gap-4 text-center text-base text-slate-400">
+    <div className="mx-auto text-lg flex max-w-xl flex-col gap-2 text-center text-slate-600">
       <h5 className="uppercase text-base">{data?.subTitle}</h5>
-      <h2 className="text-3xl font-medium text-black">{data?.title}</h2>
+      <h2 className="text-5xl font-medium text-black">{data?.title}</h2>
       <BlueBorder />
       <p>{data?.text}</p>
     </div>

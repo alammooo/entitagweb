@@ -5,7 +5,7 @@ import WebAppSvg from "@/svg/WebAppSvg"
 export const workTexts = [
   {
     type: 1,
-    title: "Company Page",
+    title: "Company Profile",
     text: `Salah satu keunggulan layanan kami adalah kecepatan pembuatan. Kami mengerti bahwa waktu adalah faktor krusial dalam mempromosikan bisnis Anda. Landing page buatan kami juga ramah SEO, yang berarti halaman Anda akan mudah ditemukan di mesin pencari seperti Google
     Selain itu, kami selalu menggunakan teknologi terbaru dalam pembuatan landing page Anda, tetap dengan menggunakan native javascript untuk performa kecepatan maximal. Dengan demikian, Anda dapat memastikan bahwa landing page Anda akan berkinerja baik dan dapat ditingkatkan seiring dengan pertumbuhan bisnis Anda.`,
     svgEle: <LandingPageSvg />,
@@ -19,10 +19,8 @@ export const workTexts = [
   },
   {
     type: 3,
-    title: "Online Shop",
-    text: `Shopping with us is easy and convenient. Simply browse our website, add items to your cart, and check out securely using our trusted payment processing system. Plus, with fast and reliable shipping, you'll receive your order in no time. And with regular sales and promotions, as well as our rewards program, you can save even more on your favorite products. Plus, sign up for our newsletter to stay up-to-date on the latest deals and trends.
-
-    `,
+    title: "Toko Online",
+    text: `Berbelanja dengan kami mudah dan nyaman. Cukup jelajahi situs web kami, tambahkan barang ke keranjang Anda, dan lakukan pembayaran dengan aman menggunakan sistem pemrosesan pembayaran terpercaya kami. Selain itu, dengan pengiriman yang cepat dan handal, Anda akan menerima pesanan Anda dalam waktu singkat. Dan dengan penjualan dan promosi reguler, serta program rewards kami, Anda dapat menghemat lebih banyak lagi pada produk favorit Anda. Selain itu, daftarlah untuk newsletter kami agar tetap up-to-date dengan penawaran dan tren terbaru.`,
     svgEle: <MobileAppSvg />,
   },
 ]

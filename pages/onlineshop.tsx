@@ -10,7 +10,7 @@ export default function onlineshop() {
   return (
     <>
       <Head>
-        <title>Online Shop</title>
+        <title>Entitag | Toko Online</title>
       </Head>
       <section className="md:my-24">
         <div
@@ -19,7 +19,7 @@ export default function onlineshop() {
             <h1 className="mb-5 text-4xl font-extrabold text-blue-900">
               {workTexts[2].title}
             </h1>
-            <p className="max-w-xl leading-7 text-zinc-500">
+            <p className="max-w-xl leading-7 text-slate-600">
               {workTexts[2].text}
             </p>
           </div>

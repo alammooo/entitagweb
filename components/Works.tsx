@@ -15,7 +15,7 @@ export default function Works() {
             <h1 className="mb-5 text-4xl font-extrabold text-blue-900">
               {el.title}
             </h1>
-            <p className="max-w-xl leading-7 text-zinc-500">{el.text}</p>
+            <p className="max-w-xl leading-7 text-slate-600">{el.text}</p>
           </div>
           <span className="animate-float">{el.svgEle}</span>
         </div>

@@ -8,7 +8,7 @@ export default function webapplication() {
   return (
     <>
       <Head>
-        <title>Web Application</title>
+        <title>Entitag | Web Application</title>
       </Head>
       <section className="md:my-24">
         <div
@@ -17,7 +17,7 @@ export default function webapplication() {
             <h1 className="mb-5 text-4xl font-extrabold text-blue-900">
               {workTexts[1].title}
             </h1>
-            <p className="max-w-xl leading-7 text-zinc-500">
+            <p className="max-w-xl leading-7 text-slate-600">
               {workTexts[1].text}
             </p>
           </div>

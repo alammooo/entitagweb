@@ -11,7 +11,7 @@ export default function company() {
   return (
     <>
       <Head>
-        <title>Company Profile</title>
+        <title>Entitag | Company Profile</title>
       </Head>
       <section className="md:my-24">
         <div
@@ -20,7 +20,7 @@ export default function company() {
             <h1 className="mb-5 text-4xl font-extrabold text-blue-900">
               {workTexts[0].title}
             </h1>
-            <p className="max-w-xl leading-7 text-zinc-500">
+            <p className="max-w-xl leading-7 text-slate-600">
               {workTexts[0].text}
             </p>
           </div>

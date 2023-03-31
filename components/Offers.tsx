@@ -1,13 +1,7 @@
 import { offerType } from "@/data/offerType"
 import SectionHead from "./SectionHead"
 import { CheckIcon } from "@heroicons/react/20/solid"
-
-const includedFeatures = [
-  "Private forum access",
-  "Member resources",
-  "Entry to annual conference",
-  "Official member t-shirt",
-]
+import Link from "next/link"
 
 export default function Offers() {
   function formatCurrency(amount: any, currency: string = "IDR"): string {
@@ -30,7 +24,7 @@ export default function Offers() {
             <div
               key={i}
               data-aos={i % 2 === 0 ? "fade-right" : "fade-left"}
-              className={`mx-auto mt-4 max-w-2xl rounded-3xl bg-white ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none ${
+              className={`mx-auto mt-4 max-w-2xl rounded-3xl bg-white ring-1 ring-gray-200 lg:mx-0 lg:flex lg:items-center lg:max-w-none ${
                 i === 1 ? "lg:flex-row-reverse" : "lg:flex-row"
               }`}>
               <div className="p-8 lg:flex-auto">
@@ -60,7 +54,7 @@ export default function Offers() {
                   ))}
                 </ul>
               </div>
-              <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+              <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:h-full lg:max-w-md lg:flex-shrink-0">
                 <div
                   className={`rounded-2xl bg-blue-900 py-10 text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10`}>
                   <div className="mx-auto max-w-xs px-8">
@@ -70,14 +64,9 @@ export default function Offers() {
                         {formatCurrency(el.price)}
                       </span>
                     </p>
-                    <a
-                      href="#"
-                      className={`mt-10 block w-full rounded-md bg-blue-600 px-3 py-2 text-center text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600`}>
-                      Purchase Now
-                    </a>
-                    <p className="mt-6 cursor-pointer rounded bg-white px-3 py-2 text-base leading-5 text-gray-800 hover:bg-gray-50">
+                    <Link href={el.linkTo} className="block mt-6 text-lg cursor-pointer rounded bg-white px-7 py-3 leading-5 text-gray-800 hover:bg-gray-50">
                       See more features
-                    </p>
+                    </Link>
                   </div>
                 </div>
               </div>

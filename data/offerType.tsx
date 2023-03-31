@@ -3,6 +3,7 @@ export interface OfferInterface {
   price: number
   text?: string
   benefit: string[]
+  linkTo: string
 }
 export const offerType: OfferInterface[] = [
   {
@@ -18,6 +19,7 @@ export const offerType: OfferInterface[] = [
       "Statistic Visior",
       "Garansi Pemeliharaan",
     ],
+    linkTo: "/company"
   },
   {
     type: "TOKO ONLINE",
@@ -34,6 +36,7 @@ export const offerType: OfferInterface[] = [
       "Integtasi Sistem Pengiriman",
       // "Navigasi antar page",
     ],
+    linkTo: "onlineshop"
   },
   {
     type: "APPLICATION DEVELOPMENT",
@@ -51,5 +54,6 @@ export const offerType: OfferInterface[] = [
       "Aplikasi Custom Sesuai Kebutuhan",
       // "Navigasi antar page",
     ],
+    linkTo:"/webapplication"
   },
 ]

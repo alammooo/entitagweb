@@ -3,6 +3,8 @@ import { links } from "@/data/navLinks"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import React from "react"
+import EntitagLogo from "@/public/favicon.ico"
+import Image from "next/image"
 
 export default function Navbar({ show }: any) {
   const { openModal, toggleModal } = React.useContext(AppContext)
@@ -16,8 +18,8 @@ export default function Navbar({ show }: any) {
       <div className="container mx-auto flex max-w-6xl items-center justify-between">
         <Link
           href="/"
-          className="text-2xl font-black uppercase tracking-wider">
-          Entitag
+          className="text-2xl font-black uppercase tracking-wider flex gap-2 items-center">
+         <Image src={EntitagLogo} alt="entitag-logo" className="w-8 h-8"/> Entitag
         </Link>
         <div className="flex gap-6 text-base font-semibold text-zinc-600">
           {links.map((link) => (

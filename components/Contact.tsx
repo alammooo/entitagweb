@@ -24,14 +24,14 @@ export default function Contact() {
 
   return (
     <section
-      className="bg-white py-5"
+      className="bg-white py-3"
       id="Contact">
-      <h2 className="text-3xl font-medium text-black text-center">Contact Us</h2>
+      <h2 className="text-xl font-medium text-black text-center">Contact Us</h2>
       <ContactDetails />
       <form
         onSubmit={handleSubmit}
         ref={formRef}
-        className="mx-auto mt-7 flex max-w-2xl flex-col gap-2">
+        className="mx-auto mt-2 flex max-w-2xl flex-col gap-2">
         <div>
           <label
             htmlFor="name"

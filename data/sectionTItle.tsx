@@ -33,7 +33,7 @@ export const sectionTitle: sectionInterface[] = [
     type: "tech",
     subTitle: "TECH STACKS",
     title: "Available Tech Stacks",
-    text: "Kami memberikan teknologi Pemprograman terbaru untuk meningkatkan kualitas dan layanan",
+    text: "Kami memberikan teknologi terbaru untuk meningkatkan kualitas dan layanan",
   },
   {
     type: "contact",

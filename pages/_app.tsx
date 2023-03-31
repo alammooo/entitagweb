@@ -13,6 +13,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import Head from "next/head"
 
+
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
   const [show, setShow] = React.useState<boolean>(false)
