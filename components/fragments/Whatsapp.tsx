@@ -2,7 +2,7 @@ import { BsWhatsapp } from "react-icons/bs"
 
 export default function Whatsapp() {
   return (
-    <div className="fixed bottom-3 right-3 z-50 text-white">
+    <div className="fixed bottom-3 left-3 z-50 text-white">
       <a
         target="_blank"
         href="https://wa.me/6282122104908?text=I'm%20interested%20in%20your%20service"
