@@ -3,6 +3,8 @@ import { workTexts } from "@/data/workText"
 import FeaturesPricing from "@/components/fragments/FeaturesPricing"
 import { ONLINESHOP } from "@/interfaces/interfaces"
 import Head from "next/head"
+import { AiFillFire } from "react-icons/ai"
+import { bestFeatures } from "@/data/bestFeatures"
 
 export default function onlineshop() {
   return (
@@ -24,15 +26,17 @@ export default function onlineshop() {
           <span className="animate-float">{workTexts[2].svgEle}</span>
         </div>
         <FeaturesPricing type={ONLINESHOP} />
-        <div className="mx-auto mt-24 flex items-center justify-center gap-10 w-fit border shadow-md p-5 rounded">
-          <h1 className="text-center text-2xl font-semibold">Fitur Andalan</h1>
-          <ul className="text-lg">
-            <li>Sales Report</li>
-            <li>Live Chat</li>
-            <li>Integrasi Jasa Pengiriman</li>
-            <li>Konfirmasi Pembayaran Otomatis</li>
-            <li>Automatic Stock Update</li>
-            <li>Integrasi Payment Gateway</li>
+        <div className="mx-auto mt-10 flex w-fit items-center justify-center gap-10 rounded border p-5 shadow">
+          <h1 className="text-center text-xl font-semibold">Fitur Andalan</h1>
+          <ul className="flex items-center gap-3 text-lg">
+            {bestFeatures[0].map((item: string, i: number) => (
+              <li
+                className="flex items-center gap-2"
+                key={i}>
+                <AiFillFire />
+                {item}
+              </li>
+            ))}
           </ul>
         </div>
         <Process />

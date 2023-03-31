@@ -1,9 +1,11 @@
-import { workTexts } from "@/data/workText"
 import Head from "next/head"
 import React from "react"
 import Process from "@/components/Process"
 import { COMPANYPROFILE } from "@/interfaces/interfaces"
 import FeaturesPricing from "@/components/fragments/FeaturesPricing"
+import { AiFillFire } from "react-icons/ai"
+import { bestFeatures } from "@/data/bestFeatures"
+import { workTexts } from "@/data/workText"
 
 export default function company() {
   return (
@@ -25,15 +27,17 @@ export default function company() {
           <span className="animate-float">{workTexts[0].svgEle}</span>
         </div>
         <FeaturesPricing type={COMPANYPROFILE} />
-        <div className="mx-auto mt-24 flex items-center justify-center gap-10 w-fit border shadow-md p-5 rounded">
-          <h1 className="text-center text-2xl font-semibold">Fitur Andalan</h1>
-          <ul className="text-lg">
-            <li>Email Bisnis</li>
-            <li>Live Chat</li>
-            <li>Statistik Visitor</li>
-            <li>Single Page Application</li>
-            <li>Integtate API</li>
-            <li>Social Media Log In</li>
+        <div className="mx-auto mt-10 flex w-fit items-center justify-center gap-10 rounded border p-5 shadow">
+          <h1 className="text-center text-xl font-semibold">Fitur Andalan</h1>
+          <ul className="flex items-center gap-3 text-lg">
+            {bestFeatures[1].map((item: string, i: number) => (
+              <li
+                className="flex items-center gap-2"
+                key={i}>
+                <AiFillFire />
+                {item}
+              </li>
+            ))}
           </ul>
         </div>
         <Process />

@@ -28,6 +28,7 @@ export default function Offers() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           {offerType.map((el, i) => (
             <div
+              key={i}
               data-aos={i % 2 === 0 ? "fade-right" : "fade-left"}
               className={`mx-auto mt-4 max-w-2xl rounded-3xl bg-white ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none ${
                 i === 1 ? "lg:flex-row-reverse" : "lg:flex-row"
@@ -36,9 +37,7 @@ export default function Offers() {
                 <h3 className="text-2xl font-bold tracking-tight text-gray-900">
                   {el.type}
                 </h3>
-                <p className="mt-2 leading-7 text-gray-600">
-                  {el.text}
-                </p>
+                <p className="mt-2 leading-7 text-gray-600">{el.text}</p>
                 <div className="mt-2 flex items-center gap-x-4">
                   <h4 className="flex-none text-sm font-semibold leading-6 text-blue-600">
                     What’s included
