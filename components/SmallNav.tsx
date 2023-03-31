@@ -12,7 +12,7 @@ export default function SmallNav() {
         as="div"
         className="relative">
         <div>
-          <Menu.Button className="inline-flex w-full justify-between rounded-md bg-white p-3 font-medium text-black shadow hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+          <Menu.Button className="inline-flex w-full justify-between rounded-md bg-white p-3 font-medium text-black shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
             <RxHamburgerMenu
               className="-mr-1 ml-2 h-5 w-5 text-blue-600"
               aria-hidden="true"
