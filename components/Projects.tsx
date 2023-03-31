@@ -13,7 +13,7 @@ export default function Projects() {
         <div className="mx-auto h-px w-20 bg-gradient-to-r from-transparent via-white to-transparent mt-2"></div>
         <Carousel
           slideInterval={5000}
-          className="sm:h-[900px] md:h-[600px] px-5 md:px-0">
+          className="h-[950px] md:h-[600px] px-5 md:px-0">
           {projects.map((el, i) => (
             <div
               className="container mx-auto flex max-w-6xl flex-col items-center justify-between md:flex-row"
