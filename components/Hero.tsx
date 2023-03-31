@@ -33,11 +33,11 @@ export default function Hero() {
               </div>
             </div>
           </nav>
-          <div className="mx-auto flex flex-col items-center gap-2 pt-20 text-center md:gap-6">
+          <div className="mx-auto flex flex-col items-center gap-2 2xl:pt-20 text-center md:gap-6">
             <h4 className="text-2xl font-bold uppercase tracking-wide">
               ENTITAG TECHNOLOGY
             </h4>
-            <h1 className="my-6 text-2xl font-bold tracking-wide 2xl:text-8xl">
+            <h1 className="my-6 text-2xl font-bold tracking-wide md:text-7xl 2xl:text-8xl">
               Web.
               <span className="bg-gradient-to-b from-blue-500 to-blue-700 bg-clip-text text-transparent">
                 Appplication. <br />
