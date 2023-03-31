@@ -13,7 +13,7 @@ export const companyProfilePrice = [
       "Blog/News",
       "Call To Action",
     ],
-    type: "Regular",
+    type: "Starter",
   },
   {
     price: 2500000,
@@ -121,7 +121,7 @@ export const webAppPrice = [
       "Blog/News",
       "Call To Action",
     ],
-    type: "Regular",
+    type: "Starter",
   },
   {
     price: "Contact Us",
@@ -136,7 +136,7 @@ export const webAppPrice = [
       "Social Media Log In",
       "Editable Form/ News",
     ],
-    type: "Premium",
+    type: "Enterprise",
   },
   {
     price: 50000000,

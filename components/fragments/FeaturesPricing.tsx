@@ -34,43 +34,46 @@ export default function FeaturesPricing({ type }: any) {
       className={`mx-auto grid max-w-6xl justify-center md:grid-cols-3 md:gap-10`}>
       {listData?.map((el: any, i: number) => (
         <div
-          key={i}
-          className={`mt-2 flex h-fit flex-col gap-5 overflow-hidden rounded-lg border-slate-50 bg-white text-center shadow-lg md:mt-7 ${
-            el.length < 2 ? "col-end-3" : ""
+          className={`order-first flex flex-col rounded-3xl px-6 py-8 text-white sm:px-8 lg:order-none ${
+            i === 1 ? "bg-blue-600" : "bg-blue-950"
           }`}>
-          <div
-            className={`${
-              i === 1 ? "bg-blue-900" : "bg-blue-500"
-            } py-7 text-zinc-50`}>
-            <h5 className="text-base font-medium">Mulai dari</h5>
-            <h1 className="text-center text-4xl font-semibold">
-              {typeof el.price === "number"
-                ? formatCurrency(el.price)
-                : "Contact Us"}
-            </h1>
-          </div>
-          <div className="">
-            <h1 className="my-2 text-center text-xl font-bold uppercase text-black">
-              {el.type}
-            </h1>
-            <ul className="flex flex-col text-center">
-              {el.benefit.map((el: any, i: number) => (
-                <li
-                  className="border-b border-zinc-200 py-3 text-slate-500"
-                  key={i}>
-                  {el}
-                </li>
-              ))}
-            </ul>
-            <button
-              className={`mx-auto mb-10 mt-7 block w-full max-w-xs rounded py-2.5 text-center text-sm font-medium text-white shadow-lg duration-300 hover:scale-105 ${
-                i === 1
-                  ? "bg-blue-900"
-                  : "bg-gradient-to-r from-blue-400 to-blue-500"
-              }`}>
-              Purchase Now
-            </button>
-          </div>
+          <h5 className="order-first text-4xl font-bold tracking-tight text-white">
+            {typeof el.price === "number"
+              ? formatCurrency(el.price)
+              : "Contact Us"}
+          </h5>
+          <h2 className="font-display mt-5 text-lg font-medium capitalize text-white">
+            {el.type}
+          </h2>
+          <h2 className="mt-2 text-base text-white">
+            Perfect for small / medium sized businesses.
+          </h2>
+          <a className="group mt-8 inline-flex items-center justify-center rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-blue-50 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-blue-200 active:text-slate-600">
+            Pesan Sekarang
+          </a>
+          <ul className="order-last mt-10 flex flex-col gap-y-3 text-white">
+            {el.benefit.map((e: any, i: number) => (
+              <li
+                className="flex"
+                key={i}>
+                <svg className="h-6 w-6 flex-none fill-current stroke-current text-white">
+                  <path
+                    d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
+                    stroke-width="0"></path>
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="8.25"
+                    fill="none"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></circle>
+                </svg>
+                <span className="ml-4">{e}</span>
+              </li>
+            ))}
+            <li></li>
+          </ul>
         </div>
       ))}
     </div>

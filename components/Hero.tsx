@@ -6,7 +6,7 @@ import React from "react"
 export default function Hero() {
   const { openModal, toggleModal } = React.useContext(AppContext)
   return (
-    <section className="flex h-screen flex-col justify-between bg-hero-pattern bg-cover text-zinc-700">
+    <section className="flex h-screen flex-col justify-between bg-hero-pattern bg-cover text-zinc-800">
       <div className="h-full w-full">
         <div className="relative">
           <nav className={`top-0 mx-auto hidden w-full py-7 md:flex`}>
@@ -44,7 +44,7 @@ export default function Hero() {
               </span>
               Creator.
             </h1>
-            <p className="max-w-xl text-xl text-slate-500">
+            <p className="max-w-xl text-xl">
               Launch your campaign and benefit from our expertise on designing
               and managing your company with newest web technology
             </p>
