@@ -8,7 +8,7 @@ import { useRouter } from "next/router"
 import MyModal from "@/components/ContactModal"
 import Footer from "@/components/Footer"
 import Whatsapp from "@/components/fragments/Whatsapp"
-import SmallNav from "@/components/fragments/SmallNav"
+import SmallNav from "@/components/SmallNav"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import Head from "next/head"
@@ -75,7 +75,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <title>Entitag Web, ultimate web creator</title>
       </Head>
-      <AppContext.Provider value={{ openModal, toggleModal }}>
+      <AppContext.Provider value={{ openModal, toggleModal, show }}>
         <Navbar show={show} />
         <SmallNav />
         <Whatsapp />
