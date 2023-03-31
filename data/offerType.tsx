@@ -8,6 +8,7 @@ export const offerType: OfferInterface[] = [
   {
     type: "COMPANY PROFILE",
     price: 1500000,
+    text: "",
     benefit: [
       "Newest Technology Stack",
       "Mobile Friendly",
@@ -37,6 +38,7 @@ export const offerType: OfferInterface[] = [
   {
     type: "APPLICATION DEVELOPMENT",
     price: 10000000,
+    text: "",
     benefit: [
       "Aplikasi sistem HR",
       "Aplikasi untuk Inventory Management",
