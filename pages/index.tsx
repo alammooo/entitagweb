@@ -28,7 +28,7 @@ export default function Home() {
           content="3LH65QcU8WCkUJcJDBXZs-s0kjmJhXlrj8dqQWzcauE"
         />
       </Head>
-        <main className="overflow-hidden scroll-smooth pt-12 md:pt-0">
+        <main className="overflow-hidden scroll-smooth pt-8 md:pt-0">
           <Hero />
           <Services />
           <Offers />

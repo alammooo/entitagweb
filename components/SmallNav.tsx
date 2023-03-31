@@ -1,30 +1,51 @@
+import { Menu, Transition } from "@headlessui/react"
+import { Fragment, useEffect, useRef, useState } from "react"
+import { ChevronDownIcon } from "@heroicons/react/20/solid"
+import { RxHamburgerMenu } from "react-icons/rx"
 import { links } from "@/data/navLinks"
-import { Navbar } from "flowbite-react"
 import Link from "next/link"
 
 export default function SmallNav() {
-  function closeNav(){
-
-  }
   return (
-    <Navbar
-      fluid={true}
-      className="md:hidden fixed z-50 w-screen shadow mt-0">
-      <Navbar.Toggle />
-      <h1 className="text-center text-2xl font-bold">Entitag</h1>
-      <Navbar.Collapse className="w-screen h-screen">
-        <div className="flex w-full flex-col gap-2 text-center text-xl text-blue-900">
-          {links.map((el, i) => (
-            <Link
-            className="border-b py-4"
-              href={el.hrefTo}
-              key={i} 
-              onClick={closeNav}>
-              {el.name}
-            </Link>
-          ))}
+    <div className="fixed z-50 w-screen text-right">
+      <Menu
+        as="div"
+        className="relative">
+        <div>
+          <Menu.Button className="inline-flex w-full justify-between rounded-md bg-white p-3 font-medium text-black shadow hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+            <RxHamburgerMenu
+              className="-mr-1 ml-2 h-5 w-5 text-blue-600"
+              aria-hidden="true"
+            />
+          </Menu.Button>
         </div>
-      </Navbar.Collapse>
-    </Navbar>
+        <Transition
+          as={Fragment}
+          enter="transition ease-out duration-100"
+          enterFrom="transform opacity-0 scale-95"
+          enterTo="transform opacity-100 scale-100"
+          leave="transition ease-in duration-75"
+          leaveFrom="transform opacity-100 scale-100"
+          leaveTo="transform opacity-0 scale-95">
+          <Menu.Items className="absolute h-screen w-full origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+            {links.map((el, i) => (
+              <div className="px-1 py-1">
+                <Menu.Item key={i}>
+                  {({ active }) => (
+                    <Link
+                      href={el.hrefTo}
+                      className={`${
+                        active ? "bg-blue-500 text-white" : "text-gray-900"
+                      } group flex w-full items-center rounded-md px-2 py-2 text-xl justify-center`}>
+                      {el.name}
+                    </Link>
+                  )}
+                </Menu.Item>
+              </div>
+            ))}
+          </Menu.Items>
+        </Transition>
+      </Menu>
+    </div>
   )
 }

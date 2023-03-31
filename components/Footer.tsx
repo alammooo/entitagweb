@@ -7,7 +7,7 @@ import { HiOutlineMailOpen } from "react-icons/hi"
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-800 pt-10 text-white">
+    <footer className="bg-zinc-800 pt-8 text-white">
       <div className="container mx-auto w-full p-4 sm:p-6">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -37,7 +37,7 @@ export default function Footer() {
                 info@entitagtech.com
               </p>
             </div>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 mt-4 md:mt-0">
               <h2 className="mb-4 text-lg font-semibold uppercase">Links</h2>
               {links.map((el, i) => (
                 <Link

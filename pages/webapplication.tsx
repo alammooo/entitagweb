@@ -10,7 +10,7 @@ export default function webapplication() {
       <Head>
         <title>Entitag | Application Development</title>
       </Head>
-      <section className="md:my-24 pt-12 md:pt-0">
+      <section className="md:my-24 pt-8 md:pt-0">
         <div
           className={`mx-auto flex max-w-6xl flex-col items-center gap-5 md:flex-row`}>
           <div className="p-5 md:p-0">
