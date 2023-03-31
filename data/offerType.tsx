@@ -30,7 +30,7 @@ export const offerType: OfferInterface[] = [
       "Integrasi Sistem Pembayaran",
       "Sales Report",
       "Garansi Pemeliharaan",
-      "Integtasi Payment Gateway",
+      "Integtasi Sistem Pengiriman",
       // "Navigasi antar page",
     ],
   },
