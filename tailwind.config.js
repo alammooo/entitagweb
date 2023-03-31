@@ -16,7 +16,7 @@ module.exports = {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
-        "hero-pattern": "url('../assets/hero-bg-2.jpg')",
+        "hero-pattern": "url('../assets/hero-pattern.jpg')",
         divider: "url('../assets/divider.jpg')",
       },
       borderRadius: {
