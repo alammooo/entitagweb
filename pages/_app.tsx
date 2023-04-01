@@ -12,7 +12,9 @@ import SmallNav from "@/components/SmallNav"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import Head from "next/head"
+import { Inter } from "next/font/google"
 
+const inter = Inter({ subsets: ["latin"] })
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -60,14 +62,16 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Entitag Tech, Jasa Pembuatan Website dan Aplikasi Web</title>
       </Head>
       <AppContext.Provider value={{ openModal, toggleModal, show }}>
-        <Navbar show={show} />
-        <SmallNav />
-        <Whatsapp />
-        <Component {...pageProps} />
-        <Footer />
-        <MyModal />
-        <Analytics />
+        <main className={inter.className}>
+          <Navbar show={show} />
+          <SmallNav />
+          <Whatsapp />
+          <Component {...pageProps} />
+          <Footer />
+          <MyModal />
+        </main>
       </AppContext.Provider>
+      <Analytics />
     </>
   )
 }

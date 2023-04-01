@@ -7,7 +7,7 @@ export default function MyModal() {
   const { openModal, toggleModal } = useContext(AppContext)
 
   return (
-    <>
+    <div>
       {/* <div className="fixed inset-0 flex items-center justify-center">
         <button
           type="button"
@@ -54,6 +54,6 @@ export default function MyModal() {
           </div>
         </Dialog>
       </Transition>
-    </>
+    </div>
   )
 }

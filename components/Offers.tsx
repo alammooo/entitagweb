@@ -40,7 +40,7 @@ export default function Offers() {
                 </div>
                 <ul
                   role="list"
-                  className="mt-4 grid grid-cols-1 gap-3 md:text-base text-sm text-gray-600 sm:grid-cols-3">
+                  className="mt-4 grid grid-cols-1 gap-3 text-sm text-gray-600 sm:grid-cols-3">
                   {el.benefit.map((feature) => (
                     <li
                       key={feature}
@@ -56,16 +56,16 @@ export default function Offers() {
               </div>
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:h-full lg:max-w-md lg:flex-shrink-0">
                 <div
-                  className={`rounded-2xl bg-blue-900 py-10 text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-10`}>
+                  className={`rounded-2xl bg-blue-900 h-full py-10 text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center`}>
                   <div className="mx-auto max-w-xs px-8">
-                    <p className="md:text-base text-sm font-semibold">Starting from</p>
+                    <p className="md:text-base text-sm font-semibold text-zinc-200">Starting from</p>
                     <p className="flex items-baseline justify-center gap-x-2">
                       <span className="text-4xl font-bold tracking-wide">
                         {formatCurrency(el.price)}
                       </span>
                     </p>
                     <Link href={el.linkTo} className="block mt-6 text-lg cursor-pointer rounded bg-white px-7 py-3 leading-5 text-gray-800 hover:bg-gray-50">
-                      See more features
+                      Learn More
                     </Link>
                   </div>
                 </div>
