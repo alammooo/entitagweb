@@ -41,7 +41,7 @@ export const offerType: OfferInterface[] = [
   {
     type: "APPLICATION DEVELOPMENT",
     price: 10000000,
-    text: "Entitag Tech adalah perusahaan pembuatan Software bisnis profesional, membantu perusahaan mengelola proses bisnis mereka dengan lebih efektif dan efisien. Kami akan memberikan insight bisnis yang membuat bisnis dapat terus berkembang dan lebih produktif ",
+    text: "Entitag Tech adalah perusahaan pembuatan Software bisnis profesional, membantu perusahaan mengelola proses bisnis dengan lebih efektif dan efisien. Kami selalu memberikan insight bisnis yang membuat perusahaan anda dapat terus berkembang dan lebih produktif ",
     benefit: [
       "Aplikasi sistem HR",
       "Aplikasi untuk Inventory Management",
