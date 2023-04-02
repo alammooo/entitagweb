@@ -26,7 +26,7 @@ export default function Footer() {
               </span>
             </a>
           </div>
-          <div className="grid md:grid-cols-2 sm:gap-6 md:gap-48">
+          <div className="grid sm:gap-6 md:grid-cols-2 md:gap-48">
             <div className="flex flex-col gap-2">
               <h2 className="mb-4 text-lg font-semibold uppercase">Contact</h2>
               <p className="flex items-center gap-2">
@@ -58,9 +58,10 @@ export default function Footer() {
           </span>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/abdullah-alamm/"
+              target="_blank"
               className="text-white">
-              <FaLinkedin className="w-5 h-5 fill-white"/>
+              <FaLinkedin className="h-5 w-5 fill-white" />
               <span className="sr-only">LinkedIn</span>
             </a>
             <a
