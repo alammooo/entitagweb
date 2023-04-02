@@ -7,6 +7,7 @@ export default function Document() {
         <link
           rel="icon"
           href="/favicon.ico"
+          type="image/x-icon"
         />
         <meta
           name="google-site-verification"
@@ -14,7 +15,7 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Entitag Technology, jasa pembuatan website dan aplikasi web untuk bisnis anda, menggunakan teknologi terkini yang memberikan pengalaman terbaik dan performa terbaik untuk website dan aplikasi web anda"
+          content="Entitag, jasa pembuatan website dan aplikasi web untuk bisnis anda, menggunakan teknologi terkini yang memberikan pengalaman dan performa terbaik"
         />
         <meta charSet="UTF-8" />
         <meta

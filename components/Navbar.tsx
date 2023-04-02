@@ -16,6 +16,7 @@ export default function Navbar({ show }: any) {
       } fixed top-0 z-50 mx-auto hidden w-full bg-white bg-opacity-90 shadow-md backdrop-blur-md duration-300 md:flex`}>
       <div className="container mx-auto flex max-w-6xl items-center justify-between">
         <Link
+          title="entitagLogo"
           href="/"
           className="text-2xl font-black uppercase tracking-wider flex gap-2 items-center">
          <Image src={EntitagLogo} alt="entitag-logo" className="w-8 h-8"/> Entitag
@@ -23,6 +24,7 @@ export default function Navbar({ show }: any) {
         <div className="flex gap-6 text-sm font-semibold text-zinc-600">
           {links.map((link) => (
             <Link
+              title="entitag links"
               href={link.hrefTo}
               className={`cursor-pointer hover:text-blue-500 ${
                 router.pathname === link.hrefTo ? "text-blue-500" : ""

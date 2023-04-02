@@ -10,7 +10,7 @@ export default function SectionHead({ type }: any) {
   }, [sectionTitle, type])
   return (
     <div className="mx-auto flex max-w-xl flex-col gap-2 text-center text-slate-600">
-      <h3 className="uppercase text-sm">{data?.subTitle}</h3>
+      <span className="uppercase text-sm">{data?.subTitle}</span>
       <h2 className="text-4xl font-medium text-black">{data?.title}</h2>
       <BlueBorder />
       <p className="">{data?.text}</p>

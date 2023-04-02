@@ -28,9 +28,9 @@ export default function Offers() {
                 i === 1 ? "lg:flex-row-reverse" : "lg:flex-row"
               }`}>
               <div className="p-8 lg:flex-auto">
-                <h3 className="text-2xl font-bold tracking-tight text-gray-900">
+                <span className="text-2xl font-bold tracking-tight text-gray-900">
                   {el.type}
-                </h3>
+                </span>
                 <p className="mt-2 leading-7 text-gray-600">{el.text}</p>
                 <div className="mt-2 flex items-center gap-x-4">
                   <h4 className="flex-none md:text-base text-sm font-semibold leading-6 text-blue-600">
@@ -64,7 +64,7 @@ export default function Offers() {
                         {formatCurrency(el.price)}
                       </span>
                     </p>
-                    <Link href={el.linkTo} className="block mt-6 text-lg cursor-pointer rounded bg-white px-7 py-3 leading-5 text-gray-800 hover:bg-gray-50">
+                    <Link title="Lihat Detail" href={el.linkTo} className="block mt-6 text-lg cursor-pointer rounded bg-white px-7 py-3 leading-5 text-gray-800 hover:bg-gray-50">
                       Lihat Detail
                     </Link>
                   </div>

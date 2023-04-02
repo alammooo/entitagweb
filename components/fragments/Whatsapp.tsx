@@ -9,7 +9,7 @@ export default function Whatsapp() {
         href="https://wa.me/6285156579033?text=Saya%20tertarik%20untuk%20membuat%20website"
         className="flex max-w-fit items-center justify-end gap-2 rounded-lg bg-emerald-400 px-2 py-1.5">
         <BsWhatsapp className="h-5 w-5" />
-        <h3>Konsultasi Gratis</h3>
+        <span>Konsultasi Gratis</span>
       </a>
     </div>
   )

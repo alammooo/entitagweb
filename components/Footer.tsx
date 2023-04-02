@@ -43,6 +43,7 @@ export default function Footer() {
               <h2 className="mb-4 text-lg font-semibold uppercase">Links</h2>
               {links.map((el, i) => (
                 <Link
+                title="entitag links"
                   key={i}
                   href={el.hrefTo}
                   className="flex items-center gap-2">

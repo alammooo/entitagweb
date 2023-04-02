@@ -40,11 +40,11 @@ export default function FeaturesPricing({ type }: any) {
           className={`order-first flex flex-col rounded-3xl px-6 py-8 text-slate-200 sm:px-8 lg:order-none ${
             i === 1 ? "bg-blue-600" : "bg-blue-950"
           }`}>
-          <h3 className="order-first text-4xl font-semibold tracking-tight text-white">
+          <span className="order-first text-4xl font-semibold tracking-tight text-white">
             {typeof el.price === "number"
               ? formatCurrency(el.price)
               : "Konsultasi Gratis"}
-          </h3>
+          </span>
           <h2 className="font-display mt-5 text-lg font-medium capitalize">
             {el.type}
           </h2>

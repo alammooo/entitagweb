@@ -35,6 +35,7 @@ export default function SmallNav() {
                 <Menu.Item>
                   {({ active }) => (
                     <Link
+                      title={el.name}
                       href={el.hrefTo}
                       className={`${
                         active ? "bg-blue-500 text-white" : "text-gray-900"

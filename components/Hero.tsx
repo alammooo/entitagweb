@@ -17,6 +17,7 @@ export default function Hero() {
             }`}>
             <div className="container mx-auto flex max-w-6xl justify-between">
               <Link
+              title="entitagLogo"
                 href="/"
                 className="flex items-center gap-2 text-2xl font-bold uppercase tracking-wider">
                 <Image
@@ -29,6 +30,7 @@ export default function Hero() {
               <div className="flex gap-6 text-sm font-semibold md:text-base">
                 {links.map((link, i) => (
                   <Link
+                  title="entitag links"
                     href={link.hrefTo}
                     className={`cursor-pointer hover:text-blue-500 ${
                       link.name === "Home" ? "text-blue-500" : ""
@@ -56,6 +58,7 @@ export default function Hero() {
             </p>
 
             <Link
+              title="Konsultasi Gratis"
               href={"/contacts"}
               className="rounded bg-blue-500 px-14 py-3.5 text-center font-medium text-white shadow-lg duration-300 hover:bg-blue-600">
               Konsultasi Gratis
