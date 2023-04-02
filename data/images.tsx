@@ -8,16 +8,47 @@ import Next from "@/svg/tech-stacks/next.svg"
 import Redux from "@/svg/tech-stacks/redux.svg"
 import Tailwind from "@/svg/tech-stacks/tailwind.svg"
 import Vue from "@/svg/tech-stacks/vue.svg"
+import { ImageListInterface } from "@/interfaces/interfaces"
 
 export const image = [
-  Node,
-  Postgres,
-  Go,
-  Prisma,
-  Mongo,
-  Javascript,
-  Next,
-  Redux,
-  Tailwind,
-  Vue,
+  {
+    name: "Node.js",
+    img: Node,
+  },
+  {
+    name: "PostgreSQL",
+    img: Postgres,
+  },
+  {
+    name: "Golang",
+    img: Go,
+  },
+  {
+    name: "Prisma",
+    img: Prisma,
+  },
+  {
+    name: "MongoDB",
+    img: Mongo,
+  },
+  {
+    name: "Javascript",
+    img: Javascript,
+  },
+  {
+    name: "Next.js",
+    img: Next,
+  },
+  {
+    name: "Redux Toolkit",
+    img: Redux,
+  },
+  {
+    name: "Tailwind CSS",
+    img: Tailwind,
+  },
+  {
+    name: "Vue",
+    img: Vue,
+  },
 ]

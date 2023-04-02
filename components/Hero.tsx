@@ -6,11 +6,7 @@ import EntitagLogo from "@/public/favicon.ico"
 import Image from "next/image"
 
 export default function Hero() {
-  /* Layanan pembuatan website dan aplikasi mobile yang terbaik untuk membantu bisnis Anda tumbuh dan berkembang.
--Kami membantu Anda menghadirkan brand Anda ke pasar digital dengan tampilan yang menarik dan fungsionalitas yang optimal.
--Solusi terbaik untuk membangun website company profile dan toko online Anda yang mudah diakses dan responsif pada segala perangkat.
--Dapatkan website dan aplikasi mobile terbaik dengan proses pengerjaan yang mudah dan cepat.
--Kami mengembangkan aplikasi mobile untuk bisnis Anda, sehingga dapat menjangkau pelanggan dengan cara yang lebih mudah dan efisien. */
+  
   const { show } = React.useContext(AppContext)
   return (
     <section className="flex flex-col justify-between bg-hero-pattern bg-cover text-zinc-800 md:h-screen">
@@ -44,7 +40,7 @@ export default function Hero() {
             </div>
           </nav>
           <div className="mx-auto flex flex-col items-center gap-5 text-center md:gap-6 2xl:pt-20">
-            <h1 className="my-6 text-5xl font-black tracking-wide md:text-6xl 2xl:text-8xl">
+            <h1 className="my-6 text-5xl font-black tracking-wide md:text-7xl 2xl:text-8xl">
               Web.
               <br className="block md:hidden" />
               <span className="bg-gradient-to-b from-blue-500 to-blue-700 bg-clip-text text-transparent">

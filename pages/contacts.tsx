@@ -36,15 +36,15 @@ export default function Contact() {
         Kami berusaha mempersiapkan yang terbaik dan memberikan pelayanan
         maximal untuk anda
       </p>
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid md:grid-cols-3 md:gap-20">
         <form
           onSubmit={handleSubmit}
           ref={formRef}
-          className="col-span-2 flex flex-col">
+          className="col-span-2 flex flex-col px-6 md:px-0 mb-7 md:mb-0">
           <div className="mb-6">
             <label
               htmlFor="nama"
-              className="mb-2 block text-sm font-medium text-gray-900 dark:text-white">
+              className="mb-2 block text-sm font-medium text-gray-900">
               Nama
             </label>
             <input
@@ -60,7 +60,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="telephone"
-                className="mb-2 block text-sm font-medium text-gray-900 dark:text-white">
+                className="mb-2 block text-sm font-medium text-gray-900">
                 Nomor Telefon
               </label>
               <input
@@ -75,7 +75,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="email"
-                className="mb-2 block text-sm font-medium text-gray-900 dark:text-white">
+                className="mb-2 block text-sm font-medium text-gray-900">
                 Email
               </label>
               <input
@@ -91,7 +91,7 @@ export default function Contact() {
           <div className="mb-6">
             <label
               htmlFor="company"
-              className="mb-2 block text-sm font-medium text-gray-900 dark:text-white">
+              className="mb-2 block text-sm font-medium text-gray-900">
               Subject
             </label>
             <input
@@ -123,17 +123,17 @@ export default function Contact() {
             {state.submitting ? "Mengirim..." : "Kirim Pesan"}
           </button>
         </form>
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-10 px-7 md:px-0">
           <div className="flex flex-col items-center gap-4 text-center">
             <div className="max-w-fit rounded-md bg-zinc-100 p-4">
-              <HiBuildingOffice2 className="h-10 w-10 fill-zinc-600" />
+              <HiBuildingOffice2 className="h-10 w-10 fill-blue-600" />
             </div>
             <h2 className="text-xl font-bold">Alamat Perusahaan</h2>
             <p>Pondok Bukit Agung B5, Sumurboto, Banyumanik, 50269 Semarang</p>
           </div>
           <div className="flex flex-col items-center gap-4 text-center">
             <div className="max-w-fit rounded-md bg-zinc-100 p-4">
-              <MdEmail className="h-10 w-10 fill-zinc-600" />
+              <MdEmail className="h-10 w-10 fill-blue-600" />
             </div>
             <h2 className="text-xl font-bold">Email</h2>
             <span>
@@ -143,7 +143,7 @@ export default function Contact() {
           </div>
           <div className="flex flex-col items-center gap-4 text-center">
             <div className="max-w-fit rounded-md bg-zinc-100 p-4">
-              <IoCall className="h-10 w-10 fill-zinc-600" />
+              <IoCall className="h-10 w-10 fill-blue-600" />
             </div>
             <h2 className="text-xl font-bold">Nomor Telefon</h2>
             <span>

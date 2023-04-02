@@ -8,8 +8,8 @@ import { FaLinkedin } from "react-icons/fa"
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-800 pt-8 text-white">
-      <div className="container mx-auto w-full p-4 sm:p-6">
+    <footer className="bg-zinc-800 text-white">
+      <div className="container mx-auto w-full py-16 pl-7 md:pl-0">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a
@@ -26,7 +26,7 @@ export default function Footer() {
               </span>
             </a>
           </div>
-          <div className="grid sm:grid-cols-3 sm:gap-6 md:gap-16">
+          <div className="grid md:grid-cols-2 sm:gap-6 md:gap-48">
             <div className="flex flex-col gap-2">
               <h2 className="mb-4 text-lg font-semibold uppercase">Contact</h2>
               <p className="flex items-center gap-2">
@@ -38,7 +38,7 @@ export default function Footer() {
                 info@entitagtech.com
               </p>
             </div>
-            <div className="mt-4 flex flex-col gap-2 md:mt-0">
+            <div className="mt-7 flex flex-col gap-2 md:mt-0">
               <h2 className="mb-4 text-lg font-semibold uppercase">Links</h2>
               {links.map((el, i) => (
                 <Link
