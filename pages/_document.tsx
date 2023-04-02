@@ -25,6 +25,7 @@ export default function Document() {
           name="author"
           content="Abdullah Alam | Entitag Technology Team"
         />
+        <meta name="robots" content="index, follow"/>
       </Head>
       <body>
         <Main />

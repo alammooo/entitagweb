@@ -28,7 +28,7 @@ export default function Contact() {
   return (
     <>
     <Head>
-      <title>Entitag Tech | Kontak Kami</title>
+      <title>Entitag | Kontak Kami</title>
     </Head>
      <section className="mx-auto flex max-w-7xl flex-col gap-4 py-32">
       <h1 className="text-center text-4xl font-bold">Kontak Kami</h1>
@@ -129,7 +129,7 @@ export default function Contact() {
               <HiBuildingOffice2 className="h-10 w-10 fill-blue-600" />
             </div>
             <h2 className="text-xl font-bold">Alamat Perusahaan</h2>
-            <p>Pondok Bukit Agung B5, Sumurboto, Banyumanik, 50269 Semarang</p>
+            <a href="https://goo.gl/maps/heauXY83WAQmftY79" target="_blank">Pondok Bukit Agung B5, Sumurboto, Banyumanik, 50269 Semarang</a>
           </div>
           <div className="flex flex-col items-center gap-4 text-center">
             <div className="max-w-fit rounded-md bg-zinc-100 p-4">

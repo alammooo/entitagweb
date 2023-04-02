@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jasa Pembuatan Website dan Aplikasi Web</title>
+        <title>Entitag | Jasa Pembuatan Website dan Aplikasi Web</title>
         <meta
           name="description"
           content="Entitag Technology, jasa pembuatan website dan aplikasi web untuk bisnis anda, menggunakan teknologi terkini yang memberikan pengalaman terbaik dan performa terbaik untuk website dan aplikasi web anda"
@@ -27,15 +27,16 @@ export default function Home() {
           name="google-site-verification"
           content="3LH65QcU8WCkUJcJDBXZs-s0kjmJhXlrj8dqQWzcauE"
         />
+        <meta name="robots" content="index, follow"/>
       </Head>
-        <main className="overflow-hidden scroll-smooth pt-8 md:pt-0">
+        <section className="overflow-hidden scroll-smooth pt-8 md:pt-0">
           <Hero />
           <Services />
           <Offers />
           <Process />
           <Projects />
           <Tech />
-        </main>
+        </section>
     </>
   )
 }
