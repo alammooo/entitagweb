@@ -11,7 +11,7 @@ export default function Process() {
             className={`flex flex-col items-center gap-7`}
             key={i}>
             <div className="flex h-10 w-10 flex-col items-center justify-center overflow-hidden rounded-full bg-blue-500 p-9">
-              <h1 className="text-2xl font-bold text-white">{el.id}</h1>
+              <h2 className="text-2xl font-bold text-white">{el.id}</h2>
             </div>
             <div className="bg-slate-100 bg-opacity-50 p-5 text-center">
               <h2 className="text-lg font-semibold">{el.name}</h2>

@@ -16,9 +16,9 @@ export default function onlineshop() {
         <div
           className={`mx-auto flex max-w-6xl flex-col items-center gap-5 md:flex-row`}>
           <div className="p-5 md:p-0">
-            <h1 className="mb-5 text-4xl font-extrabold text-blue-900">
+            <h2 className="mb-5 text-4xl font-extrabold text-blue-900">
               {workTexts[2].title}
-            </h1>
+            </h2>
             <p className="max-w-xl leading-7 text-slate-600">
               {workTexts[2].text}
             </p>
@@ -27,7 +27,7 @@ export default function onlineshop() {
         </div>
         <FeaturesPricing type={ONLINESHOP} />
         <div className="mx-auto mt-10 flex w-fit items-center justify-center gap-10 rounded border p-5 shadow">
-          <h1 className="text-center text-xl font-semibold">Fitur Andalan</h1>
+          <h2 className="text-center text-xl font-semibold">Fitur Andalan</h2>
           <ul className="flex items-center gap-3 text-lg flex-wrap">
             {bestFeatures[0].map((item: string, i: number) => (
               <li

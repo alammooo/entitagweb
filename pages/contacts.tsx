@@ -31,7 +31,7 @@ export default function Contact() {
       <title>Entitag | Kontak Kami</title>
     </Head>
      <section className="mx-auto flex max-w-7xl flex-col gap-4 py-32">
-      <h1 className="text-center text-4xl font-bold">Kontak Kami</h1>
+      <h2 className="text-center text-4xl font-bold">Kontak Kami</h2>
       <p className="mx-auto max-w-2xl text-center text-xl font-light text-zinc-600">
         Kami berusaha mempersiapkan yang terbaik dan memberikan pelayanan
         maximal untuk anda

@@ -12,9 +12,9 @@ export default function Works() {
             el.type === 2 ? "md:flex-row-reverse" : "md:flex-row "
           }`}>
           <div key={el.type}>
-            <h1 className="mb-5 text-4xl font-extrabold text-blue-900">
+            <h2 className="mb-5 text-4xl font-extrabold text-blue-900">
               {el.title}
-            </h1>
+            </h2>
             <p className="max-w-xl leading-7 text-slate-600">{el.text}</p>
           </div>
           <span className="animate-float">{el.svgEle}</span>

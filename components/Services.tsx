@@ -25,7 +25,7 @@ export default function Services() {
                 alt={e.title}
                 className="self-center"
               />
-              <h1 className="text-lg font-medium">{e.title}</h1>
+              <h2 className="text-lg font-medium">{e.title}</h2>
               <BlueBorder />
               <p className="px-3 text-sm leading-6">{e.text}</p>
             </div>

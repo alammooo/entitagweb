@@ -10,7 +10,7 @@ export default function HeroCards() {
               {e.icons}
             </div>
             <div className="flex flex-col gap-2">
-              <h1 className="font-semibold text-black">{e.title}</h1>
+              <h2 className="font-semibold text-black">{e.title}</h2>
               <p className="md:text-base text-sm tracking-wide">{e.text}</p>
             </div>
           </div>
