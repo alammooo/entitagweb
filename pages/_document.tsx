@@ -30,6 +30,26 @@ export default function Document() {
           name="robots"
           content="index, follow"
         />
+        <meta
+          property="og:title"
+          content="Entitag Technology"
+        />
+        <meta
+          property="og:type"
+          content="website"
+        />
+        <meta
+          property="og:description"
+          content="Entitag, jasa pembautan website dan apliakasi web yang menggunakan teknologi terbaru dan mengutamakan user friendly ux"
+        />
+        <meta
+          property="og:url"
+          content="https://entitagtech.com/"
+        />
+        <meta
+          property="og:locale"
+          content="id_ID"
+        />
       </Head>
       <body>
         <Main />
