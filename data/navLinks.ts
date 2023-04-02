@@ -7,12 +7,16 @@ export const links = [
     name: "Company Profile",
     hrefTo: "/company",
   },
-   {
+  {
     name: "Toko Online",
     hrefTo: "/onlineshop",
   },
   {
     name: "Application Development",
     hrefTo: "/webapplication",
+  },
+  {
+    name: "Contact",
+    hrefTo: "/contacts",
   },
 ]

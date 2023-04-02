@@ -7,7 +7,6 @@ import EntitagLogo from "@/public/favicon.ico"
 import Image from "next/image"
 
 export default function Navbar({ show }: any) {
-  const { openModal, toggleModal } = React.useContext(AppContext)
   const router = useRouter()
 
   return (
@@ -32,11 +31,6 @@ export default function Navbar({ show }: any) {
               {link.name}
             </Link>
           ))}
-          <span
-            className="cursor-pointer text-blue-700 hover:text-blue-900"
-            onClick={toggleModal}>
-            Contact
-          </span>
         </div>
       </div>
     </nav>

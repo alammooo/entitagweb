@@ -132,7 +132,7 @@ export const webAppPrice = [
     type: "Starter",
   },
   {
-    price: "Contact Us",
+    price: "Konsultasi Gratis",
     description: "",
     benefit: [
       "Medium & Regular Features",

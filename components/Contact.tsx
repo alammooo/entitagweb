@@ -1,5 +1,4 @@
 import { useForm } from "@formspree/react"
-import ContactDetails from "./ContactDetails"
 import React from "react"
 import { toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
@@ -26,8 +25,7 @@ export default function Contact() {
     <section
       className="bg-white py-3"
       id="Contact">
-      <h2 className="text-xl font-medium text-black text-center">Contact Us</h2>
-      <ContactDetails />
+      <h2 className="text-xl font-medium text-black text-center">Konsultasi Gratis</h2>
       <form
         onSubmit={handleSubmit}
         ref={formRef}
@@ -111,7 +109,7 @@ export default function Contact() {
           type="submit"
           disabled={state.submitting}
           className="self-end rounded bg-blue-700 py-3 px-5 text-center md:text-base text-sm font-medium text-white duration-200 hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-fit">
-          {state.submitting ? "Sending..." : "Send message"}
+          {state.submitting ? "Mengirim..." : "Kirim Pesan"}
         </button>
       </form>
     </section>

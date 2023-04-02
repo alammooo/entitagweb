@@ -65,7 +65,7 @@ export default function Offers() {
                       </span>
                     </p>
                     <Link href={el.linkTo} className="block mt-6 text-lg cursor-pointer rounded bg-white px-7 py-3 leading-5 text-gray-800 hover:bg-gray-50">
-                      Learn More
+                      Lihat Detail
                     </Link>
                   </div>
                 </div>

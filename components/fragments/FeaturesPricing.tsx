@@ -41,7 +41,7 @@ export default function FeaturesPricing({ type }: any) {
           <h5 className="order-first text-4xl font-semibold tracking-tight text-white">
             {typeof el.price === "number"
               ? formatCurrency(el.price)
-              : "Contact Us"}
+              : "Konsultasi Gratis"}
           </h5>
           <h2 className="font-display mt-5 text-lg font-medium capitalize">
             {el.type}

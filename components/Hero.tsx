@@ -11,7 +11,7 @@ export default function Hero() {
 -Solusi terbaik untuk membangun website company profile dan toko online Anda yang mudah diakses dan responsif pada segala perangkat.
 -Dapatkan website dan aplikasi mobile terbaik dengan proses pengerjaan yang mudah dan cepat.
 -Kami mengembangkan aplikasi mobile untuk bisnis Anda, sehingga dapat menjangkau pelanggan dengan cara yang lebih mudah dan efisien. */
-  const { openModal, toggleModal, show } = React.useContext(AppContext)
+  const { show } = React.useContext(AppContext)
   return (
     <section className="flex flex-col justify-between bg-hero-pattern bg-cover text-zinc-800 md:h-screen">
       <div className="h-full w-full bg-white bg-opacity-50">
@@ -23,10 +23,15 @@ export default function Hero() {
             <div className="container mx-auto flex max-w-6xl justify-between">
               <Link
                 href="/"
-                className="text-2xl font-bold uppercase tracking-wider flex items-center gap-2">
-                <Image src={EntitagLogo} alt="entitagLogo" className="w-7 h-7"/> Entitag
+                className="flex items-center gap-2 text-2xl font-bold uppercase tracking-wider">
+                <Image
+                  src={EntitagLogo}
+                  alt="entitagLogo"
+                  className="h-7 w-7"
+                />{" "}
+                Entitag
               </Link>
-              <div className="flex gap-6 md:text-base text-sm font-semibold">
+              <div className="flex gap-6 text-sm font-semibold md:text-base">
                 {links.map((link, i) => (
                   <Link
                     href={link.hrefTo}
@@ -35,11 +40,6 @@ export default function Hero() {
                     {link.name}
                   </Link>
                 ))}
-                <span
-                  className="cursor-pointer underline underline-offset-4 hover:text-blue-500"
-                  onClick={toggleModal}>
-                  Contact
-                </span>
               </div>
             </div>
           </nav>
@@ -58,11 +58,11 @@ export default function Hero() {
               tampilan yang menarik dan fungsionalitas yang optimal.
             </p>
 
-            <button
-              onClick={toggleModal}
+            <Link
+              href={"/contacts"}
               className="rounded bg-blue-500 px-14 py-3.5 text-center font-medium text-white shadow-lg duration-300 hover:bg-blue-600">
-              Contact Us
-            </button>
+              Konsultasi Gratis
+            </Link>
             <a
               href="#Pricing"
               className="rounded border border-blue-400 px-14 py-3.5 text-center font-medium text-blue-800 shadow duration-300 hover:bg-blue-400">

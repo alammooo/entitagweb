@@ -5,7 +5,6 @@ import Navbar from "@/components/Navbar"
 import React from "react"
 import AppContext from "@/context/AppContext"
 import { useRouter } from "next/router"
-import MyModal from "@/components/ContactModal"
 import Footer from "@/components/Footer"
 import Whatsapp from "@/components/fragments/Whatsapp"
 import SmallNav from "@/components/SmallNav"
@@ -65,7 +64,6 @@ export default function App({ Component, pageProps }: AppProps) {
           <Whatsapp />
           <Component {...pageProps} />
           <Footer />
-          <MyModal />
         </main>
       </AppContext.Provider>
       <Analytics />

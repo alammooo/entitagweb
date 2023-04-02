@@ -1,11 +1,13 @@
 import { Menu, Transition } from "@headlessui/react"
-import { Fragment, useEffect, useRef, useState } from "react"
+import React, { Fragment, useEffect, useRef, useState } from "react"
 import { ChevronDownIcon } from "@heroicons/react/20/solid"
 import { RxHamburgerMenu } from "react-icons/rx"
 import { links } from "@/data/navLinks"
 import Link from "next/link"
+import AppContext from "@/context/AppContext"
 
 export default function SmallNav() {
+
   return (
     <div className="fixed z-50 w-screen text-right md:hidden">
       <Menu

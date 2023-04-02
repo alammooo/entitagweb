@@ -4,8 +4,8 @@ import { MdAlternateEmail } from "react-icons/md"
 export const contactDetails = [
   {
     name: "Phone and Chat",
-    firstText: "Phone : +62 821-2210-4908",
-    secondText: "Whatsapp : +62 821-2210-4908",
+    firstText: "Whatsapp : +62 851-5657-9033",
+    secondText: "",
     icon: <BsTelephone className="h-6 w-6" />,
   },
   {
@@ -16,8 +16,8 @@ export const contactDetails = [
   },
   {
     name: "Working Hours",
-    firstText: "Monday-friday: 9:00 - 06:00",
-    secondText: "Saturday-Sunday: Holiday",
+    firstText: "Senin-Jumat: 8:00 - 21:00",
+    secondText: "Sabtu-Minggu: 08:00 - 18:00",
     icon: <BsCalendarWeek className="h-6 w-6" />,
   },
 ]

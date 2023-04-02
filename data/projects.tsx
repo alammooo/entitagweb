@@ -31,16 +31,8 @@ preferences. You can create a wishlist of your delicious menu and save it into y
   },
   {
     title: "Klinik Ku",
-    desc: `Travel Pack is the ultimate travel planning and community platform
-for finding the best destinations in Indonesia. Our platform
-allows you to browse through a wide variety of cities and
-locations, and read reviews from other travelers. Travel Pack's
-recommendation feature allows you to choose your budget and
-preferences. You can create a wishlist of your dream vacation
-destinations and share it with the community. Travel Pack also
-offers a vibrant community of travelers where you can connect with
-like-minded individuals, share your own travel experiences and
-tips, and get inspired for your next adventure.`,
+    desc: `Klinik ku is a CMS website for documenting clinic-related files and information. This website has features that make documentation easier and more efficient, specifically tailored to the needs of clinics. The website is designed with optimal features and user experience (UX) in mind, making it simple and intuitive to use for all users. With Klinik ku, clinic staff can easily manage and organize their documents, making it an ideal tool for clinics that want to improve their documentation process and ensure that their files are well-organized and up-to-date
+`,
     image: KlinikKu,
     imageUrl: "https://klinik-ku.com",
   },
