@@ -58,9 +58,6 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <Head>
-        <title>Entitag Tech, Jasa Pembuatan Website dan Aplikasi Web</title>
-      </Head>
       <AppContext.Provider value={{ openModal, toggleModal, show }}>
         <main className={inter.className}>
           <Navbar show={show} />

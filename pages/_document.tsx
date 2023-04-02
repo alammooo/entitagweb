@@ -2,17 +2,15 @@ import { Html, Head, Main, NextScript } from "next/document"
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="id">
       <Head>
-        <title>Jasa pembutan website dan aplikasi web</title>
         <link
           rel="icon"
           href="/favicon.ico"
         />
-        <meta name="google-site-verification" content="A0-IQ0YBZAtsyWwdy3FEcpW35Yan2aIkwE4Oj8w_Id4" />
         <meta
-          content="width=device-width, initial-scale=1.0"
-          name="viewport"
+          name="google-site-verification"
+          content="A0-IQ0YBZAtsyWwdy3FEcpW35Yan2aIkwE4Oj8w_Id4"
         />
         <meta
           name="description"
@@ -25,7 +23,7 @@ export default function Document() {
         />
         <meta
           name="author"
-          content="Abdullah Alam"
+          content="Abdullah Alam | Entitag Technology Team"
         />
       </Head>
       <body>

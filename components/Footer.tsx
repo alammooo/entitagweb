@@ -25,7 +25,7 @@ export default function Footer() {
               </span>
             </a>
           </div>
-          <div className="grid md:gap-16 sm:grid-cols-3 sm:gap-6">
+          <div className="grid sm:grid-cols-3 sm:gap-6 md:gap-16">
             <div className="flex flex-col gap-2">
               <h2 className="mb-4 text-lg font-semibold uppercase">Contact</h2>
               <p className="flex items-center gap-2">
@@ -37,10 +37,11 @@ export default function Footer() {
                 info@entitagtech.com
               </p>
             </div>
-            <div className="flex flex-col gap-2 mt-4 md:mt-0">
+            <div className="mt-4 flex flex-col gap-2 md:mt-0">
               <h2 className="mb-4 text-lg font-semibold uppercase">Links</h2>
               {links.map((el, i) => (
                 <Link
+                  key={i}
                   href={el.hrefTo}
                   className="flex items-center gap-2">
                   {el.name}
@@ -51,7 +52,7 @@ export default function Footer() {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="md:text-base text-sm text-white sm:text-center">
+          <span className="text-sm text-white sm:text-center md:text-base">
             © 2023 . All Rights Reserved.
           </span>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">

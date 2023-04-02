@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Entitag Technology</title>
+        <title>Jasa Pembuatan Website dan Aplikasi Web</title>
         <meta
           name="description"
-          content="Enterprise website creator"
+          content="Entitag Technology, jasa pembuatan website dan aplikasi web untuk bisnis anda, menggunakan teknologi terkini yang memberikan pengalaman terbaik dan performa terbaik untuk website dan aplikasi web anda"
         />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1"
+          content="width=device-width, initial-scale=1.0"
         />
         <meta
           name="google-site-verification"
