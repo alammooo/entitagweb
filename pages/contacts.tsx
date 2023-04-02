@@ -147,7 +147,6 @@ export default function Contact() {
             </div>
             <h2 className="text-xl font-bold">Nomor Telefon</h2>
             <span>
-              <p>Office : 024 747-1221</p>
               <p>
                 Whatsapp :{" "}
                 <a

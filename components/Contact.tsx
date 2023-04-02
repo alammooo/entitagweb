@@ -108,7 +108,7 @@ export default function Contact() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="self-end rounded bg-blue-700 py-3 px-5 text-center md:text-base text-sm font-medium text-white duration-200 hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-fit">
+          className="self-end rounded dark:border-white dark:border bg-blue-700 py-3 px-5 text-center md:text-base text-sm font-medium text-white duration-200 hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-fit">
           {state.submitting ? "Mengirim..." : "Kirim Pesan"}
         </button>
       </form>

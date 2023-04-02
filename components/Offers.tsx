@@ -56,11 +56,11 @@ export default function Offers() {
               </div>
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:h-full lg:max-w-md lg:flex-shrink-0">
                 <div
-                  className={`rounded-2xl bg-blue-800 h-full py-10 text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center`}>
+                  className={`rounded-2xl bg-blue-800 h-full py-10 md:py-16 text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center`}>
                   <div className="mx-auto max-w-xs px-8">
-                    <p className="md:text-base text-sm font-semibold text-zinc-200">Starting from</p>
+                    <p className="md:text-base text-sm font-semibold text-zinc-100 md:mb-3">Mulai Dari</p>
                     <p className="flex items-baseline justify-center gap-x-2">
-                      <span className="text-4xl font-bold tracking-wide">
+                      <span className="text-3xl md:text-4xl font-bold tracking-wide">
                         {formatCurrency(el.price)}
                       </span>
                     </p>

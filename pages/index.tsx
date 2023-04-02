@@ -29,7 +29,7 @@ export default function Home() {
         />
         <meta name="robots" content="index, follow"/>
       </Head>
-        <section className="overflow-hidden scroll-smooth pt-8 md:pt-0">
+        <section className="overflow-hidden scroll-smooth pt-8 md:pt-0 dark:text-white">
           <Hero />
           <Services />
           <Offers />

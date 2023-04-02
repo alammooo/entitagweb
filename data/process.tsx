@@ -22,7 +22,7 @@ export const process = [
   {
     id: "05",
     name: "Review",
-    text: "Website yang telah selesai dikerjakan, Client dipersilahkan untuk mengevaluasi dan  memberikan feedback untuk perubahan yang ingin dilakukan.",
+    text: "Website yang telah selesai dikerjakan, klien dipersilahkan untuk mengevaluasi dan  memberikan feedback untuk perubahan yang ingin dilakukan.",
   },
   {
     id: "06",

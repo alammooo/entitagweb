@@ -13,7 +13,7 @@ export default function company() {
       <Head>
         <title>Entitag | Company Profile</title>
       </Head>
-      <section className="md:my-24 pt-8 md:pt-0">
+      <section className="md:my-24 pt-8 md:pt-0 dark:text-white">
         <div
           className={`mx-auto flex max-w-6xl flex-col items-center gap-5 md:flex-row`}>
           <div className="p-3 md:p-0">

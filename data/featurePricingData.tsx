@@ -69,7 +69,7 @@ export const onlineshopPrice = [
   },
   {
     price: 4000000,
-    description: "fokus untuk memenuhi kebutuhan sesuai keinginan client.",
+    description: "fokus untuk memenuhi kebutuhan sesuai keinginan klien.",
     benefit: [
       "Platinum Features",
       "Integrasi dengan Jasa Pengiriman",
