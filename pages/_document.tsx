@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <title>Jasa pembutan website dan aplikasi web</title>
         <link
           rel="icon"
           href="/favicon.ico"
