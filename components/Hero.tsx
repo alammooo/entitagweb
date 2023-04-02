@@ -6,11 +6,10 @@ import EntitagLogo from "@/public/favicon.ico"
 import Image from "next/image"
 
 export default function Hero() {
-  
   const { show } = React.useContext(AppContext)
   return (
     <section className="flex flex-col justify-between bg-hero-pattern bg-cover text-zinc-800 md:h-screen">
-      <div className="h-full w-full bg-white bg-opacity-50">
+      <div className="h-full w-full bg-white bg-opacity-70 md:bg-opacity-20">
         <div className="relative pb-20 md:pb-0 md:pt-0">
           <nav
             className={`top-0 mx-auto hidden w-full py-7 duration-500 md:flex ${
@@ -31,7 +30,9 @@ export default function Hero() {
                 {links.map((link, i) => (
                   <Link
                     href={link.hrefTo}
-                    className="cursor-pointer hover:text-blue-200"
+                    className={`cursor-pointer hover:text-blue-500 ${
+                      link.name === "Home" ? "text-blue-500" : ""
+                    } `}
                     key={i}>
                     {link.name}
                   </Link>
@@ -49,9 +50,9 @@ export default function Hero() {
               Creator.
             </h1>
             <p className="max-w-xl text-xl">
-              Kami menawarkan layanan pembuatan website dan aplikasi bisnis
-              terbaik yang membantu bisnis Anda tumbuh dan berkembang dengan
-              tampilan yang menarik dan fungsionalitas yang optimal.
+              Kami menawarkan jasa pembuatan website dan aplikasi bisnis terbaik
+              yang membantu bisnis Anda tumbuh dan berkembang dengan tampilan
+              yang menarik dan fungsionalitas yang optimal.
             </p>
 
             <Link

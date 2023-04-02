@@ -20,7 +20,7 @@ export default function Navbar({ show }: any) {
           className="text-2xl font-black uppercase tracking-wider flex gap-2 items-center">
          <Image src={EntitagLogo} alt="entitag-logo" className="w-8 h-8"/> Entitag
         </Link>
-        <div className="flex gap-6 md:text-base text-sm font-semibold text-zinc-600">
+        <div className="flex gap-6 text-sm font-semibold text-zinc-600">
           {links.map((link) => (
             <Link
               href={link.hrefTo}

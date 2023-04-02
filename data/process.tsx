@@ -2,7 +2,7 @@ export const process = [
   {
     id: "01",
     name: "Free Consultation",
-    text: "Anda dapat menjelaskan rencana dan tujuan bisnis yang  inginkan, lalu kami dapat merekomendasikan paket layanan dan teknologi yang paling sesuai dengan kebutuhan anda.",
+    text: "Anda dapat menjelaskan rencana dan tujuan bisnis yang  inginkan, lalu kami dapat merekomendasikan paket jasa dan teknologi yang paling sesuai dengan kebutuhan anda.",
   },
   {
     id: "02",

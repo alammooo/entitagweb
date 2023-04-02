@@ -6,7 +6,7 @@ export const workTexts = [
   {
     type: 1,
     title: "Company Profile",
-    text: `Salah satu keunggulan layanan kami adalah kecepatan pembuatan. Kami mengerti bahwa waktu adalah faktor krusial dalam mempromosikan bisnis Anda. Landing page buatan kami juga ramah SEO, yang berarti halaman Anda akan mudah ditemukan di mesin pencari seperti Google
+    text: `Salah satu keunggulan jasa kami adalah kecepatan pembuatan. Kami mengerti bahwa waktu adalah faktor krusial dalam mempromosikan bisnis Anda. Landing page buatan kami juga ramah SEO, yang berarti halaman Anda akan mudah ditemukan di mesin pencari seperti Google
     Selain itu, kami selalu menggunakan teknologi terbaru dalam pembuatan landing page Anda, tetap dengan menggunakan native javascript untuk performa kecepatan maximal. Dengan demikian, Anda dapat memastikan bahwa landing page Anda akan berkinerja baik dan dapat ditingkatkan seiring dengan pertumbuhan bisnis Anda.`,
     svgEle: <LandingPageSvg />,
   },

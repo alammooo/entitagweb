@@ -9,8 +9,8 @@ export const sectionTitle: sectionInterface[] = [
   {
     type: "offer",
     subTitle: "OFFERS",
-    title: "Layanan Kami",
-    text: "Layanan yang kami sediakan telah berdasarkan kebutuhan untuk bisnis mulai dari bisnis yang telah berjalan dan sedang memulai bisnis.",
+    title: "Jasa Kami",
+    text: "Jasa yang kami sediakan telah berdasarkan kebutuhan untuk bisnis mulai dari bisnis yang telah berjalan dan sedang memulai bisnis.",
   },
   {
     type: "services",
@@ -33,7 +33,7 @@ export const sectionTitle: sectionInterface[] = [
     type: "tech",
     subTitle: "TECH STACKS",
     title: "Available Tech Stacks",
-    text: "Kami memberikan teknologi terbaru untuk meningkatkan kualitas dan layanan",
+    text: "Kami memberikan teknologi terbaru untuk meningkatkan kualitas dan jasa",
   },
   {
     type: "contact",

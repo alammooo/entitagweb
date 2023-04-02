@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <section
       id="Services"
-      className="mt-5">
+      className="pt-7 ">
       <SectionHead type="services" />
       <div className="mx-auto max-w-6xl pt-5 pb-24 text-center">
         <div
@@ -17,8 +17,8 @@ export default function Services() {
             <div
               key={i}
               className={`${
-                i % 2 !== 0 ? "border border-zinc-100 shadow-lg" : ""
-              } flex flex-col gap-4 rounded px-7 py-8 hover:bg-sky-50`}>
+                i % 2 !== 0 ? "border border-zinc-200 bg-white shadow-lg hover:bg-sky-50" : "text-white bg-blue-800 hover:bg-blue-700"
+              } flex flex-col gap-4 rounded px-7 py-8 `}>
               <Image
                 src={e.icon}
                 width={60}
@@ -27,7 +27,7 @@ export default function Services() {
               />
               <h1 className="text-lg font-medium">{e.title}</h1>
               <BlueBorder />
-              <p className="px-3 text-sm leading-6 text-zinc-600">{e.text}</p>
+              <p className="px-3 text-sm leading-6">{e.text}</p>
             </div>
           ))}
         </div>

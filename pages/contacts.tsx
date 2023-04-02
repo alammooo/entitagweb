@@ -152,7 +152,7 @@ export default function Contact() {
                 Whatsapp :{" "}
                 <a
                   target="_blank"
-                  href="https://wa.me/6282122104908?text=Saya%20tertarik%20untuk%20membuat%20website"
+                  href="https://wa.me/6285156579033?text=Saya%20tertarik%20untuk%20membuat%20website"
                   className="text-blue-600">
                   +62 851-5657-9033
                 </a>
