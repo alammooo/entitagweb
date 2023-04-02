@@ -40,11 +40,11 @@ export default function FeaturesPricing({ type }: any) {
           className={`order-first flex flex-col rounded-3xl px-6 py-8 text-slate-200 sm:px-8 lg:order-none ${
             i === 1 ? "bg-blue-600" : "bg-blue-950"
           }`}>
-          <h5 className="order-first text-4xl font-semibold tracking-tight text-white">
+          <h3 className="order-first text-4xl font-semibold tracking-tight text-white">
             {typeof el.price === "number"
               ? formatCurrency(el.price)
               : "Konsultasi Gratis"}
-          </h5>
+          </h3>
           <h2 className="font-display mt-5 text-lg font-medium capitalize">
             {el.type}
           </h2>
@@ -52,6 +52,7 @@ export default function FeaturesPricing({ type }: any) {
             {el.description}
           </h2>
           <a
+          title="Pesan Sekarang"
             onClick={() => nav.push("/contacts")}
             className="group mt-8 inline-flex items-center justify-center rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-blue-50 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-blue-200 active:text-slate-600 dark:border dark:border-white md:text-base">
             Pesan Sekarang

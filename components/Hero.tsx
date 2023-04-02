@@ -61,6 +61,7 @@ export default function Hero() {
               Konsultasi Gratis
             </Link>
             <a
+            title="Penawaran Kami"
               href="#Pricing"
               className="rounded border border-blue-400 px-14 py-3.5 text-center font-medium text-blue-800 shadow duration-300 hover:bg-blue-400">
               Lihat Penawaran

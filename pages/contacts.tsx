@@ -129,7 +129,7 @@ export default function Contact() {
               <HiBuildingOffice2 className="h-10 w-10 fill-blue-600" />
             </div>
             <h2 className="text-xl font-bold">Alamat Perusahaan</h2>
-            <a href="https://goo.gl/maps/heauXY83WAQmftY79" target="_blank">Pondok Bukit Agung B5, Sumurboto, Banyumanik, 50269 Semarang</a>
+            <a title="Alamat Kami" href="https://goo.gl/maps/heauXY83WAQmftY79" target="_blank">Pondok Bukit Agung B5, Sumurboto, Banyumanik, 50269 Semarang</a>
           </div>
           <div className="flex flex-col items-center gap-4 text-center">
             <div className="max-w-fit rounded-md bg-zinc-100 p-4">
@@ -150,6 +150,7 @@ export default function Contact() {
               <p>
                 Whatsapp :{" "}
                 <a
+                title="Konsultasi via WhatsApp"
                   target="_blank"
                   href="https://wa.me/6285156579033?text=Saya%20tertarik%20untuk%20membuat%20website"
                   className="text-blue-600">

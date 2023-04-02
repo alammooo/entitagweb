@@ -13,6 +13,7 @@ export default function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a
+              title="entitagLogo"
               href="#"
               className="flex items-center">
               <Image
@@ -58,6 +59,7 @@ export default function Footer() {
           </span>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <a
+              title="LinkedIn Profile"
               href="https://www.linkedin.com/in/abdullah-alamm/"
               target="_blank"
               className="text-white">
@@ -65,6 +67,7 @@ export default function Footer() {
               <span className="sr-only">LinkedIn</span>
             </a>
             <a
+              title="GitHub Profile"
               href="https://github.com/alammooo"
               target="_blank"
               className="text-white">

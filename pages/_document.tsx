@@ -19,13 +19,16 @@ export default function Document() {
         <meta charSet="UTF-8" />
         <meta
           name="keywords"
-          content="website, jasa pembuatan website, web application, landing page, company profile, mobile app, javascript, nodejs, react, nextjs, tailwind"
+          content="website, jasa, konsultasi, jasa pembuatan website, web application, landing page, company profile, mobile app"
         />
         <meta
           name="author"
           content="Abdullah Alam | Entitag Technology Team"
         />
-        <meta name="robots" content="index, follow"/>
+        <meta
+          name="robots"
+          content="index, follow"
+        />
       </Head>
       <body>
         <Main />

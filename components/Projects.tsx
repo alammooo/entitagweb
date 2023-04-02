@@ -17,6 +17,7 @@ export default function Projects() {
                 key={i}>
                 <div>
                   <a
+                  title="Project Kami"
                     href={el.imgUrl}
                     target="_blank"
                     className="mb-2 block text-2xl font-bold md:mb-10 md:text-5xl">
