@@ -1,10 +1,11 @@
 import Process from "@/components/Process"
 import { workTexts } from "@/data/workText"
 import FeaturesPricing from "@/components/fragments/FeaturesPricing"
-import { ONLINESHOP } from "@/interfaces/interfaces"
+import { ONLINESHOP, ONLINESHOPFEATURES } from "@/interfaces/interfaces"
 import Head from "next/head"
 import { AiFillFire } from "react-icons/ai"
 import { bestFeatures } from "@/data/bestFeatures"
+import BestFeatures from "@/components/fragments/BestFeatures"
 
 export default function onlineshop() {
   return (
@@ -26,19 +27,7 @@ export default function onlineshop() {
           <span className="animate-float">{workTexts[2].svgEle}</span>
         </div>
         <FeaturesPricing type={ONLINESHOP} />
-        <div className="mx-auto mt-10 flex w-fit items-center justify-center gap-10 rounded border p-5 shadow">
-          <h2 className="text-center text-xl font-semibold">Fitur Andalan</h2>
-          <ul className="flex flex-wrap items-center gap-3 text-lg">
-            {bestFeatures[0].map((item: string, i: number) => (
-              <li
-                className="flex items-center gap-2"
-                key={i}>
-                <AiFillFire />
-                {item}
-              </li>
-            ))}
-          </ul>
-        </div>
+        <BestFeatures type={ONLINESHOPFEATURES} />
         <Process />
       </section>
     </>

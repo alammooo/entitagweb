@@ -1,6 +1,8 @@
 export const COMPANYPROFILE = "companyprofile"
 export const WEBAPPLICATION = "webapplicaiton"
 export const ONLINESHOP = "onlineshop"
+export const COMPANYPROFILEFEATURE = "companyprofilefeature"
+export const ONLINESHOPFEATURES = "onlineshopfeatures"
 
 export interface companyProfileInterface {
   price: number

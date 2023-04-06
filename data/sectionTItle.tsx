@@ -1,3 +1,8 @@
+import {
+  COMPANYPROFILEFEATURE,
+  ONLINESHOPFEATURES,
+} from "@/interfaces/interfaces"
+
 export interface sectionInterface {
   type: string
   subTitle?: string
@@ -37,8 +42,20 @@ export const sectionTitle: sectionInterface[] = [
   },
   {
     type: "contact",
-    subTitle:"CONTACT",
+    subTitle: "CONTACT",
     title: "Reach Us",
     text: "Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.",
+  },
+  {
+    type: COMPANYPROFILEFEATURE,
+    subTitle: "",
+    title: "Fitur Andalan",
+    text: "Fitur terbaik kami untuk company profile",
+  },
+  {
+    type: ONLINESHOPFEATURES,
+    subTitle: "",
+    title: "Fitur Andalan",
+    text: "Fitur terbaik kami untuk online shop",
   },
 ]
