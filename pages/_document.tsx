@@ -15,7 +15,7 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Entitag, jasa pembuatan website dan aplikasi web untuk bisnis anda, menggunakan teknologi terkini yang memberikan pengalaman dan performa terbaik"
+          content="Entitag, jasa pembuatan website dan aplikasi web untuk bisnis anda dengan performa terbaik"
         />
         <meta charSet="UTF-8" />
         <meta

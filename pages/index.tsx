@@ -15,7 +15,7 @@ export default function Home() {
         <title>Entitag | Jasa Pembuatan Website dan Aplikasi Web</title>
         <meta
           name="description"
-          content="Entitag Technology, jasa pembuatan website dan aplikasi web untuk bisnis anda, menggunakan teknologi terkini yang memberikan pengalaman terbaik dan performa terbaik untuk website dan aplikasi web anda"
+          content="Entitag, jasa pembuatan website dan aplikasi web untuk bisnis anda dengan performa terbaik"
         />
       </Head>
       <section className="overflow-hidden scroll-smooth pt-8 dark:text-white md:pt-0">
