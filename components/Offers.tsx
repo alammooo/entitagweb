@@ -15,7 +15,7 @@ export default function Offers() {
   }
   return (
     <section
-      className="bg-zinc-50 bg-opacity-80 py-14"
+      className="bg-blue-50 bg-opacity-50 py-14"
       id="Pricing">
       <SectionHead type="offer" />
       <div className="py-5">

@@ -36,7 +36,7 @@ export default function Footer() {
               </p>
               <p className="flex items-center gap-2">
                 <HiOutlineMailOpen />
-                info@entitagtech.com
+                company@entitagtech.com
               </p>
             </div>
             <div className="mt-7 flex flex-col gap-2 md:mt-0">

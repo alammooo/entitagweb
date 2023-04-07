@@ -1,29 +1,34 @@
 export const companyProfileFeature = [
   {
     name: "Email Bisnis",
+
     text: `Tingkatkan profesionalitas dan kepercayaan pelanggan Corporate,
     firma, ataupun UMKM, dengan berkomunikasi menggunakan email yang
     didesain khusus untuk bisnis anda.`,
   },
   {
     name: "Live chat",
+
     text: "Customer ingin bertanya sebelum membeli ? Bisa, dengan fitur live chat anda dapat membalas chat customer secara real time",
   },
   {
     name: "Statistik Visitor",
+
     text: "Melihat dan menganalisa menggunakan data yang selalu update tentang kinerja dari website kita sekarang dapat dengan mudah dilakukan",
   },
   {
     name: "Single Page Application",
-    text: "Bingung kadang loading website lemot ? Itu karna SPA yang tidak responsif, dengan dukungan SPA yang terbaru, berikan pengalaman website terbaik untuk customer anda",
+
+    text: "Rasakan pengalaman web terbaik seperti aplikasi native dengan fitur single page application",
   },
   {
     name: "Integrated API",
-    text: "Website anda ingin dapat dihubungkan dengan berbagai fitur-fitur baru kedepannya tanpa susah setting ulang lagi",
+
+    text: "Mengakses berbagai fungsionalitas external dengan API yang terintegrasi",
   },
   {
     name: "Social Media Login",
-    text: "Website anda ingin dapat dihubungkan dengan berbagai fitur-fitur baru kedepannya tanpa susah setting ulang lagi",
+    text: "Login mudah OAuth melalui social media yang terkini",
   },
 ]
 

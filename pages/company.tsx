@@ -3,11 +3,8 @@ import React from "react"
 import Process from "@/components/Process"
 import { COMPANYPROFILE, COMPANYPROFILEFEATURE } from "@/interfaces/interfaces"
 import FeaturesPricing from "@/components/fragments/FeaturesPricing"
-import { AiFillFire } from "react-icons/ai"
-import { bestFeatures } from "@/data/bestFeatures"
 import { workTexts } from "@/data/workText"
-import SectionHead from "@/components/SectionHead"
-import BestFeatures from "@/components/fragments/BestFeatures"
+import BestFeatures from "@/components/features/BestFeatures"
 
 export default function company() {
   return (

@@ -3,9 +3,7 @@ import { workTexts } from "@/data/workText"
 import FeaturesPricing from "@/components/fragments/FeaturesPricing"
 import { ONLINESHOP, ONLINESHOPFEATURES } from "@/interfaces/interfaces"
 import Head from "next/head"
-import { AiFillFire } from "react-icons/ai"
-import { bestFeatures } from "@/data/bestFeatures"
-import BestFeatures from "@/components/fragments/BestFeatures"
+import BestFeatures from "@/components/features/BestFeatures"
 
 export default function onlineshop() {
   return (

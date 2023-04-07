@@ -10,7 +10,6 @@ import Whatsapp from "@/components/fragments/Whatsapp"
 import SmallNav from "@/components/SmallNav"
 import AOS from "aos"
 import "aos/dist/aos.css"
-import Head from "next/head"
 import { Inter } from "next/font/google"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -41,7 +40,7 @@ export default function App({ Component, pageProps }: AppProps) {
   React.useEffect(() => {
     if (router.pathname !== "/") {
       setShow(true)
-    }
+    } else setShow(false)
   }, [router.pathname])
 
   React.useEffect(() => {
