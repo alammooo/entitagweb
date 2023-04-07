@@ -65,7 +65,6 @@ export default function App({ Component, pageProps }: AppProps) {
           <Footer />
         </main>
       </AppContext.Provider>
-      <Analytics />
     </>
   )
 }
