@@ -22,7 +22,6 @@ export default function Home() {
         <Hero />
         <Services />
         <Offers />
-        <Process />
         <Projects />
         <Tech />
       </section>

@@ -9,7 +9,7 @@ export const offerType: OfferInterface[] = [
   {
     type: "COMPANY PROFILE",
     price: 1500000,
-    text: "Membuat website untuk memperkenalkan perusahaan kadang terasa sulit, terutama jika masih dalam skala usaha kecil. Tim kami akan membantu Anda membuat COMPANY PROFILE professional yang cocok dengan branding Anda saat ini",
+    text: "Company Profile yang sesuai untuk kebutuhan online marketing saat ini",
     benefit: [
       "Newest Technology Stack",
       "Mobile Friendly",
@@ -24,7 +24,7 @@ export const offerType: OfferInterface[] = [
   {
     type: "TOKO ONLINE",
     price: 2000000,
-    text: "Membuat toko online untuk bisnis Anda tidak sesulit yang dipikirkan. Kami akan membantu anda untuk mewujudkan impian untuk memiliki toko online yang dapat menjangkau pasar kota lain, bahkan negara lain yang telah dilengkapi dengan fitur untuk memudahkan anda memproses pesanan customer dalam sistem bisnis online seperti penjualan, statistik, dukungan pelanggan, dan bantuan 24/7",
+    text: "Toko Online untuk bisnis anda dengan berbagai macam fitur yang lengkap",
     benefit: [
       "Responsive Website",
       "Custom Design",
@@ -41,7 +41,7 @@ export const offerType: OfferInterface[] = [
   {
     type: "APPLICATION DEVELOPMENT",
     price: 10000000,
-    text: "Entitag Tech adalah perusahaan pembuatan Software bisnis profesional, membantu perusahaan mengelola proses bisnis dengan lebih efektif dan efisien. Kami selalu memberikan insight bisnis yang membuat perusahaan anda dapat terus berkembang dan lebih produktif ",
+    text: "Aplikasi untuk bisnis/perusahaan anda dengan fitur yang sesuai dengan kebutuhan anda",
     benefit: [
       "Aplikasi sistem HR",
       "Aplikasi untuk Inventory Management",
