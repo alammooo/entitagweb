@@ -11,6 +11,7 @@ import SmallNav from "@/components/SmallNav"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { Inter } from "next/font/google"
+import Head from "next/head"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -65,6 +66,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <Footer />
         </main>
       </AppContext.Provider>
+      <Analytics />
     </>
   )
 }

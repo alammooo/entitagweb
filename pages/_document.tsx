@@ -7,7 +7,6 @@ export default function Document() {
         <link
           rel="icon"
           href="/favicon.ico"
-          type="image/x-icon"
         />
         <meta
           name="google-site-verification"
@@ -24,7 +23,7 @@ export default function Document() {
         />
         <meta
           name="author"
-          content="Abdullah Alam | Entitag Technology Team"
+          content="Abdullah Alam | Entitag Team"
         />
         <meta
           name="robots"
