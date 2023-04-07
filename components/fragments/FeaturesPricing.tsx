@@ -33,11 +33,11 @@ export default function FeaturesPricing({ type }: any) {
 
   return (
     <div
-      className={`mx-auto grid max-w-6xl justify-center md:grid-cols-3 md:gap-10`}>
+      className={`mx-auto grid max-w-6xl justify-center md:grid-cols-3 md:gap-10 text-white`}>
       {listData?.map((el: any, i: number) => (
         <div
           key={i}
-          className={`order-first flex flex-col rounded-3xl px-6 py-8 text-slate-200 sm:px-8 lg:order-none ${
+          className={`order-first flex flex-col rounded-3xl px-6 py-8 sm:px-8 lg:order-none ${
             i === 1 ? "bg-blue-600" : "bg-blue-950"
           }`}>
           <span className="order-first text-4xl font-semibold tracking-tight text-white">
@@ -52,9 +52,9 @@ export default function FeaturesPricing({ type }: any) {
             {el.description}
           </h2>
           <a
-          title="Pesan Sekarang"
+            title="Pesan Sekarang"
             onClick={() => nav.push("/contacts")}
-            className="group mt-8 inline-flex items-center justify-center rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-blue-50 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-blue-200 active:text-slate-600 dark:border dark:border-white md:text-base">
+            className="group mt-8 inline-flex cursor-pointer items-center justify-center rounded-full bg-white px-4 py-2 font-semibold text-slate-900 hover:bg-blue-50 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-blue-200 active:text-slate-600">
             Pesan Sekarang
           </a>
           <ul className="order-last mt-10 flex flex-col gap-y-3">
@@ -75,7 +75,7 @@ export default function FeaturesPricing({ type }: any) {
                     strokeLinecap="round"
                     strokeLinejoin="round"></circle>
                 </svg>
-                <span className="ml-4">{e}</span>
+                <span className="ml-4 ">{e}</span>
               </li>
             ))}
             <li></li>

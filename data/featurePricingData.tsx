@@ -96,23 +96,6 @@ export const onlineshopPrice = [
   },
 ]
 
-// Platinum Package (basic)
-// Paket bertingkat yang menawarkan solusi terbaik untuk meningkatkan kinerja dan keuntungan bisnis franchise toko, dengan layanan yang mengutamakan kualitas dan kepuasan pelanggan.
-
-// Signature Package
-// Paket bertingkat yang menawarkan fitur terbaik dan paling eksklusif, dengan fokus pada memenuhi kebutuhan khusus dan unik dari franchise toko yang ingin tumbuh dan berkembang.
-
-// Ultimate Package (premium)
-// Paket bertingkat yang menawarkan solusi lengkap dan paling efektif untuk mencapai tujuan bisnis franchise toko, dengan pelayanan terbaik dan teknologi terbaru yang tersedia.
-
-// fitur andalan
-// -Sales Report
-// -Live Chat
-// -Integrasi Jasa Pengiriman
-// -Konfirmasi Pembayaran Otomatis
-// -Automatic Stock Update
-// -Integrasi Payment Gateway
-
 export const webAppPrice = [
   {
     price: 10000000,
@@ -165,10 +148,3 @@ export const webAppPrice = [
   },
 ]
 
-// Fitur andalan yg kita highlight
-// -Email Bisnis
-// -Live Chat
-// -Statistik Visitor
-// -Single Page Application
-// -Integtate API
-// -Social Media Log In

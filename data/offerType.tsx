@@ -19,7 +19,7 @@ export const offerType: OfferInterface[] = [
       "Statistik Pengunjung",
       "Garansi Pemeliharaan",
     ],
-    linkTo: "/company"
+    linkTo: "/company",
   },
   {
     type: "TOKO ONLINE",
@@ -29,14 +29,12 @@ export const offerType: OfferInterface[] = [
       "Responsive Website",
       "Custom Design",
       "Statistik Pengunjung",
-      // "Gallery",
       "Integrasi Sistem Pembayaran",
       "Sales Report",
       "Garansi Pemeliharaan",
       "Integtasi Sistem Pengiriman",
-      // "Navigasi antar page",
     ],
-    linkTo: "onlineshop"
+    linkTo: "onlineshop",
   },
   {
     type: "APPLICATION DEVELOPMENT",
@@ -45,15 +43,13 @@ export const offerType: OfferInterface[] = [
     benefit: [
       "Aplikasi sistem HR",
       "Aplikasi untuk Inventory Management",
-      // "Statistik Pengunjung",
       "Aplikasi Form Generator",
       "Aplikasi Pencatatan Keuangan",
       "Aplikasi absensi Karyawan",
       "Aplikasi Claim & Reimbursement",
       "Aplikasi Sales Taking Order",
       "Aplikasi Custom Sesuai Kebutuhan",
-      // "Navigasi antar page",
     ],
-    linkTo:"/webapplication"
+    linkTo: "/webapplication",
   },
 ]

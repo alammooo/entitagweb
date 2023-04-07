@@ -1,29 +1,22 @@
 export const companyProfileFeature = [
   {
     name: "Email Bisnis",
-
-    text: `Tingkatkan profesionalitas dan kepercayaan pelanggan Corporate,
-    firma, ataupun UMKM, dengan berkomunikasi menggunakan email yang
-    didesain khusus untuk bisnis anda.`,
+    text: `Meningkatkan kepercayaan pelanggan Corporate dengan menggunakan email bisnis`,
   },
   {
     name: "Live chat",
-
-    text: "Customer ingin bertanya sebelum membeli ? Bisa, dengan fitur live chat anda dapat membalas chat customer secara real time",
+    text: "Fitur live chat anda dapat membalas chat customer secara real time",
   },
   {
     name: "Statistik Visitor",
-
-    text: "Melihat dan menganalisa menggunakan data yang selalu update tentang kinerja dari website kita sekarang dapat dengan mudah dilakukan",
+    text: "Melihat dan menganalisa data tentang kinerja dari website dengan mudah",
   },
   {
     name: "Single Page Application",
-
     text: "Rasakan pengalaman web terbaik seperti aplikasi native dengan fitur single page application",
   },
   {
     name: "Integrated API",
-
     text: "Mengakses berbagai fungsionalitas external dengan API yang terintegrasi",
   },
   {
@@ -35,26 +28,26 @@ export const companyProfileFeature = [
 export const onlineStoreFeature = [
   {
     name: "Sales Report",
-    text: "Kemudahan untuk melihat penjualan bisnis secara otomatis tanpa perlu lagi melakukan rekap secara manual tersedia dalam fitur andalan kami",
+    text: "Kemudahan untuk melihat penjualan bisnis secara otomatis",
   },
   {
     name: "Live Chat",
-    text: "Customer ingin bertanya sebelum membeli ? Bisa, dengan fitur live chat anda dapat membalas chat customer secara real time",
+    text: "Fitur live chat anda dapat membalas chat customer secara real time",
   },
   {
     name: "Integrasi Jasa Pengiriman",
-    text: "Tersedia integrasi sistem dengan jasa pengiriman logistik untuk memudahkan pengecekan ongkos kirim keseluruh Indonesia untuk customer anda, didukung dengan jasa pengiriman seperti J&T, JNE, Anteraja, POS Indonesia, Tiki, Wahana, Indah Kargo, dll",
+    text: "Tersedia integrasi sistem dengan jasa pengiriman logistik untuk memudahkan pengiriman",
   },
   {
     name: "Konfirmasi Pembayaran Otomatis",
-    text: "Dengan mudahnya sistem pembayaran otomatis untuk pelanggan akan memberikan pengalaman berbelanja yang lebih baik serta penjual tidak perlu lagi repot melakukan mengecekan pembayaran secara manual",
+    text: "Sistem pembayaran otomatis untuk pelanggan akan memberikan pengalaman berbelanja yang lebih baik",
   },
   {
     name: "Automatic Stock Update",
-    text: "Stock barang yang terkadang tidak terhitung sekarang sudah tidak perlu dipikirkan lagi, dengan bantuan update stock barang secara otomatis membuat proses bisnis lebih efisien",
+    text: "Update stock barang secara otomatis membuat proses bisnis lebih efisien",
   },
   {
     name: "Instant Payment Gateway",
-    text: "Fitur yang dapat memfasilitasi transaksi pembayaran yang lebih banyak dan lebih mudah untuk pelanggan seperti transaksi otomatis",
+    text: "Untuk transaksi pembayaran yang lebih banyak dan lebih mudah",
   },
 ]

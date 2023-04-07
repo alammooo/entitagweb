@@ -1,8 +1,12 @@
-import { companyProfileFeature } from "@/data/fiturAndalan"
+import { companyProfileFeature, onlineStoreFeature } from "@/data/fiturAndalan"
 import SectionHead from "../SectionHead"
 import Image from "next/image"
 import FetureImage from "./featureimg.svg"
 import { CiSignpostR1 } from "react-icons/ci"
+import {
+  COMPANYPROFILEFEATURE,
+  ONLINESHOPFEATURES,
+} from "@/interfaces/interfaces"
 
 export default function BestFeatures({ type }: any) {
   return (
@@ -17,15 +21,26 @@ export default function BestFeatures({ type }: any) {
           />
         </div>
         <div className="mx-auto grid gap-y-7 px-7 pt-7 md:px-0">
-          {companyProfileFeature.map((el, i) => (
-            <div key={i}>
-              <h2 className="mb-2 flex items-center gap-2 text-lg font-medium md:mb-0">
-                <CiSignpostR1 />
-                {el.name}
-              </h2>
-              <p className="text-zinc-500">{el.text}</p>
-            </div>
-          ))}
+          {type === COMPANYPROFILEFEATURE &&
+            companyProfileFeature.map((el, i) => (
+              <div key={i}>
+                <h2 className="mb-2 flex items-center gap-2 text-lg font-medium md:mb-0">
+                  <CiSignpostR1 />
+                  {el.name}
+                </h2>
+                <p className="text-zinc-600">{el.text}</p>
+              </div>
+            ))}
+          {type === ONLINESHOPFEATURES &&
+            onlineStoreFeature.map((el, i) => (
+              <div key={i}>
+                <h2 className="mb-2 flex items-center gap-2 text-lg font-medium md:mb-0">
+                  <CiSignpostR1 />
+                  {el.name}
+                </h2>
+                <p className="text-zinc-600">{el.text}</p>
+              </div>
+            ))}
         </div>
       </div>
     </div>
