@@ -2,7 +2,8 @@ import { companyProfileFeature, onlineStoreFeature } from "@/data/fiturAndalan"
 import SectionHead from "../SectionHead"
 import Image from "next/image"
 import FetureImage from "./featureimg.svg"
-import { CiSignpostR1 } from "react-icons/ci"
+import { BsFillPatchCheckFill } from "react-icons/bs"
+
 import {
   COMPANYPROFILEFEATURE,
   ONLINESHOPFEATURES,
@@ -25,7 +26,7 @@ export default function BestFeatures({ type }: any) {
             companyProfileFeature.map((el, i) => (
               <div key={i}>
                 <h2 className="mb-2 flex items-center gap-2 text-lg font-medium md:mb-0">
-                  <CiSignpostR1 />
+                  <BsFillPatchCheckFill className="text-blue-600"/>
                   {el.name}
                 </h2>
                 <p className="text-zinc-600">{el.text}</p>
@@ -35,7 +36,7 @@ export default function BestFeatures({ type }: any) {
             onlineStoreFeature.map((el, i) => (
               <div key={i}>
                 <h2 className="mb-2 flex items-center gap-2 text-lg font-medium md:mb-0">
-                  <CiSignpostR1 />
+                  <BsFillPatchCheckFill className="text-blue-600"/>
                   {el.name}
                 </h2>
                 <p className="text-zinc-600">{el.text}</p>
