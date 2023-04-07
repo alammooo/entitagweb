@@ -17,18 +17,6 @@ export default function Home() {
           name="description"
           content="Entitag Technology, jasa pembuatan website dan aplikasi web untuk bisnis anda, menggunakan teknologi terkini yang memberikan pengalaman terbaik dan performa terbaik untuk website dan aplikasi web anda"
         />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        />
-        <meta
-          name="google-site-verification"
-          content="3LH65QcU8WCkUJcJDBXZs-s0kjmJhXlrj8dqQWzcauE"
-        />
-        <meta
-          name="robots"
-          content="index, follow"
-        />
       </Head>
       <section className="overflow-hidden scroll-smooth pt-8 dark:text-white md:pt-0">
         <Hero />
