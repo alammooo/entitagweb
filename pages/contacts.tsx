@@ -138,7 +138,6 @@ export default function Contact() {
             <h2 className="text-xl font-bold">Email</h2>
             <span>
               <p>company@entitagtech.com</p>
-              <p>abdullah.alam@outlook.de</p>
             </span>
           </div>
           <div className="flex flex-col items-center gap-4 text-center">

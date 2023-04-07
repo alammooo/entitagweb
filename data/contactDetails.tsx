@@ -11,7 +11,7 @@ export const contactDetails = [
   {
     name: "Contact",
     firstText: "Company : entitagweb@mail.com",
-    secondText: "Personal : abdullah.alam@outlook.de",
+    secondText: "",
     icon: <MdAlternateEmail className="h-6 w-6" />,
   },
   {
