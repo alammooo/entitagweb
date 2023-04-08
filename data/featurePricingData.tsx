@@ -3,7 +3,7 @@ import { companyProfileInterface } from "@/interfaces/interfaces"
 export const companyProfilePrice: companyProfileInterface[] = [
   {
     price: 1500000,
-    description: "",
+    description: "-------------------------------------",
     benefit: [
       "New tech stack",
       "high performance",
@@ -20,7 +20,7 @@ export const companyProfilePrice: companyProfileInterface[] = [
   },
   {
     price: 2500000,
-    description: "",
+    description: "Direkomendasikan untuk UMKM",
     benefit: [
       "Regular Features",
       "Single Page Application (SPA)",
@@ -33,7 +33,7 @@ export const companyProfilePrice: companyProfileInterface[] = [
   },
   {
     price: 4000000,
-    description: "",
+    description: "Direkomendasikan untuk Perusahaan",
     benefit: [
       "Medium & Regular Features",
       "Garansi Pemeliharaan",
@@ -52,7 +52,7 @@ export const companyProfilePrice: companyProfileInterface[] = [
 export const onlineshopPrice = [
   {
     price: 2000000,
-    description: "meningkatkan kinerja dan keuntungan bisnis.",
+    description: "----------------------------------",
     benefit: [
       "New tech stack",
       "high performance",
@@ -69,7 +69,7 @@ export const onlineshopPrice = [
   },
   {
     price: 4000000,
-    description: "fokus untuk memenuhi kebutuhan sesuai keinginan klien.",
+    description: "Direkomendasikan untuk UMKM",
     benefit: [
       "Platinum Features",
       "Integrasi dengan Jasa Pengiriman",
@@ -81,7 +81,7 @@ export const onlineshopPrice = [
   },
   {
     price: 8000000,
-    description: "solusi lengkap dan paling efektif untuk tujuan bisnis.",
+    description: "Direkomendasikan untuk Perusahaan",
     benefit: [
       "All Features",
       "Phone Order Notification",

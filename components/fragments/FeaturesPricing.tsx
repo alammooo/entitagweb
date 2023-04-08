@@ -48,8 +48,8 @@ export default function FeaturesPricing({ type }: any) {
           <h2 className="font-display mt-5 text-lg font-medium capitalize">
             {el.type}
           </h2>
-          <h2 className="mt-2 text-sm capitalize md:text-base">
-            {el.description}
+          <h2 className={`mt-1 font-bold text-xl ${i === 0 ? "invisible" : ""}`}>
+            "{el.description}"
           </h2>
           <a
             title="Pesan Sekarang"
