@@ -4,17 +4,16 @@ import {
 } from "@/interfaces/interfaces"
 
 export interface sectionInterface {
-  type: string
+  type?: string
   subTitle?: string
-  title: string
-  text: string
+  title?: string
+  text?: string
 }
 
 export const sectionTitle: sectionInterface[] = [
   {
     type: "offer",
-    subTitle: "OFFERS",
-    title: "Jasa Kami",
+    title: "Layanan Kami",
     text: "Jasa yang kami sediakan telah berdasarkan kebutuhan untuk bisnis mulai dari bisnis yang telah berjalan dan sedang memulai bisnis.",
   },
   {

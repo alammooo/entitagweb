@@ -2,6 +2,7 @@ import { offerType } from "@/data/offerType"
 import SectionHead from "./SectionHead"
 import { CheckIcon } from "@heroicons/react/20/solid"
 import Link from "next/link"
+import BlueBorder from "./fragments/BlueBorder"
 
 export default function Offers() {
   function formatCurrency(amount: any, currency: string = "IDR"): string {
@@ -15,16 +16,22 @@ export default function Offers() {
   }
   return (
     <section
-      className="bg-blue-50 bg-opacity-50 py-14"
+      className="bg-blue-50 bg-opacity-50 py-5 md:py-14"
       id="Pricing">
-      <SectionHead type="offer" />
+      <p className="mx-auto block max-w-4xl border-blue-600 py-5 text-center text-2xl md:text-4xl leading-10 dark:text-white">
+        Layanan dibawah dilengkapi{" "}
+        <span className="font-black text-blue-600">gratis</span> pemeliharaan website
+        selama <span className="font-black text-blue-600">setahun penuh</span>
+      </p>
+      <div className="mx-auto h-0.5 w-1/3 bg-gradient-to-r from-transparent via-blue-600 to-transparent"></div>
+
       <div className="py-5">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           {offerType.map((el, i) => (
             <div
               key={i}
               data-aos={i % 2 === 0 ? "fade-right" : "fade-left"}
-              className={`mx-auto mt-4 max-w-2xl rounded-3xl bg-white ring-1 ring-gray-200 lg:mx-0 lg:flex lg:items-center lg:max-w-none ${
+              className={`mx-auto mt-4 max-w-2xl rounded-3xl bg-white ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none lg:items-center ${
                 i === 1 ? "lg:flex-row-reverse" : "lg:flex-row"
               }`}>
               <div className="p-8 lg:flex-auto">
@@ -33,7 +40,7 @@ export default function Offers() {
                 </span>
                 <p className="mt-2 leading-7 text-gray-600">{el.text}</p>
                 <div className="mt-2 flex items-center gap-x-4">
-                  <h4 className="flex-none md:text-base text-sm font-semibold leading-6 text-blue-600">
+                  <h4 className="flex-none text-sm font-semibold leading-6 text-blue-600 md:text-base">
                     What’s included
                   </h4>
                   <div className="h-px flex-auto bg-gray-100" />
@@ -54,17 +61,22 @@ export default function Offers() {
                   ))}
                 </ul>
               </div>
-              <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:h-full lg:max-w-md lg:flex-shrink-0">
+              <div className="-mt-2 p-2 lg:mt-0 lg:h-full lg:w-full lg:max-w-md lg:flex-shrink-0">
                 <div
-                  className={`rounded-2xl bg-blue-800 h-full py-10 md:py-16 text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center`}>
+                  className={`h-full rounded-2xl bg-blue-800 py-10 text-center text-zinc-50 ring-1 ring-inset ring-gray-900/5 md:py-16 lg:flex lg:flex-col lg:justify-center`}>
                   <div className="mx-auto max-w-xs px-8">
-                    <p className="md:text-base text-sm font-semibold text-zinc-100 md:mb-3">Mulai Dari</p>
+                    <p className="text-sm font-semibold text-zinc-100 md:mb-3 md:text-base">
+                      Mulai Dari
+                    </p>
                     <p className="flex items-baseline justify-center gap-x-2">
-                      <span className="text-3xl md:text-4xl font-bold tracking-wide">
+                      <span className="text-3xl font-bold tracking-wide md:text-4xl">
                         {formatCurrency(el.price)}
                       </span>
                     </p>
-                    <Link title="Lihat Detail" href={el.linkTo} className="block mt-6 text-lg cursor-pointer rounded bg-white px-7 py-3 leading-5 text-gray-800 hover:bg-gray-50">
+                    <Link
+                      title="Lihat Detail"
+                      href={el.linkTo}
+                      className="mt-6 block cursor-pointer rounded bg-white px-7 py-3 text-lg leading-5 text-gray-800 hover:bg-gray-50">
                       Lihat Detail
                     </Link>
                   </div>

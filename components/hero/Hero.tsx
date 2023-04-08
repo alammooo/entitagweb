@@ -44,19 +44,13 @@ export default function Hero() {
         </nav>
         <div className="container mx-auto grid md:grid-cols-2 items-center">
           <div className="mx-auto flex flex-col gap-5 md:gap-10 items-center md:items-start">
-            <h1 className="text-5xl font-bold tracking-wide md:text-3xl 2xl:text-7xl">
-              Web.
-              <br className="block md:hidden" />
-              <span className="bg-gradient-to-b from-blue-500 to-blue-700 bg-clip-text text-transparent">
-                Appplication. <br />
+            <h1 className="text-5xl text-center md:text-left font-bold md:font-extrabold tracking-wide md:text-3xl 2xl:text-7xl">
+              Jasa Pembuatan
+              <span className="my-5 block bg-gradient-to-b from-blue-500 to-blue-700 bg-clip-text text-transparent">
+                Website Terbaik <br />
               </span>
-              Creator.
+              Untuk Bisnis Kamu
             </h1>
-            <p className="max-w-xl text-lg text-zinc-500 text-center md:text-left px-5 md:px-0">
-              Kami menawarkan jasa pembuatan website dan aplikasi bisnis terbaik
-              yang membantu bisnis Anda tumbuh dan berkembang dengan tampilan
-              yang menarik dan fungsionalitas yang optimal.
-            </p>
 
             <div className="flex flex-col gap-4">
               <Link

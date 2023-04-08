@@ -13,7 +13,10 @@ import "aos/dist/aos.css"
 import { Inter } from "next/font/google"
 import Head from "next/head"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+})
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -58,7 +61,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <AppContext.Provider value={{ openModal, toggleModal, show }}>
-        <main className={inter.className}>
+        <main style={inter.style}>
           <Navbar show={show} />
           <SmallNav />
           <Whatsapp />
