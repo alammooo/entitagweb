@@ -9,7 +9,7 @@ export default function Projects() {
       <div className="h-full w-full py-5 backdrop-brightness-75 md:py-14 ">
         <h2 className="pt-5 text-center text-3xl font-medium">Our Projects</h2>
         <div className="mx-auto mt-2 h-px w-20 bg-gradient-to-r from-transparent via-white to-transparent "></div>
-        <div className="h-[920px] xl:h-[600px] px-2 md:px-0">
+        <div className="h-[720px] xl:h-[600px] px-2 md:px-0">
           <Carousel slideInterval={5000}>
             {projects.map((el, i) => (
               <div
