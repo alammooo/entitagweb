@@ -44,7 +44,7 @@ export default function Hero() {
         </nav>
         <div className="container mx-auto grid md:grid-cols-2 items-center">
           <div className="mx-auto flex flex-col gap-5 md:gap-10 items-center md:items-start">
-            <h1 className="text-5xl text-center md:text-left font-bold md:font-extrabold tracking-wide md:text-3xl 2xl:text-7xl">
+            <h1 className="text-5xl text-center md:text-left font-bold md:font-extrabold tracking-wide 2xl:text-7xl">
               Jasa Pembuatan
               <span className="my-5 block bg-gradient-to-b from-blue-500 to-blue-700 bg-clip-text text-transparent">
                 Website Terbaik <br />
