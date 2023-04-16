@@ -8,7 +8,7 @@ export default function Services() {
     <section
       id="Services"
       className="pt-7">
-      <blockquote className="mx-auto max-w-3xl font-medium text-gray-900 dark:text-white flex flex-col">
+      <blockquote className="mx-auto flex max-w-3xl flex-col font-medium text-gray-900 dark:text-white">
         <svg
           aria-hidden="true"
           className="h-10 w-10 text-gray-400 dark:text-gray-600"
@@ -20,12 +20,13 @@ export default function Services() {
             fill="currentColor"
           />
         </svg>
-        <p className="text-center text-3xl md:text-4xl leading-10">
-          Kami akan membantu anda membuat website dari ide hingga tampil di google
+        <p className="text-center text-3xl leading-10 md:text-4xl">
+          Kami akan membantu anda membuat website dari ide hingga tampil di
+          google
         </p>
         <svg
           aria-hidden="true"
-          className="h-10 w-10 text-gray-400 dark:text-gray-600 self-end rotate-180"
+          className="h-10 w-10 rotate-180 self-end text-gray-400 dark:text-gray-600"
           viewBox="0 0 24 27"
           fill="none"
           xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +37,7 @@ export default function Services() {
         </svg>
       </blockquote>
 
-      <div className="mx-auto max-w-6xl pb-24 pt-5 text-center">
+      <div className="mx-auto max-w-6xl pb-24 text-center">
         <div
           className="mt-10 grid gap-3 md:grid-cols-3"
           data-aos="fade-up">
@@ -46,16 +47,16 @@ export default function Services() {
               className={`${
                 i % 2 !== 0
                   ? "border border-zinc-200 bg-white shadow-lg hover:bg-sky-50"
-                  : "bg-blue-800 text-white hover:bg-blue-700"
-              } flex flex-col gap-4 rounded px-7 py-8 `}>
-              <Image
-                src={e.icon}
-                width={60}
-                alt={e.title}
-                className="self-center"
-              />
+                  : "bg-blue-600 text-white hover:bg-blue-700"
+              } flex flex-col gap-2 rounded px-7 py-5 `}>
+              <i className="mx-auto flex w-28">
+                <Image
+                  src={e.icon}
+                  alt={e.title}
+                  className="self-center"
+                />
+              </i>
               <h2 className="text-lg font-medium">{e.title}</h2>
-              <BlueBorder />
               <p className="px-3 text-sm leading-6">{e.text}</p>
             </div>
           ))}

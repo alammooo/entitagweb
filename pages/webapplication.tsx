@@ -53,7 +53,7 @@ export default function webapplication() {
       </Head>
       <section className="pt-8 dark:text-white md:my-24 md:pt-0">
         <div
-          className={`mx-auto flex max-w-6xl flex-col items-center gap-5 md:flex-row`}>
+          className={`mx-auto flex md:max-w-6xl flex-col items-center md:gap-5 md:flex-row`}>
           <div className="p-5 md:p-0">
             <h2 className="mb-5 text-4xl font-extrabold text-blue-900">
               {workTexts[1].title}
@@ -62,7 +62,7 @@ export default function webapplication() {
               {workTexts[1].text}
             </p>
           </div>
-          <span className="animate-float">{workTexts[1].svgEle}</span>
+          <span className="animate-float self-center md:self-auto">{workTexts[1].svgEle}</span>
         </div>
         <FeaturesPricing type={WEBAPPLICATION} />
         <Process />

@@ -61,7 +61,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <AppContext.Provider value={{ openModal, toggleModal, show }}>
-        <main style={inter.style}>
+        <main style={inter.style} className="overflow-x-hidden">
           <Navbar show={show} />
           <SmallNav />
           <Whatsapp />

@@ -78,7 +78,7 @@ export default function Contact() {
           Kami berusaha mempersiapkan yang terbaik dan memberikan pelayanan
           maximal untuk anda
         </p>
-        <div className="grid md:grid-cols-3 md:gap-20">
+        <div className="md:grid md:grid-cols-3 md:gap-20">
           <form
             onSubmit={handleSubmit}
             ref={formRef}
@@ -165,19 +165,7 @@ export default function Contact() {
               {state.submitting ? "Mengirim..." : "Kirim Pesan"}
             </button>
           </form>
-          <div className="flex flex-col gap-10 px-7 md:px-0">
-            <div className="flex flex-col items-center gap-4 text-center">
-              <div className="max-w-fit rounded-md bg-zinc-100 p-4">
-                <HiBuildingOffice2 className="h-10 w-10 fill-blue-600" />
-              </div>
-              <h2 className="text-xl font-bold">Alamat Perusahaan</h2>
-              <a
-                title="Alamat Kami"
-                href="https://goo.gl/maps/heauXY83WAQmftY79"
-                target="_blank">
-                Pondok Bukit Agung B5, Sumurboto, Banyumanik, 50269 Semarang
-              </a>
-            </div>
+          <div className="flex flex-col items-center gap-10 px-7 md:px-0">
             <div className="flex flex-col items-center gap-4 text-center">
               <div className="max-w-fit rounded-md bg-zinc-100 p-4">
                 <MdEmail className="h-10 w-10 fill-blue-600" />

@@ -47,7 +47,7 @@ export default function Hero() {
             <h1 className="text-5xl text-center md:text-left font-bold md:font-extrabold tracking-wide 2xl:text-7xl">
               Jasa Pembuatan
               <span className="my-5 block bg-gradient-to-b from-blue-500 to-blue-700 bg-clip-text text-transparent">
-                Website Terbaik <br />
+                Website Profesional <br />
               </span>
               Untuk Bisnis Kamu
             </h1>

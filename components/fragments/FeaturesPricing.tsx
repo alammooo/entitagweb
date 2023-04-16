@@ -33,14 +33,14 @@ export default function FeaturesPricing({ type }: any) {
 
   return (
     <div
-      className={`mx-auto grid max-w-6xl justify-center md:grid-cols-3 md:gap-10 text-white`}>
+      className={`mx-auto grid md:max-w-6xl gap-3 md:justify-center md:grid-cols-3 md:gap-10 text-white px-4`}>
       {listData?.map((el: any, i: number) => (
         <div
           key={i}
-          className={`order-first flex flex-col rounded-3xl px-6 py-8 sm:px-8 lg:order-none ${
+          className={`flex flex-col rounded-3xl px-6 py-8 sm:px-8 ${
             i === 1 ? "bg-blue-600" : "bg-blue-950"
           }`}>
-          <span className="order-first text-4xl font-semibold tracking-tight text-white">
+          <span className="text-4xl font-semibold tracking-tight text-white">
             {typeof el.price === "number"
               ? formatCurrency(el.price)
               : "Konsultasi Gratis"}

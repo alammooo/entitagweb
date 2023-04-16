@@ -99,7 +99,7 @@ export const onlineshopPrice = [
 export const webAppPrice = [
   {
     price: 10000000,
-    description: "",
+    description: "Untuk Aplikasi Simple",
     benefit: [
       "New tech stack",
       "high performance",
@@ -116,7 +116,7 @@ export const webAppPrice = [
   },
   {
     price: "Konsultasi Gratis",
-    description: "",
+    description: "Untuk Aplikasi Custom",
     benefit: [
       "Medium & Regular Features",
       "Garansi Pemeliharaan",
@@ -132,7 +132,7 @@ export const webAppPrice = [
   },
   {
     price: 50000000,
-    description: "",
+    description: "Pembuatan Aplikasi Mobile",
     benefit: [
       "Medium & Regular Features",
       "Garansi Pemeliharaan",
@@ -147,4 +147,3 @@ export const webAppPrice = [
     type: "Mobile Application",
   },
 ]
-

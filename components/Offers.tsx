@@ -16,12 +16,12 @@ export default function Offers() {
   }
   return (
     <section
-      className="bg-blue-50 bg-opacity-50 py-5 md:py-14"
+      className="bg-lime-50 py-5 md:py-14"
       id="Pricing">
       <p className="mx-auto block max-w-4xl border-blue-600 py-5 text-center text-2xl md:text-4xl leading-10 dark:text-white">
         Semua layanan dibawah{" "}
         <span className="font-black text-blue-600">gratis</span> pemeliharaan website
-        <span className="font-black text-blue-600"> setahun penuh</span>
+        <span className="font-black text-blue-600"> setahun penuh bebas lemot</span>
       </p>
       <div className="mx-auto h-0.5 w-1/3 bg-gradient-to-r from-transparent via-blue-600 to-transparent"></div>
 
