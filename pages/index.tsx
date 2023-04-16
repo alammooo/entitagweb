@@ -15,6 +15,7 @@ export default function Home() {
         <link
           rel="icon"
           href="/favicon.ico"
+          type="image/x-icon"
         />
         <meta
           name="description"

@@ -33,6 +33,7 @@ export default function Contact() {
         <link
           rel="icon"
           href="/favicon.ico"
+ type="image/x-icon"
         />
         <meta
           name="description"

@@ -9,7 +9,7 @@ export const offerType: OfferInterface[] = [
   {
     type: "COMPANY PROFILE",
     price: 1500000,
-    text: "Company Profile yang sesuai untuk memulai bisnis anda",
+    text: "Company profile yang cocok untuk memulai bisnis, pemerintahan, pendidikan, organisasi non profit, dan lainnya",
     benefit: [
       "Newest Technology Stack",
       "Mobile Friendly",
